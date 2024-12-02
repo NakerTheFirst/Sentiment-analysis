@@ -18,11 +18,11 @@ for x in range(actor_runs_num):
     
 # Scrape the data 
 for x in range(actor_runs_num):
-    run = client.actor("kfiWbq3boy3dWKbiL").call(run_input=inputs[x], timeout_secs=15)
+    run = client.actor("kfiWbq3boy3dWKbiL").call(run_input=inputs[x])
     pages.append(client.dataset(run["defaultDatasetId"]).list_items(clean=True)) # type: ignore
 
 # Save the data
 for x in range(actor_runs_num):
-    with open(rf"data/raw/data_raw{x+1}.bin", "wb") as filehandler:
+    with open(rf"data/raw/data_raw{x+7}.bin", "wb") as filehandler:
         pickle.dump(pages[x].items, filehandler)
         
