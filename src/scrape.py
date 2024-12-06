@@ -1,20 +1,19 @@
 import json
 import pickle
 
-from config import client, cookies_json_str, get_run_input, urls
+from config import client, cookie_json_str, get_run_input, urls
 
-actor_runs_num = len(urls)
+actor_runs_num = len(urls) # type: ignore
 cookies = []
 inputs = []
 runs = []
 pages = []
 
-for unparsed_cookie in cookies_json_str:
-    cookie_parsed = json.loads(unparsed_cookie)
-    cookies.append(cookie_parsed)
+cookie_parsed = json.loads(cookie_json_str) # type: ignore
+cookies.append(cookie_parsed)
 
 for x in range(actor_runs_num):
-    inputs.append(get_run_input(urls[x], cookies[x]))
+    inputs.append(get_run_input(urls[x], cookies[0])) # type: ignore
     
 # Scrape the data 
 for x in range(actor_runs_num):
