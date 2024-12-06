@@ -23,6 +23,6 @@ for x in range(actor_runs_num):
 
 # Save the data
 for x in range(actor_runs_num):
-    with open(rf"data/raw/data_raw{x+7}.bin", "wb") as filehandler:
+    with open(rf"data/raw/data_raw{x+1}.bin", "wb") as filehandler:
         pickle.dump(pages[x].items, filehandler)
         
