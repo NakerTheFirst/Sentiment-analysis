@@ -11,42 +11,55 @@ datasets = []
 data_temp = []
 datasets_num = 8
 
-# Data type encoding
-# Unknown -> 0
-# LinkedIn post image -> 1
-# LinkedIn post video -> 2
-# LinkedIn comment image -> 3
-# LinkedIn comment video -> 4
 
+def save_relevant_cols(
+    dataset: list, item: dict, parent_post: dict | None = None
+) -> None:
+    """Extract relevant columns from an item and save them in specified dataset
 
-def append_item(dataset: list, post_type: str, is_comment: bool, text: str) -> None:
-    """Classify type of an element and append it to a dataset with specified type and text
+    content_type data encoding:
+        Unknown -> 0
+        LinkedIn post image -> 1
+        LinkedIn post video -> 2
+        LinkedIn comment image -> 3
+        LinkedIn comment video -> 4
 
     Args:
-        dataset (list): Dataset to which append the data
-        post_type (str): LinkedIn post type, can be "image" or "video"
-        is_comment (bool): Whether the item is a LinkedIn comment
-        text (str): "text" value of specified LinkedIn post/comment
+        dataset (list): Dataset to which append extracted data
+        item (dict): A raw post or a raw comment from which the data is extracted
+        parent_post (dict | None, optional): Parent post of a comment. Defaults to None.
     """
-    if post_type == "image" and not is_comment:
-        content_type = 1
-    elif post_type == "video" and not is_comment:
-        content_type = 2
-    elif post_type == "image" and is_comment:
-        content_type = 3
-    elif post_type == "video" and is_comment:
-        content_type = 4
-    else:
-        content_type = 0
 
-    # Data type encoding
-    # Unknown -> 0
-    # LinkedIn post image -> 1
-    # LinkedIn post video -> 2
-    # LinkedIn comment image -> 3
-    # LinkedIn comment video -> 4
+    # Posts
+    if not parent_post:
+        likes_count = int(item["numLikes"])
 
-    dataset.append({"id": None, "type": content_type, "text": text, "sentiment": None})
+        if item["type"] == "image":
+            content_type = 1
+        elif item["type"] == "linkedinVideo":
+            content_type = 2
+        else:
+            content_type = 0
+
+    # Comments
+    if parent_post:
+        likes_count = None
+
+        if parent_post["type"] == "image":
+            content_type = 3
+        elif parent_post["type"] == "linkedinVideo":
+            content_type = 4
+        else:
+            content_type = 0
+
+    dataset.append(
+        {
+            "type": content_type,
+            "text": item["text"].strip(),
+            "sentiment": None,
+            "likes_num": likes_count,
+        }
+    )
 
 
 # Load the raw data
@@ -57,7 +70,6 @@ for x in range(datasets_num):
 
 # Preprocess the data
 for dataset_index in range(datasets_num):
-
     for post in datasets[dataset_index]:
         post_text = post["text"]
 
@@ -73,7 +85,7 @@ for dataset_index in range(datasets_num):
             and post_lang_name == "English"
             and post_detector.reliable
         ):
-            append_item(data_temp, post["type"], False, post_text.strip())
+            save_relevant_cols(data_temp, post)
 
         for comment in post["comments"]:
             comment_text = comment["text"]
@@ -88,14 +100,13 @@ for dataset_index in range(datasets_num):
                 and comment_lang_name == "English"
                 and not post["isRepost"]
             ):
-                append_item(data_temp, post["type"], True, comment_text.strip())
+                save_relevant_cols(data_temp, comment, post)
 
 
 df = pd.DataFrame(data_temp)
 df = df.drop_duplicates().reset_index(drop=True)
 
-print(len(df))
-# print(df.loc[0])
+print(df.head(), "\n")
+print(f"Length of dataset: {len(df)}")
 
-# TODO: Create a new column for posts: numLikes
 # TODO: Save df to data/interim
