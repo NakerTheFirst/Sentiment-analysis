@@ -1,6 +1,11 @@
 import pickle
 
 import pandas as pd
+from polyglot.detect import Detector
+from polyglot.detect.base import logger as polyglot_logger
+
+# Silence the unreliable language detection warning
+polyglot_logger.setLevel("ERROR")
 
 datasets = []
 data_temp = []
@@ -50,21 +55,47 @@ for x in range(datasets_num):
         datasets.append(pickle.load(data_file))
         data_file.seek(0)
 
-
 # Preprocess the data
 for dataset_index in range(datasets_num):
+
     for post in datasets[dataset_index]:
-        if post["authorType"] == "Person" and not post["isRepost"]:
-            append_item(data_temp, post["type"], False, post["text"])
+        post_text = post["text"]
+
+        # Detect post language
+        post_detector = Detector(post_text, quiet=True)
+        post_lang_name = post_detector.language.name
+
+        # Save reliably language detected english, person-written, non-repost posts with keyword "openai"
+        if (
+            "openai" in post_text.lower()
+            and post["authorType"] == "Person"
+            and not post["isRepost"]
+            and post_lang_name == "English"
+            and post_detector.reliable
+        ):
+            append_item(data_temp, post["type"], False, post_text.strip())
 
         for comment in post["comments"]:
             comment_text = comment["text"]
 
-            if "openai" in comment_text.lower() and not post["isRepost"]:
+            comment_detector = Detector(comment_text, quiet=True)
+            comment_lang_name = comment_detector.language.name
+
+            # Save reliably language detected english, non-repost post comments with keyword "openai"
+            if (
+                "openai" in comment_text.lower()
+                and comment_detector.reliable
+                and comment_lang_name == "English"
+                and not post["isRepost"]
+            ):
                 append_item(data_temp, post["type"], True, comment_text.strip())
 
 
 df = pd.DataFrame(data_temp)
-df = df.drop_duplicates()
+df = df.drop_duplicates().reset_index(drop=True)
 
-print(df)
+print(len(df))
+# print(df.loc[0])
+
+# TODO: Create a new column for posts: numLikes
+# TODO: Save df to data/interim
