@@ -11,6 +11,11 @@ datasets = []
 data_temp = []
 datasets_num = 8
 
+# Define the regex pattern for URLs
+url_pattern = (
+    r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+)
+
 
 def save_relevant_cols(
     dataset: list, item: dict, parent_post: dict | None = None
@@ -54,6 +59,7 @@ def save_relevant_cols(
 
     dataset.append(
         {
+            "id": None,
             "type": content_type,
             "text": item["text"].strip(),
             "sentiment": None,
@@ -77,7 +83,7 @@ for dataset_index in range(datasets_num):
         post_detector = Detector(post_text, quiet=True)
         post_lang_name = post_detector.language.name
 
-        # Save reliably language detected english, person-written, non-repost posts with keyword "openai"
+        # Save reliably language detected, english, person-written, non-repost posts with keyword "openai"
         if (
             "openai" in post_text.lower()
             and post["authorType"] == "Person"
@@ -93,7 +99,7 @@ for dataset_index in range(datasets_num):
             comment_detector = Detector(comment_text, quiet=True)
             comment_lang_name = comment_detector.language.name
 
-            # Save reliably language detected english, non-repost post comments with keyword "openai"
+            # Save reliably language detected, english, non-repost post comments with keyword "openai"
             if (
                 "openai" in comment_text.lower()
                 and comment_detector.reliable
@@ -102,11 +108,20 @@ for dataset_index in range(datasets_num):
             ):
                 save_relevant_cols(data_temp, comment, post)
 
+# Create dataframe, drop duplicates, replace URLs with <URL> token, drop URL-only content
+data_interim = pd.DataFrame(data_temp)
+data_interim = data_interim.drop_duplicates()
+data_interim["text"] = data_interim["text"].str.replace(
+    url_pattern, "<URL>", regex=True
+)
+data_interim = data_interim.drop(data_interim[data_interim["text"] == "<URL>"].index)
 
-df = pd.DataFrame(data_temp)
-df = df.drop_duplicates().reset_index(drop=True)
+# Shuffle & reindex the data
+data_interim = data_interim.sample(frac=1).reset_index(drop=True)
+data_interim["id"] = range(1, len(data_interim) + 1)
 
-print(df.head(), "\n")
-print(f"Length of dataset: {len(df)}")
+print(data_interim.head(), "\n")
+print(f"Length of dataset: {len(data_interim)}\n")
+# print(data_interim.loc[data_interim["text"].str.contains("<URL>")])
 
-# TODO: Save df to data/interim
+# TODO: Save the df to data/interim
