@@ -62,8 +62,9 @@ def save_relevant_cols(
             "id": None,
             "type": content_type,
             "text": item["text"].strip(),
-            "sentiment": None,
             "likes_num": likes_count,
+            "sentiment": None,
+            "confidence": None,
         }
     )
 
