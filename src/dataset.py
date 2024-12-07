@@ -109,19 +109,15 @@ for dataset_index in range(datasets_num):
                 save_relevant_cols(data_temp, comment, post)
 
 # Create dataframe, drop duplicates, replace URLs with <URL> token, drop URL-only content
-data_interim = pd.DataFrame(data_temp)
-data_interim = data_interim.drop_duplicates()
-data_interim["text"] = data_interim["text"].str.replace(
-    url_pattern, "<URL>", regex=True
-)
-data_interim = data_interim.drop(data_interim[data_interim["text"] == "<URL>"].index)
+in_interim = pd.DataFrame(data_temp)
+in_interim = in_interim.drop_duplicates()
+in_interim["text"] = in_interim["text"].str.replace(url_pattern, "<URL>", regex=True)
+in_interim = in_interim.drop(in_interim[in_interim["text"] == "<URL>"].index)
 
 # Shuffle & reindex the data
-data_interim = data_interim.sample(frac=1).reset_index(drop=True)
-data_interim["id"] = range(1, len(data_interim) + 1)
+in_interim = in_interim.sample(frac=1).reset_index(drop=True)
+in_interim["id"] = range(1, len(in_interim) + 1)
 
-print(data_interim.head(), "\n")
-print(f"Length of dataset: {len(data_interim)}\n")
-# print(data_interim.loc[data_interim["text"].str.contains("<URL>")])
-
-# TODO: Save the df to data/interim
+# Save the preprocessed, unlabelled data
+with open(r"data/interim/in.bin", "wb") as filehandler:
+    pickle.dump(in_interim, filehandler)
