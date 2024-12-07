@@ -115,10 +115,24 @@ in_interim = in_interim.drop_duplicates()
 in_interim["text"] = in_interim["text"].str.replace(url_pattern, "<URL>", regex=True)
 in_interim = in_interim.drop(in_interim[in_interim["text"] == "<URL>"].index)
 
-# Shuffle & reindex the data
+# Shuffle the data
 in_interim = in_interim.sample(frac=1).reset_index(drop=True)
-in_interim["id"] = range(1, len(in_interim) + 1)
+
+# Split the df 
+in_to_label = in_interim.iloc[:500] 
+in_unlabelled = in_interim.iloc[500:] 
+
+# Reset the index for both dfs
+in_to_label = in_to_label.reset_index(drop=True)
+in_unlabelled = in_unlabelled.reset_index(drop=True)
+
+in_to_label["id"] = range(1, len(in_to_label) + 1)
+in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 
 # Save the preprocessed, unlabelled data
-with open(r"data/interim/in.bin", "wb") as filehandler:
-    pickle.dump(in_interim, filehandler)
+with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
+    pickle.dump(in_unlabelled, filehandler)
+
+# Save the preprocessed, data to be labelled
+with open(r"data/interim/in_to_label.bin", "wb") as filehandler:
+    pickle.dump(in_to_label, filehandler)
