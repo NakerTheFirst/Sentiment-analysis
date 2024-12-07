@@ -134,5 +134,5 @@ with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
     pickle.dump(in_unlabelled, filehandler)
 
 # Save the preprocessed, data to be labelled
-with open(r"data/interim/in_to_label.bin", "wb") as filehandler:
+with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
     pickle.dump(in_to_label, filehandler)
