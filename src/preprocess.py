@@ -17,6 +17,34 @@ url_pattern = (
 )
 
 
+def clean_dataset_text(df: pd.DataFrame) -> pd.DataFrame:
+    """Clean and standardise the text data, remove trailing and leading whitespace, 
+        tokenise URLs into "<URL>" tags, drop duplicate rows based on "text" column
+
+    Args:
+        df (pd.DataFrame): Dataset which text is to be cleaned
+
+    Returns:
+        pd.DataFrame: Cleaned dataset
+    """
+    
+    # Clean and standardise the text
+    df["text"] = (
+        df["text"]
+        .str.strip()
+        .str.replace("\s+", " ")  # type: ignore
+        .str.replace(url_pattern, "<URL>", regex=True)
+    )
+
+    # Drop duplicates after text standardisation
+    df = df.drop_duplicates(subset=["text"], keep="first")
+
+    # Drop entries that are just URLs
+    df = df[df["text"] != "<URL>"]
+
+    return df
+
+
 def save_relevant_cols(
     dataset: list, item: dict, parent_post: dict | None = None
 ) -> None:
@@ -109,11 +137,9 @@ for dataset_index in range(datasets_num):
             ):
                 save_relevant_cols(data_temp, comment, post)
 
-# Create dataframe, drop duplicates, replace URLs with <URL> token, drop URL-only content
+# Create dataframe, clean text data, tokenise URLs, drop duplicates
 in_interim = pd.DataFrame(data_temp)
-in_interim = in_interim.drop_duplicates()
-in_interim["text"] = in_interim["text"].str.replace(url_pattern, "<URL>", regex=True)
-in_interim = in_interim.drop(in_interim[in_interim["text"] == "<URL>"].index)
+in_interim = clean_dataset_text(in_interim)
 
 # Shuffle the data
 in_interim = in_interim.sample(frac=1).reset_index(drop=True)
