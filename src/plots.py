@@ -2,6 +2,7 @@ import pickle
 
 import matplotlib.pyplot as plt
 import seaborn as sns
+from wordcloud import WordCloud
 
 with open(r"data/interim/in_labelled.bin", "rb") as data_file:
     in_labelled = pickle.load(data_file)
@@ -27,10 +28,33 @@ map_sentiment_int_to_string = {
     3: "Negative"
 }
 
-# Plot the sentiment distribution
+#* Plot the sentiment distribution
 in_labelled["sentiment"] = in_labelled["sentiment"].map(map_sentiment_int_to_string)
-sns.histplot(in_labelled["sentiment"], discrete=True, stat="percent")
+hist_plot = sns.histplot(in_labelled["sentiment"], discrete=True, stat="percent")
+fig = hist_plot.get_figure()
 plt.title('Sentiment distribution')
 plt.ylabel('Percent')
 plt.xlabel('Sentiment')
 plt.show()
+
+# Save the plot
+# fig.savefig("reports/figures/sentiment_hist.png") # type: ignore
+plt.close()
+
+#* Generate word clouds of data
+# Combine all text into one string
+text = " ".join(in_labelled["text"])
+
+# Create the word cloud
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+
+# Set the display options
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.title('Word cloud of data')
+plt.axis('off')
+plt.show()
+
+# Save the word cloud 
+# plt.savefig("reports/figures/wordcloud.png")
+plt.close()
