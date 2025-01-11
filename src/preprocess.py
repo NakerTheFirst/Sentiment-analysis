@@ -156,9 +156,64 @@ in_to_label["id"] = range(1, len(in_to_label) + 1)
 in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 
 # Save the preprocessed, unlabelled data
-with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
-    pickle.dump(in_unlabelled, filehandler)
+# with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
+    # pickle.dump(in_unlabelled, filehandler)
 
 # Save the preprocessed, data to be labelled
-with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
-    pickle.dump(in_to_label, filehandler)
+# with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
+    # pickle.dump(in_to_label, filehandler)
+
+# Preprocess the Transfer Learning data as to match text and sentiment columns
+
+# Read the CSV
+df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="ISO-8859-1")
+
+# Rename columns
+df = df.rename(columns={
+    'tweet_text': 'text',
+    'emotion_in_tweet_is_directed_at': 'sentiment_focus',
+    'is_there_an_emotion_directed_at_a_brand_or_product': 'sentiment'
+})
+
+# Create a mapping dict
+sentiment_mapping = {
+    'Positive emotion': 1,
+    'No emotion toward brand or product': 2,
+    'I can\'t tell': 2, 
+    'Negative emotion': 3
+}
+
+# Replace values in the existing sentiment column
+df['sentiment'] = df['sentiment'].map(sentiment_mapping)
+
+# Verify the conversion
+# print(df['sentiment'].value_counts())
+# print(df.head())
+
+# Check initial size
+print(f"Original size: {len(df)}")
+
+# Remove sentiment_focus column, drop duplicates & NaN values
+df = df.drop(columns=["sentiment_focus"])
+df = df.drop_duplicates()
+df = df.dropna(subset=["text", "sentiment"])
+print(f"Size after removing duplicates and NaN values: {len(df)}\n")
+
+# Reset index after dropping rows
+df = df.reset_index(drop=True)
+df['id'] = range(1, len(df)+1)
+df = df[['id', 'text', 'sentiment']]
+
+print(df.head())
+
+# Read the internal labelled dataset
+with open(r"data/interim/in_labelled.bin", "rb") as data_file:
+    in_labelled = pickle.load(data_file)
+
+in_labelled = in_labelled[['id', 'text', 'sentiment']]
+
+print(in_labelled.head())
+
+with open(r"data/interim/in_labelled_processed.bin", "wb") as filehandler:
+    pickle.dump(in_labelled, filehandler)
+    
