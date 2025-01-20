@@ -204,15 +204,11 @@ df = df.reset_index(drop=True)
 df['id'] = range(1, len(df)+1)
 df = df[['id', 'text', 'sentiment']]
 
-print(df.head())
-
 # Read the internal labelled dataset
 with open(r"data/interim/in_labelled.bin", "rb") as data_file:
     in_labelled = pickle.load(data_file)
 
-in_labelled = in_labelled[['id', 'text', 'sentiment']]
-
-print(in_labelled.head())
+in_labelled = in_labelled[['id', 'text', 'sentiment', 'confidence']]
 
 with open(r"data/interim/in_labelled_processed.bin", "wb") as filehandler:
     pickle.dump(in_labelled, filehandler)
