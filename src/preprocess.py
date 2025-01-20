@@ -16,7 +16,6 @@ url_pattern = (
     r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
 )
 
-
 def clean_dataset_text(df: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardise the text data, remove trailing and leading whitespace, 
         tokenise URLs into "<URL>" tags, drop duplicate rows based on "text" column
@@ -34,6 +33,7 @@ def clean_dataset_text(df: pd.DataFrame) -> pd.DataFrame:
         .str.strip()
         .str.replace("\s+", " ")  # type: ignore
         .str.replace(url_pattern, "<URL>", regex=True)
+        .str.replace(r"{link}", "<URL>", regex=True)
     )
 
     # Drop duplicates after text standardisation
@@ -43,7 +43,6 @@ def clean_dataset_text(df: pd.DataFrame) -> pd.DataFrame:
     df = df[df["text"] != "<URL>"]
 
     return df
-
 
 def save_relevant_cols(
     dataset: list, item: dict, parent_post: dict | None = None
@@ -97,6 +96,7 @@ def save_relevant_cols(
     )
 
 
+#* Preprocess internal dataset
 # Load the raw data
 for x in range(datasets_num):
     with open(rf"data/raw/data_raw{x+1}.bin", "rb") as data_file:
@@ -159,17 +159,23 @@ in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 # with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
     # pickle.dump(in_unlabelled, filehandler)
 
-# Save the preprocessed, data to be labelled
+# Save the preprocessed data to be labelled
 # with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
     # pickle.dump(in_to_label, filehandler)
 
-# Preprocess the Transfer Learning data as to match text and sentiment columns
+# Read the internal labelled dataset
+# with open(r"data/interim/in_labelled.bin", "rb") as data_file:
+#     in_labelled = pickle.load(data_file)
 
-# Read the CSV
-df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="ISO-8859-1")
+# data_internal = in_labelled[['id', 'text', 'sentiment', 'confidence']]
 
-# Rename columns
-df = df.rename(columns={
+# Save the processed internal labelled dataset with the same columns as the Transfer Learning dataset
+# with open(r"data/processed/data_internal.bin", "wb") as filehandler:
+    # pickle.dump(data_internal, filehandler)
+
+#* Preprocess the TL dataset 
+tl_df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="MacRoman")
+tl_df = tl_df.rename(columns={
     'tweet_text': 'text',
     'emotion_in_tweet_is_directed_at': 'sentiment_focus',
     'is_there_an_emotion_directed_at_a_brand_or_product': 'sentiment'
@@ -184,32 +190,20 @@ sentiment_mapping = {
 }
 
 # Replace values in the existing sentiment column
-df['sentiment'] = df['sentiment'].map(sentiment_mapping)
+tl_df['sentiment'] = tl_df['sentiment'].map(sentiment_mapping)
 
-# Verify the conversion
-# print(df['sentiment'].value_counts())
-# print(df.head())
+# Tokenise the ULRs
+tl_df = clean_dataset_text(tl_df)
 
-# Check initial size
-print(f"Original size: {len(df)}")
-
-# Remove sentiment_focus column, drop duplicates & NaN values
-df = df.drop(columns=["sentiment_focus"])
-df = df.drop_duplicates()
-df = df.dropna(subset=["text", "sentiment"])
-print(f"Size after removing duplicates and NaN values: {len(df)}\n")
+# Remove sentiment_focus column, drop NaN values
+tl_df = tl_df.drop(columns=["sentiment_focus"])
+tl_df = tl_df.dropna(subset=["text", "sentiment"])
 
 # Reset index after dropping rows
-df = df.reset_index(drop=True)
-df['id'] = range(1, len(df)+1)
-df = df[['id', 'text', 'sentiment']]
+tl_df = tl_df.reset_index(drop=True)
+tl_df['id'] = range(1, len(tl_df)+1)
+tl_df['confidence'] = None
+tl_df = tl_df[['id', 'text', 'sentiment', 'confidence']]
 
-# Read the internal labelled dataset
-with open(r"data/interim/in_labelled.bin", "rb") as data_file:
-    in_labelled = pickle.load(data_file)
-
-in_labelled = in_labelled[['id', 'text', 'sentiment', 'confidence']]
-
-with open(r"data/interim/in_labelled_processed.bin", "wb") as filehandler:
-    pickle.dump(in_labelled, filehandler)
-    
+# Save the processed TL dataset
+tl_df.to_csv("data/processed/data_tl.csv", index=False)
