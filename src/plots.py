@@ -1,69 +1,133 @@
 import pickle
+from typing import Optional
 
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
 from wordcloud import WordCloud
 
-with open(r"data/interim/in_labelled.bin", "rb") as data_file:
-    in_labelled = pickle.load(data_file)
 
-# Count the number of positive, neutral, and negative sentiments
-positive_count = len(in_labelled.loc[in_labelled["sentiment"] == 1])
-neutral_count = len(in_labelled.loc[in_labelled["sentiment"] == 2])
-negative_count = len(in_labelled.loc[in_labelled["sentiment"] == 3])
+def create_hist(
+    df: pd.DataFrame,
+    title: str,
+    ylabel: str,
+    xlabel: str,
+    column: str = "sentiment",
+    show: bool = False,
+    save: bool = False,
+    save_path: Optional[str] = None
+) -> None:
+    """
+    Create a histogram plot using seaborn.
+    
+    Args:
+        df: DataFrame containing the data to plot
+        title: Plot title
+        ylabel: Y-axis label
+        xlabel: X-axis label
+        column: Column name to plot (defaults to 'sentiment')
+        show: Whether to display the plot
+        save: Whether to save the plot
+        save_path: Path where to save the plot if save is True
+    """
+    # Create the histogram
+    hist_plot = sns.histplot(df[column], discrete=True, stat="percent")
+    fig = hist_plot.get_figure()
+    
+    # Set the labels and title
+    plt.title(title)
+    plt.ylabel(ylabel)
+    plt.xlabel(xlabel)
+    
+    # Save if requested
+    if save and save_path:
+        fig.savefig(save_path, bbox_inches='tight', dpi=300)
+    
+    # Show if requested
+    if show:
+        plt.show()
+    
+    plt.close()
 
-# Calculate the percentage of each sentiment
-pos_per = round(positive_count / 500 * 100, 2)
-neu_per = round(neutral_count / 500 * 100, 2)
-neg_per = round(negative_count / 500 * 100, 2)
+def create_word_cloud(
+    df: pd.DataFrame,
+    title: str,
+    text_column: str = "text",
+    width: int = 800,
+    height: int = 400,
+    show: bool = False,
+    save: bool = False,
+    save_path: Optional[str] = None
+) -> None:
+    """
+    Create and display a word cloud from DataFrame text.
+    
+    Args:
+        df: DataFrame containing the text data
+        title: Plot title
+        text_column: Column name containing text data
+        width: Width of the word cloud
+        height: Height of the word cloud
+        show: Whether to display the plot
+        save: Whether to save the plot
+        save_path: Path where to save the plot if save is True
+    """
+    # Combine all text into one string
+    text = " ".join(df[text_column])
+    
+    # Create and generate the wordcloud
+    wordcloud = WordCloud(
+        width=width,
+        height=height,
+        background_color='white'
+    ).generate(text)
+    
+    # Create figure with specific size
+    plt.figure(figsize=(10, 5))
+    
+    # Display the wordcloud
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.title(title)
+    plt.axis('off')
+    
+    # Save if requested
+    if save and save_path:
+        plt.savefig(save_path, bbox_inches='tight', dpi=300)
+    
+    # Show if requested
+    if show:
+        plt.show()
+    
+    plt.close()
 
-# Print the sentiment distribution
-print(f"Positive:\t {positive_count},\t {pos_per}%")
-print(f"Neutral:\t {neutral_count},\t {neu_per}%")
-print(f"Negative:\t {negative_count},\t {neg_per}%")
+# Load data
+with open(r"data/processed/data_internal.bin", "rb") as data_file:
+    data_internal = pickle.load(data_file)
 
+# Map sentiment values to strings if needed
 map_sentiment_int_to_string = {
     1: "Positive",
     2: "Neutral",
     3: "Negative"
 }
+data_internal["sentiment"] = data_internal["sentiment"].map(map_sentiment_int_to_string)
 
-#* Plot the internal data sentiment distribution
-in_labelled["sentiment"] = in_labelled["sentiment"].map(map_sentiment_int_to_string)
-hist_plot = sns.histplot(in_labelled["sentiment"], discrete=True, stat="percent")
-fig = hist_plot.get_figure()
-plt.title('Sentiment distribution')
-plt.ylabel('Percent')
-plt.xlabel('Sentiment')
-plt.show()
+# Create itnernal data sentiment histogram
+create_hist(
+    df=data_internal,
+    title='Transfer learning dataset sentiment distribution',
+    ylabel='Percent',
+    xlabel='Sentiment',
+    show=True,
+    save=False,
+    save_path="reports/figures/sentiment_hist.png"
+)
 
-#* Plot TL data sentiment distribution
-# Placeholder
-
-# Save the plot
-# fig.savefig("reports/figures/sentiment_hist.png") # type: ignore
-plt.close()
-
-#* Generate word clouds of data
-# Combine all text into one string
-text = " ".join(in_labelled["text"])
-
-# Create and generate the wordcloud
-wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
-
-# Create a new figure with a specific size
-plt.figure(figsize=(10, 5))
-
-# Display the wordcloud
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.title('Word cloud of LiknedIn data')
-plt.axis('off')
-
-# Save the figure before showing it
-# plt.savefig("reports/figures/wordcloud.png", bbox_inches='tight', dpi=300)
-
-# Show the plot
-plt.show()
-
-# Close the figure
-plt.close()
+# Create internal data word cloud
+create_word_cloud(
+    df=data_internal,
+    title='Word cloud of LinkedIn data',
+    show=True,
+    save=False,
+    save_path="reports/figures/wordcloud.png"
+)
