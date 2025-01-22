@@ -104,6 +104,8 @@ def create_word_cloud(
 with open(r"data/processed/data_internal.bin", "rb") as data_file:
     data_internal = pickle.load(data_file)
 
+data_tl = pd.read_csv("data/processed/data_tl.csv")
+
 # Map sentiment values to strings if needed
 map_sentiment_int_to_string = {
     1: "Positive",
@@ -111,11 +113,12 @@ map_sentiment_int_to_string = {
     3: "Negative"
 }
 data_internal["sentiment"] = data_internal["sentiment"].map(map_sentiment_int_to_string)
+data_tl["sentiment"] = data_tl["sentiment"].map(map_sentiment_int_to_string)
 
-# Create itnernal data sentiment histogram
+# Create internal data sentiment histogram
 create_hist(
     df=data_internal,
-    title='Transfer learning dataset sentiment distribution',
+    title='Evaluation data sentiment distribution',
     ylabel='Percent',
     xlabel='Sentiment',
     show=True,
@@ -123,11 +126,31 @@ create_hist(
     save_path="reports/figures/sentiment_hist.png"
 )
 
+# Create transfer learning data sentiment histogram
+create_hist(
+    df=data_tl,
+    title='Transfer learning dataset sentiment distribution',
+    ylabel='Percent',
+    xlabel='Sentiment',
+    show=True,
+    save=False,
+    save_path="reports/figures/sentiment_hist_tl.png"
+)
+
 # Create internal data word cloud
 create_word_cloud(
     df=data_internal,
-    title='Word cloud of LinkedIn data',
+    title='Word cloud of evaluation data',
     show=True,
     save=False,
     save_path="reports/figures/wordcloud.png"
+)
+
+# Create transfer learning data word cloud
+create_word_cloud(
+    df=data_tl,
+    title='Word cloud of transfer learning data',
+    show=True,
+    save=False,
+    save_path="reports/figures/wordcloud_tl.png"
 )
