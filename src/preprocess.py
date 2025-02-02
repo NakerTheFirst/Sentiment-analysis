@@ -171,8 +171,8 @@ in_labelled['predictor'] = None
 data_internal = in_labelled[['id', 'text', 'sentiment', 'predictor', 'confidence']]
 
 # Save the processed internal labelled dataset with the same columns as the Transfer Learning dataset
-with open(r"data/processed/data_internal.bin", "wb") as filehandler:
-    pickle.dump(data_internal, filehandler)
+# with open(r"data/processed/data_internal.bin", "wb") as filehandler:
+    # pickle.dump(data_internal, filehandler)
 
 #* Preprocess the TL dataset 
 tl_df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="MacRoman")
@@ -208,4 +208,4 @@ tl_df['predictor'] = None
 tl_df = tl_df[['id', 'text', 'sentiment', 'predictor', 'confidence']]
 
 # Save the processed TL dataset
-tl_df.to_csv("data/processed/data_tl.csv", index=False)
+# tl_df.to_csv("data/processed/data_tl.csv", index=False)
