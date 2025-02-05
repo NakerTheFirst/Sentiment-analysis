@@ -58,7 +58,3 @@ print(f"Mean confidence: {confidence}")
 
 # Save dataset to CSV
 data_eval.to_csv('data/processed/base_model_predictions.csv', index=False)
-
-# TODO: Commit changes
-# TODO: Check if saved data is correctly named
-# TODO: Save evaluation data without predictions in csv format
