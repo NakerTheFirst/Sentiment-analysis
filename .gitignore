@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Model development log files
+test_trainer/
+
 # C extensions
 *.so
 
