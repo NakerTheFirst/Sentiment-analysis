@@ -13,10 +13,20 @@ def seed_all(seed):
     random.seed(seed)
     np.random.seed(seed)
 
+def tokenize_function(examples):
+    return tokenizer(examples["text"], padding="max_length", truncation=True)
+
 SEED=42
 seed_all(SEED)
 
-data_tl = pd.read_csv("data/processed/data_tl.csv")
+train_df = pd.read_csv("data/processed/data_tl.csv")
+test_df = pd.read_csv("data/processed/data_eval.csv")
+
+# Split the evaluation data into test and dev sets
+dev_df = test_df[:200]
+test_df = test_df[200:]
+dev_df.reset_index()
+test_df.reset_index()
 
 model_id = "roberta-base"
 config = AutoConfig.from_pretrained(model_id)
@@ -31,10 +41,14 @@ sentiment_analyzer = pipeline(
     device=1
 )
 
-dataset = Dataset.from_pandas(data_tl[['id', 'text', 'sentiment', 'predictor', 'confidence']])
-print(dataset)
+train_dataset = Dataset.from_pandas(train_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
+dev_dataset = Dataset.from_pandas(dev_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
+test_dataset = Dataset.from_pandas(test_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
+
+print(train_dataset)
+print(dev_dataset)
+print(test_dataset)
 
 #* Training
-# TODO: Split the dataset
 # TODO: Train the model
 # TODO: Evaluate the model post fine-tuning
