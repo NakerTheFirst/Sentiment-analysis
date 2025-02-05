@@ -31,7 +31,7 @@ sentiment_analyzer = pipeline(
     device=1
 )
 
-dataset = Dataset.from_pandas(data_eval[['id', 'text', 'sentiment', 'predictor', 'confidence']])
+dataset = Dataset.from_pandas(data_tl[['id', 'text', 'sentiment', 'predictor', 'confidence']])
 print(dataset)
 
 #* Training

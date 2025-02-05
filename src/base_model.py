@@ -28,7 +28,6 @@ def analyze_sentiment(text: str) -> tuple[int, float]:
 # Load the data
 with open(r"data/processed/data_internal.bin", "rb") as data_file:
     data_eval = pickle.load(data_file)
-labels = [1, 2, 3]  # Positive, neutral, negative
 model_id = "roberta-base"
 
 sentiment_analyzer = pipeline(
@@ -58,4 +57,8 @@ print(f"Balanced accuracy: {balanced_accuracy}")
 print(f"Mean confidence: {confidence}")
 
 # Save dataset to CSV
-data_eval.to_csv('data/processed/data_eval_predictions.csv', index=False)
+data_eval.to_csv('data/processed/base_model_predictions.csv', index=False)
+
+# TODO: Commit changes
+# TODO: Check if saved data is correctly named
+# TODO: Save evaluation data without predictions in csv format
