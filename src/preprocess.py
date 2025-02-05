@@ -170,6 +170,9 @@ with open(r"data/interim/in_labelled.bin", "rb") as data_file:
 in_labelled['predictor'] = None
 data_internal = in_labelled[['id', 'text', 'sentiment', 'predictor', 'confidence']]
 
+# Save the processed internal labelled dataset as .csv
+# data_internal.to_csv("data/processed/data_eval.csv", index=False)
+
 # Save the processed internal labelled dataset with the same columns as the Transfer Learning dataset
 # with open(r"data/processed/data_internal.bin", "wb") as filehandler:
     # pickle.dump(data_internal, filehandler)
