@@ -1,4 +1,4 @@
-id,text,sentiment,predictor,confidence
+id,text,label,predictor,confidence
 1,"OpenAI just introduced ChatGPT Search 🌐
 
 Although it might seem scary at first, this can become a game changer in the customer’s decision making process. 

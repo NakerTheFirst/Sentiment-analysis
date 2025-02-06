@@ -1,4 +1,4 @@
-id,text,sentiment,predictor,confidence
+id,text,label,predictor,confidence
 1,".@wesley83 I have a 3G iPhone. After 3 hrs tweeting at #RISE_Austin, it was dead!  I need to upgrade. Plugin stations at #SXSW.",3,,
 2,"@jessedee Know about @fludapp ? Awesome iPad/iPhone app that you'll likely appreciate for its design. Also, they're giving free Ts at #SXSW",1,,
 3,@swonderlin Can not wait for #iPad 2 also. They should sale them down at #SXSW.,1,,
