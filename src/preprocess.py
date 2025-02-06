@@ -163,12 +163,13 @@ in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 # with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
     # pickle.dump(in_to_label, filehandler)
 
-# Read the internal labelled dataset
 with open(r"data/interim/in_labelled.bin", "rb") as data_file:
     in_labelled = pickle.load(data_file)
 
 in_labelled['predictor'] = None
 data_internal = in_labelled[['id', 'text', 'sentiment', 'predictor', 'confidence']]
+data_internal = data_internal.rename(columns={'sentiment': 'label'})
+data_internal['label'] = data_internal['label'].astype(int)
 
 # Save the processed internal labelled dataset as .csv
 # data_internal.to_csv("data/processed/data_eval.csv", index=False)
@@ -199,16 +200,17 @@ tl_df['sentiment'] = tl_df['sentiment'].map(sentiment_mapping)
 # Tokenise the ULRs
 tl_df = clean_dataset_text(tl_df)
 
-# Remove sentiment_focus column, drop NaN values
 tl_df = tl_df.drop(columns=["sentiment_focus"])
 tl_df = tl_df.dropna(subset=["text", "sentiment"])
 
-# Reset index after dropping rows
 tl_df = tl_df.reset_index(drop=True)
 tl_df['id'] = range(1, len(tl_df)+1)
 tl_df['confidence'] = None
 tl_df['predictor'] = None
-tl_df = tl_df[['id', 'text', 'sentiment', 'predictor', 'confidence']]
+tl_df = tl_df.rename(columns={'sentiment': 'label'})
+tl_df = tl_df[['id', 'text', 'label', 'predictor', 'confidence']]
+
+tl_df["label"] = tl_df["label"].astype(int)
 
 # Save the processed TL dataset
 # tl_df.to_csv("data/processed/data_tl.csv", index=False)

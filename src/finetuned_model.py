@@ -32,8 +32,6 @@ test_df = pd.read_csv("data/processed/data_eval.csv")
 #* Split the data into test/dev sets with 60/40 ratio
 dev_df = test_df[:200]
 test_df = test_df[200:]
-dev_df.reset_index()
-test_df.reset_index()
 
 model_id = "roberta-base"
 config = AutoConfig.from_pretrained(model_id)
@@ -49,13 +47,9 @@ sentiment_analyzer = pipeline(
     device=1
 )
 
-train_dataset = Dataset.from_pandas(train_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
-dev_dataset = Dataset.from_pandas(dev_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
-test_dataset = Dataset.from_pandas(test_df[['id', 'text', 'sentiment', 'predictor', 'confidence']])
-
-print(train_dataset)
-print(dev_dataset)
-print(test_dataset)
+train_dataset = Dataset.from_pandas(train_df[['id', 'text', 'label', 'predictor', 'confidence']])
+dev_dataset = Dataset.from_pandas(dev_df[['id', 'text', 'label', 'predictor', 'confidence']])
+test_dataset = Dataset.from_pandas(test_df[['id', 'text', 'label', 'predictor', 'confidence']])
 
 #* Tokenise the data
 tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)

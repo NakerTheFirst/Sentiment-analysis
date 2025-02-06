@@ -1,6 +1,6 @@
 import pickle
 
-from sklearn.metrics import accuracy_score, balanced_accuracy_score
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, multilabel_confusion_matrix
 from transformers import pipeline
 
 
@@ -38,16 +38,10 @@ sentiment_analyzer = pipeline(
     device=1
 )
 
-data_eval = data_eval.rename(columns={'sentiment': 'label'})
-
 # Predict sentiment and confidence
 sentiment_results = [analyze_sentiment(text) for text in data_eval['text']]
 data_eval['predictor'] = [result[0] for result in sentiment_results]
 data_eval['confidence'] = [result[1] for result in sentiment_results]
-
-# Explicitly cast predictors and actuals to int
-data_eval['predictor'] = data_eval['predictor'].astype(int)
-data_eval['label'] = data_eval['label'].astype(int)
 
 # Calculate metrics
 accuracy = accuracy_score(data_eval['label'], data_eval['predictor'])
@@ -58,5 +52,9 @@ print(f"\nAccuracy: {accuracy}")
 print(f"Balanced accuracy: {balanced_accuracy}")
 print(f"Mean confidence: {confidence}")
 
+labels = [1, 2, 3]
+cm = multilabel_confusion_matrix(data_eval['label'], data_eval['predictor'], labels=labels)
+print(cm)
+
 # Save dataset to CSV
-data_eval.to_csv('data/processed/base_model_predictions.csv', index=False)
+# data_eval.to_csv('data/processed/base_model_predictions.csv', index=False)
