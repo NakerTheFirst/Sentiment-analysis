@@ -38,6 +38,8 @@ sentiment_analyzer = pipeline(
     device=1
 )
 
+data_eval = data_eval.rename(columns={'sentiment': 'label'})
+
 # Predict sentiment and confidence
 sentiment_results = [analyze_sentiment(text) for text in data_eval['text']]
 data_eval['predictor'] = [result[0] for result in sentiment_results]
@@ -45,11 +47,11 @@ data_eval['confidence'] = [result[1] for result in sentiment_results]
 
 # Explicitly cast predictors and actuals to int
 data_eval['predictor'] = data_eval['predictor'].astype(int)
-data_eval['sentiment'] = data_eval['sentiment'].astype(int)
+data_eval['label'] = data_eval['label'].astype(int)
 
 # Calculate metrics
-accuracy = accuracy_score(data_eval['sentiment'], data_eval['predictor'])
-balanced_accuracy = balanced_accuracy_score(data_eval['sentiment'], data_eval['predictor'])
+accuracy = accuracy_score(data_eval['label'], data_eval['predictor'])
+balanced_accuracy = balanced_accuracy_score(data_eval['label'], data_eval['predictor'])
 confidence = data_eval['confidence'].mean()
 
 print(f"\nAccuracy: {accuracy}")
