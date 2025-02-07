@@ -33,10 +33,12 @@ test_df = pd.read_csv("data/processed/data_eval.csv")
 dev_df = test_df[:200]
 test_df = test_df[200:]
 
+#* Load the model, tokenizer and config
 model_id = "roberta-base"
-config = AutoConfig.from_pretrained(model_id)
+config = AutoConfig.from_pretrained(model_id, num_labels=3)
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = RobertaForSequenceClassification.from_pretrained(model_id, config=config)
+model = RobertaForSequenceClassification.from_pretrained(model_id, config=config, torch_dtype="auto")
+
 model.train()
 
 sentiment_analyzer = pipeline(
@@ -44,7 +46,8 @@ sentiment_analyzer = pipeline(
     tokenizer= "FacebookAI/roberta-base",
     framework="pt",
     task="text-classification",
-    device=1
+    device=1,
+    num_labels=3
 )
 
 train_dataset = Dataset.from_pandas(train_df[['id', 'text', 'label', 'predictor', 'confidence']])
@@ -57,8 +60,14 @@ tokenized_dev_dataset = dev_dataset.map(tokenize_function, batched=True)
 tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
 #* Training
-training_args = TrainingArguments(output_dir="test_trainer", log_level='debug')
 metric = evaluate.load("accuracy")
+
+training_args = TrainingArguments(
+    output_dir="test_trainer", 
+    log_level='debug', 
+    eval_strategy="steps"
+)
+
 trainer = Trainer(
     model=model,
     args=training_args,
