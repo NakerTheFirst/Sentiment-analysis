@@ -1,4 +1,3 @@
-import pickle
 from typing import Optional
 
 import matplotlib.pyplot as plt
@@ -12,7 +11,7 @@ def create_hist(
     title: str,
     ylabel: str,
     xlabel: str,
-    column: str = "sentiment",
+    column: str = "label",
     show: bool = False,
     save: bool = False,
     save_path: Optional[str] = None
@@ -100,24 +99,26 @@ def create_word_cloud(
     
     plt.close()
 
-# Load data
-with open(r"data/processed/data_internal.bin", "rb") as data_file:
-    data_internal = pickle.load(data_file)
-
+data_eval = pd.read_csv("data/processed/data_eval.csv")
 data_tl = pd.read_csv("data/processed/data_tl.csv")
 
 # Map sentiment values to strings if needed
 map_sentiment_int_to_string = {
-    1: "Positive",
-    2: "Neutral",
-    3: "Negative"
+    0: "Positive",
+    1: "Neutral",
+    2: "Negative"
 }
-data_internal["sentiment"] = data_internal["sentiment"].map(map_sentiment_int_to_string)
-data_tl["sentiment"] = data_tl["sentiment"].map(map_sentiment_int_to_string)
+
+print(data_eval["label"].value_counts())
+
+data_eval["label"] = data_eval["label"].map(map_sentiment_int_to_string)
+data_tl["label"] = data_tl["label"].map(map_sentiment_int_to_string)
+
+print(data_eval["label"].value_counts())
 
 # Create internal data sentiment histogram
 create_hist(
-    df=data_internal,
+    df=data_eval,
     title='Evaluation data sentiment distribution',
     ylabel='Percent',
     xlabel='Sentiment',
@@ -139,9 +140,9 @@ create_hist(
 
 # Create internal data word cloud
 create_word_cloud(
-    df=data_internal,
+    df=data_eval,
     title='Word cloud of evaluation data',
-    show=True,
+    show=False,
     save=False,
     save_path="reports/figures/wordcloud.png"
 )
@@ -150,7 +151,7 @@ create_word_cloud(
 create_word_cloud(
     df=data_tl,
     title='Word cloud of transfer learning data',
-    show=True,
+    show=False,
     save=False,
     save_path="reports/figures/wordcloud_tl.png"
 )
