@@ -120,4 +120,6 @@ model_save_path = "./models/alfa0"
 trainer.save_model(model_save_path)  # Save model, tokeniser and config
 tokenizer.save_pretrained(model_save_path)  
 
+# TODO: Rename finetuned_model.py into train.py
+# TODO: Refactor base_model.py into train.py
 # TODO: Change Roberta into Roberta for seq classification
