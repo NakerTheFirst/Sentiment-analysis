@@ -109,12 +109,8 @@ map_sentiment_int_to_string = {
     2: "Negative"
 }
 
-print(data_eval["label"].value_counts())
-
 data_eval["label"] = data_eval["label"].map(map_sentiment_int_to_string)
 data_tl["label"] = data_tl["label"].map(map_sentiment_int_to_string)
-
-print(data_eval["label"].value_counts())
 
 # Create internal data sentiment histogram
 create_hist(
