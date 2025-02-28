@@ -174,7 +174,7 @@ data_internal['label'] = data_internal['label'].map({1: 0, 2: 1, 3: 2})
 data_internal['label'] = data_internal['label'].astype(int)
 
 # Save the processed internal labelled dataset as .csv
-data_internal.to_csv("data/processed/data_eval.csv", index=False)
+# data_internal.to_csv("data/processed/data_eval.csv", index=False)
 
 #* Preprocess the TL dataset 
 tl_df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="MacRoman")
@@ -212,5 +212,7 @@ tl_df = tl_df[['id', 'text', 'label', 'predictor', 'confidence']]
 tl_df['label'] = tl_df['label'].map({1: 0, 2: 1, 3: 2})
 tl_df["label"] = tl_df["label"].astype(int)
 
+tl_df = tl_df.sample(frac=1).reset_index(drop=True)
+
 # Save the processed TL dataset
-tl_df.to_csv("data/processed/data_tl.csv", index=False)
+# tl_df.to_csv("data/processed/data_tl.csv", index=False)
