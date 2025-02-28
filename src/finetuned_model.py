@@ -6,14 +6,9 @@ import numpy as np
 import pandas as pd
 import torch
 from datasets import Dataset
-from transformers import (
-    AutoConfig,
-    AutoTokenizer,
-    RobertaForSequenceClassification,
-    Trainer,
-    TrainingArguments,
-    pipeline,
-)
+from transformers import (AutoConfig, AutoTokenizer,
+                          RobertaForSequenceClassification, Trainer,
+                          TrainingArguments)
 
 
 def seed_all(seed):
@@ -41,9 +36,21 @@ seed_all(SEED)
 train_df = pd.read_csv("data/processed/data_tl.csv")
 test_df = pd.read_csv("data/processed/data_eval.csv")
 
-# * Split the data into test/dev sets with 60/40 ratio
-dev_df = test_df[:200]
-test_df = test_df[200:]
+# *Split the data into train/dev/test sets using 40/30/30 ratio
+additional_train_df = test_df[300:]
+test_df = test_df[:300]
+
+train_df = pd.concat([train_df, additional_train_df])
+
+train_df = train_df.sample(frac=1).reset_index(drop=True)
+train_df['id'] = range(1, len(train_df)+1)
+
+dev_df = test_df[:150]
+test_df = test_df[150:]
+
+train_df.to_csv("data/processed/train_df.csv")
+dev_df.to_csv("data/processed/dev_df.csv")
+test_df.to_csv("data/processed/test_df.csv")
 
 # Enable CUDA
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -58,15 +65,6 @@ model = RobertaForSequenceClassification.from_pretrained(
 ).to(device)
 model.train()
 
-sentiment_analyzer = pipeline(
-    model=model_id,
-    tokenizer="FacebookAI/roberta-base",
-    framework="pt",
-    task="text-classification",
-    device=device,
-    num_labels=3,
-)
-
 train_dataset = Dataset.from_pandas(train_df[["text", "label"]])
 dev_dataset = Dataset.from_pandas(dev_df[["text", "label"]])
 test_dataset = Dataset.from_pandas(test_df[["text", "label"]])
@@ -80,24 +78,32 @@ tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 metric = evaluate.load("accuracy")
 
 training_args = TrainingArguments(
-    output_dir="tune3_1",
+    output_dir="a0_wow1",
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     skip_memory_metrics=True,
     disable_tqdm=False,
-    eval_strategy="epoch",
+    eval_strategy="steps",
+    eval_steps=300,
     save_strategy="steps",
     save_steps=0,
     save_total_limit=0,
-    save_only_model=True,
-    num_train_epochs=3,
-    learning_rate=4e-6,
-    weight_decay=0.02,
+    save_only_model=False,
+    num_train_epochs=10,
+    learning_rate=4e-5,
+    weight_decay=0.1,
     adam_beta1=0.95,
     adam_beta2=0.999,
     logging_steps=100,
     log_level="warning",
 )
+
+eval_args = TrainingArguments(
+    output_dir=None,
+    per_device_eval_batch_size=16,
+    report_to="none",
+)
+
 
 trainer = Trainer(
     model=model,
@@ -109,5 +115,9 @@ trainer = Trainer(
 
 trainer.train()
 
-# TODO: Tune the model
-# TODO: Evaluate the model post hyperparameter tuning
+# Save the model
+model_save_path = "./models/alfa0"
+trainer.save_model(model_save_path)  # Save model, tokeniser and config
+tokenizer.save_pretrained(model_save_path)  
+
+# TODO: Change Roberta into Roberta for seq classification
