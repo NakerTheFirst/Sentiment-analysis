@@ -41,8 +41,6 @@ model = RobertaForSequenceClassification.from_pretrained(
     model_id, config=config, torch_dtype="auto"
 ).to(device)
 
-# TODO: Save base model for easier evaluation
-
 sentiment_analyzer = pipeline(
     task="text-classification",
     model=model,
@@ -53,6 +51,7 @@ sentiment_analyzer = pipeline(
 )
 
 sentiment_analyzer.save_pretrained('./models/roberta-base')
+tokenizer.save_pretrained('./models/roberta-base')
 
 # Predict sentiment and confidence
 sentiment_results = [analyze_sentiment(text) for text in data_eval['text']]
