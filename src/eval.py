@@ -1,4 +1,3 @@
-# evaluation.py
 import gc
 import random
 
@@ -15,11 +14,7 @@ def compute_metrics(eval_pred):
     logits, labels = eval_pred
     predictions = np.argmax(logits, axis=-1)
     
-    print()
-    print(logits)
-    print()
-    print(predictions)
-    print()
+    # This method 
     
     return metric.compute(predictions=predictions, references=labels)
 
@@ -37,9 +32,10 @@ gc.collect()
 SEED = 42
 seed_all(SEED)
 
+#* Select the model to evaluate
 model_path = "./models/alfa0/"
 
-# * Read data and convert to Huggingface datasets
+#* Read data and convert to Huggingface datasets
 train_df = pd.read_csv("data/processed/train_df.csv")
 dev_df = pd.read_csv("data/processed/dev_df.csv")
 test_df = pd.read_csv("data/processed/test_df.csv")
@@ -56,23 +52,23 @@ model = AutoModelForSequenceClassification.from_pretrained(model_path)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = model.to(device)
 
-# * Tokenize data
+#* Tokenize data
 tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
 tokenized_dev_dataset = dev_dataset.map(tokenize_function, batched=True)
 tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
-# * Set up training arguments for evaluation
+#* Set up training arguments for evaluation
 eval_args = TrainingArguments(
     output_dir="./eval_results",
     per_device_eval_batch_size=16,
     report_to="none",
 )
 
-# Create trainer
+#* Create trainer
 trainer = Trainer(
     model=model,
     args=eval_args,
-    eval_dataset=tokenized_train_dataset,
+    eval_dataset=tokenized_dev_dataset,
     compute_metrics=compute_metrics,
 )
 

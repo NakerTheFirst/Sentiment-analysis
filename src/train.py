@@ -33,24 +33,14 @@ gc.collect()
 SEED = 42
 seed_all(SEED)
 
+#* Read the data
 train_df = pd.read_csv("data/processed/data_tl.csv")
+dev_df = pd.read_csv("data/processed/data_eval.csv")
 test_df = pd.read_csv("data/processed/data_eval.csv")
 
-# *Split the data into train/dev/test sets using 40/30/30 ratio
-additional_train_df = test_df[300:]
-test_df = test_df[:300]
-
-train_df = pd.concat([train_df, additional_train_df])
-
-train_df = train_df.sample(frac=1).reset_index(drop=True)
-train_df['id'] = range(1, len(train_df)+1)
-
-dev_df = test_df[:150]
-test_df = test_df[150:]
-
-train_df.to_csv("data/processed/train_df.csv")
-dev_df.to_csv("data/processed/dev_df.csv")
-test_df.to_csv("data/processed/test_df.csv")
+train_dataset = Dataset.from_pandas(train_df[["text", "label"]])
+dev_dataset = Dataset.from_pandas(dev_df[["text", "label"]])
+test_dataset = Dataset.from_pandas(test_df[["text", "label"]])
 
 # Enable CUDA
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -64,10 +54,6 @@ model = RobertaForSequenceClassification.from_pretrained(
     model_id, config=config, torch_dtype="auto"
 ).to(device)
 model.train()
-
-train_dataset = Dataset.from_pandas(train_df[["text", "label"]])
-dev_dataset = Dataset.from_pandas(dev_df[["text", "label"]])
-test_dataset = Dataset.from_pandas(test_df[["text", "label"]])
 
 # * Tokenise the data
 tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
@@ -117,9 +103,5 @@ trainer.train()
 
 # Save the model
 model_save_path = "./models/alfa0"
-trainer.save_model(model_save_path)  # Save model, tokeniser and config
-tokenizer.save_pretrained(model_save_path)  
-
-# TODO: Rename finetuned_model.py into train.py
-# TODO: Refactor base_model.py into train.py
-# TODO: Change Roberta into Roberta for seq classification
+trainer.save_model(model_save_path) 
+tokenizer.save_pretrained(model_save_path) 
