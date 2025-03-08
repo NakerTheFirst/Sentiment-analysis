@@ -1,15 +1,15 @@
-import pickle
+import pandas as pd
 
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, multilabel_confusion_matrix
-from transformers import pipeline
-
+from transformers import pipeline, AutoConfig, AutoTokenizer, RobertaForSequenceClassification
+import torch
 
 def map_sentiment_scores(label: str) -> int:
     """Maps RoBERTa's sentiment labels to numeric format"""
     mapping = {
-        'LABEL_0': 3,  # NEGATIVE -> 3
-        'LABEL_1': 2,  # NEUTRAL -> 2
-        'LABEL_2': 1   # POSITIVE -> 1
+        'LABEL_0': 0,  # POSITIVE -> 0
+        'LABEL_1': 1,  # NEUTRAL -> 1
+        'LABEL_2': 2   # NEGATIVE -> 2
     }
     return mapping[label]
 
@@ -26,16 +26,28 @@ def analyze_sentiment(text: str) -> tuple[int, float]:
     return prediction, confidence
 
 # Load the data
-with open(r"data/processed/data_internal.bin", "rb") as data_file:
-    data_eval = pickle.load(data_file)
+# with open(r"data/processed/data_internal.bin", "rb") as data_file:
+    # data_eval = pickle.load(data_file)
+
+data_eval = pd.read_csv('data/processed/data_eval.csv')
+
 model_id = "roberta-base"
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+config = AutoConfig.from_pretrained(model_id, num_labels=3)
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = RobertaForSequenceClassification.from_pretrained(
+    model_id, config=config, torch_dtype="auto"
+).to(device)
+
 sentiment_analyzer = pipeline(
-    model=model_id,
-    tokenizer= "FacebookAI/roberta-base",
-    framework="pt",
     task="text-classification",
-    device=1
+    model=model,
+    config=config,
+    tokenizer= tokenizer,
+    framework="pt",
+    device=device
 )
 
 # Predict sentiment and confidence
@@ -52,7 +64,7 @@ print(f"\nAccuracy: {accuracy}")
 print(f"Balanced accuracy: {balanced_accuracy}")
 print(f"Mean confidence: {confidence}")
 
-labels = [1, 2, 3]
+labels = [0, 1, 2]
 cm = multilabel_confusion_matrix(data_eval['label'], data_eval['predictor'], labels=labels)
 print(cm)
 
