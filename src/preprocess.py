@@ -1,11 +1,11 @@
 import pickle
 
 import pandas as pd
-from polyglot.detect import Detector
-from polyglot.detect.base import logger as polyglot_logger
+from lingua import Language, LanguageDetectorBuilder
 
-# Silence the unreliable language detection warning
-polyglot_logger.setLevel("ERROR")
+# Build the language detector
+languages = [Language.ENGLISH]
+detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
 datasets = []
 data_temp = []
@@ -108,31 +108,34 @@ for dataset_index in range(datasets_num):
     for post in datasets[dataset_index]:
         post_text = post["text"]
 
-        # Detect post language
-        post_detector = Detector(post_text, quiet=True)
-        post_lang_name = post_detector.language.name
+        # Detect post language using lingua
+        detected_language = detector.detect_language_of(post_text)
+        is_reliable = detected_language is not None
+        is_english = is_reliable and detected_language == Language.ENGLISH
 
         # Save reliably language detected, english, person-written, non-repost posts with keyword "openai"
         if (
             "openai" in post_text.lower()
             and post["authorType"] == "Person"
             and not post["isRepost"]
-            and post_lang_name == "English"
-            and post_detector.reliable
+            and is_english
+            and is_reliable
         ):
             save_relevant_cols(data_temp, post)
 
         for comment in post["comments"]:
             comment_text = comment["text"]
 
-            comment_detector = Detector(comment_text, quiet=True)
-            comment_lang_name = comment_detector.language.name
+            # Detect comment language using lingua
+            detected_comment_language = detector.detect_language_of(comment_text)
+            is_comment_reliable = detected_comment_language is not None
+            is_comment_english = is_comment_reliable and detected_comment_language == Language.ENGLISH
 
             # Save reliably language detected, english, non-repost post comments with keyword "openai"
             if (
                 "openai" in comment_text.lower()
-                and comment_detector.reliable
-                and comment_lang_name == "English"
+                and is_comment_reliable
+                and is_comment_english
                 and not post["isRepost"]
             ):
                 save_relevant_cols(data_temp, comment, post)
@@ -163,6 +166,8 @@ in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 # with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
     # pickle.dump(in_to_label, filehandler)
 
+# TODO: Check if i can run it safely
+
 with open(r"data/interim/in_labelled.bin", "rb") as data_file:
     in_labelled = pickle.load(data_file)
 
@@ -174,7 +179,7 @@ data_internal['label'] = data_internal['label'].map({1: 0, 2: 1, 3: 2})
 data_internal['label'] = data_internal['label'].astype(int)
 
 # Save the processed internal labelled dataset as .csv
-data_internal.to_csv("data/processed/data_eval.csv", index=False)
+# data_internal.to_csv("data/processed/data_eval.csv", index=False)
 
 #* Preprocess the TL dataset 
 tl_df = pd.read_csv("data/raw/social_media_sentiment_dataset.csv", encoding="MacRoman")
@@ -212,5 +217,7 @@ tl_df = tl_df[['id', 'text', 'label', 'predictor', 'confidence']]
 tl_df['label'] = tl_df['label'].map({1: 0, 2: 1, 3: 2})
 tl_df["label"] = tl_df["label"].astype(int)
 
+tl_df = tl_df.sample(frac=1).reset_index(drop=True)
+
 # Save the processed TL dataset
-tl_df.to_csv("data/processed/data_tl.csv", index=False)
+# tl_df.to_csv("data/processed/data_tl.csv", index=False)

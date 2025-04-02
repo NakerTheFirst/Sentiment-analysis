@@ -1,0 +1,2530 @@
+,id,text,label,predictor,confidence
+150,151,"🤖💸 When Microsoft & OpenAI Took ""It's Complicated"" to Billion-Dollar Levels 💸🤖
+
+In 2019, Microsoft slid $13.75 billion over to OpenAI, whispering, ""You’re the future of AI, don’t let me down."" And, like any good friend, they struck a reasonable deal: Microsoft would get 75% of OpenAI's profits until they got their investment back—and even after, they’d still keep 49%. That’s commitment. 😆
+
+But this bromance is starting to hit some, uh… “AI-dentity” issues. OpenAI, once a noble nonprofit, suddenly realized capitalism pays for cooler servers. 💸 Now they're trying to ""redefine"" themselves as a for-profit without making things awkward about that $14 billion sitting in a nonprofit. Enter Morgan Stanley and Goldman Sachs to sort this out—aka the corporate marriage counselors. 📈👔
+
+But hold up: control issues are brewing! Microsoft is OpenAI's exclusive cloud provider and slipped OpenAI tech into everything from GitHub Copilot to Azure. But lately, they’ve been side-eyeing each other. After a tough year for OpenAI, Microsoft spent $650M to hire talent from Inflection AI—maybe as a “backup AI BFF.” 🧑‍🤝‍🧑 Meanwhile, OpenAI is flirting with Oracle for some cloud freedom. ☁️
+
+Then there’s the AGI clause. If OpenAI invents AGI (the robot version of a human), Microsoft…loses access. Talk about awkward! What’s AGI? Nobody really knows, which makes it the world’s priciest mystery box. 🎁
+
+So, here we are—Microsoft and OpenAI still smiling for the cameras, but secretly ready for solo careers. Welcome to the world’s weirdest tech ""situationship."" 
+
+#BillionDollarDrama #TechBromance",1,,
+151,152,"𝐀𝐧𝐨𝐭𝐡𝐞𝐫 𝐁𝐮𝐦𝐩 𝐢𝐧 𝐎𝐩𝐞𝐧𝐀𝐈'𝐬 𝐄𝐟𝐟𝐨𝐫𝐭𝐬...
+
+𝐴𝑟𝑡𝑖𝑠𝑡𝑠 𝑤𝑖𝑡ℎ 𝑎𝑐𝑐𝑒𝑠𝑠 𝑡𝑜 𝑡ℎ𝑒 𝑇𝑒𝑥𝑡-𝑇𝑜-𝑉𝑖𝑑𝑒𝑜 𝑇𝑜𝑜𝑙 𝑙𝑒𝑎𝑘𝑒𝑑 𝑡ℎ𝑒𝑠𝑒 𝑐𝑟𝑒𝑑𝑒𝑛𝑡𝑖𝑎𝑙𝑠 𝑡𝑜 𝑡ℎ𝑒 𝑝𝑢𝑏𝑙𝑖𝑐..
+
+Artists granted early access to OpenAI’s Sora, a cutting-edge AI video generator, have leaked public access to the tool in protest of OpenAI’s treatment of creative collaborators. 
+
+Issues with this...Data Poisoning is a concern with a small dataset doing the input the ability to manipulate the model is greatly increased.
+
+The artists' side of this is slightly interesting as well:
+OpenAI invited hundreds of artists to test Sora, granting them early access to the video generator. However, 20 of these artists argued:
+
+𝗨𝗻𝗽𝗮𝗶𝗱 𝗹𝗮𝗯𝗼𝗿: Testing, feedback, and experimental use of Sora, all without equitable compensation.
+
+𝗣𝗥 𝗴𝗮𝗶𝗻 𝗳𝗼𝗿 𝗢𝗽𝗲𝗻𝗔𝗜: Artists accused OpenAI of using their unpaid efforts for marketing benefits that vastly outweighed the perks offered.
+
+In response OpenAI immediately shutdown of access. I guess we will just have to build our own using the models available on HuggingFace ;P
+
+𝙃𝙖𝙥𝙥𝙮 𝙏𝙝𝙖𝙣𝙠𝙨𝙜𝙞𝙫𝙞𝙣𝙜!",2,,
+152,153,"""Happy Birthday, ChatGPT! 🎉
+In just one year, you've transformed how we connect, create, and solve problems, becoming a true game-changer in AI. Here's to celebrating innovation, endless learning, and the incredible future ahead. Thank you for making conversations smarter and more inspiring every day. Cheers to many more milestones!""
+ChatGPT is an advanced conversational AI developed by OpenAI, launched in November 2022. It uses the GPT (Generative Pre-trained Transformer) model to generate human-like responses. Trained on vast text data, it can assist with writing, coding, learning, and creative tasks. It's widely used for productivity, education, and innovation across industries.
+
+#BAAPCOMPANY
+#BhausahebGhuge
+#ChatGPT
+#AIInnovation 
+#HappyBirthdayChatGPT 
+#ArtificialIntelligence 
+#TechTransformation 
+#FutureOfAI 
+#OpenAI 
+#DigitalRevolution 
+#InnovationCelebration 
+#AIForGood 
+#TechMilestone",0,,
+153,154,"🚀 Transform the way you engage with AI technology! 🌟
+
+Introducing a revolutionary approach to building custom AI applications and automations—no coding skills necessary! Embrace the power of innovation by easily mixing and matching cutting-edge models from industry leaders like OpenAI, Anthropic, Google, Mistral, Meta, and more. 
+
+Whether you're striving for enhanced productivity or pioneering new solutions, this seamless method empowers you to harness the full potential of AI. Don't let technical barriers hold you back—dive into the future of AI application development today! 💡
+
+#AI #Innovation #NoCode #OpenAI #GoogleAI #Anthropic #Mistral #Meta
+Click for details :  <URL>",0,,
+154,155,"OpenAI uses news training ChatGPT, Canadian media claims billions of dollars
+
+Canada's largest news organization today filed a lawsuit against the American artificial intelligence (AI) company OpenAI, accusing OpenAI of using their articles to help train the AI ​​chatbot ChatGPT without permission.
+
+Agence France-Presse reported that according to the statement, media including The Globe and Mail and the Canadian Broadcasting Corporation (CBC) accused OpenAI of copyright infringement, ""scooping large amounts of content"" and profiting from the use of this content.
+
+This behavior was done without consent or payment to news organizations. These news organizations claimed that these articles were illegally scraped and used to train the artificial intelligence chatbot ChatGPT, and claimed 20,000 Canadian dollars (approximately) for each article. NT$472,000), the total compensation may reach billions of dollars.
+
+The Canadian federation of news organizations said: ""Journalism is in the public interest and OpenAI's use of other companies' news for its own commercial interests is not. It is illegal.""
+
+In response to the lawsuit, a spokesperson for OpenAI said that the OpenAI chatbot was trained using publicly available data ""in accordance with fair use and relevant international copyright principles, which is both fair to creators and supports innovation.""
+
+The spokesperson added that OpenAI also cooperates with news publishers.
+
+This is the first lawsuit filed against OpenAI by Canadian media. According to the legal filing, the groups, which also include Postmedia, the Canadian Press and the parent company of the Toronto Star, are asking the court for an injunction to prevent San Francisco-based OpenAI from continuing or future ""unauthorized Improper authorization to use their work.
+
+""As we embrace the opportunities brought by technological innovation, all participants must abide by the law and the use of our intellectual property rights must be conducted under fair conditions,"" he said.
+
+Publishers such as The New York Times have filed lawsuits to defend their content, while some news organizations have chosen to strike licensing deals.",2,,
+155,156,"🚀 Introducing the NeatLabs Advanced Audio Processing & Analysis Studio 🌟
+Transform your audio data into actionable insights with this cutting-edge application. Designed for professionals and enthusiasts alike, the Advanced Audio Processing Studio integrates powerful AI tools like OpenAI GPT, Whisper, and SpaCy with an intuitive GUI. Whether you're transcribing audio, analyzing streams, extracting insights, or creating stunning visualizations, this app has you covered.
+🔍 Features:
+High-accuracy transcription (including timestamps and diarization)
+Stream audio processing for live or recorded sources
+Sentiment analysis, entity recognition, and keyword extraction
+Interactive visualizations (waveforms, spectrograms, and more)
+Summarization powered by GPT-4
+Support for YouTube video transcription and multi-format audio files
+🎯 Why it stands out: Seamlessly blending advanced AI models, state-of-the-art processing tools, and sleek design, this app is your ultimate solution for tackling complex audio challenges effortlessly.
+#Innovation #AudioProcessing #AI #Python",0,,
+156,157,"📢 AI Newsletter : 50
+The most important developments in the world of artificial intelligence between November 18 - 24, 2024 ⬇️
+
+🔥 Featured Titles:
+🚀 Nvidia hits record revenue and profits.
+📊 Anthropic is rising while OpenAI is falling in the enterprise AI market.
+🛌 Sam Altman and Arianna Huffington introduce Thrive AI.
+🎙️ OpenAI's advanced audio mode is available on desktop.
+🌟 Google's Gemini-Exp-1114 model competes with GPT-4o.
+🧠 Google Gemini offers memory feature for users.
+🆓 Open source Le Chat platform and Pixtral Large model from Mistral.
+🤖 Prompt Improver, an instruction improvement tool from Anthropic.
+
+Detail : 
+<URL>",2,,
+157,158,"3 of the 5 largest providers, together... hand in hand? 🫣
+
+Oracle seals partnerships with Azure and AWS. For what exactly?
+
+Let's take a closer look.
+
+🔴 Oracle Cloud  x Amazon Web Services (AWS)  🟠
+Oracle is preparing its entry into the cloud leader's platform by making its databases and Exadata directly accessible in AWS. Note that the service will be more widely deployed in 2025.
+
+The promises? Optimized connection between Oracle databases and AWS applications, simplified billing via AWS Marketplace, and most importantly, native integration with AWS analytics and AI services, notably Bedrock. No more juggling between different platforms!
+
+On the other side.
+
+🔴 ORACLE x Microsoft Azure  🔵
+The partnership with Microsoft is already well-established. Oracle database services run directly in Azure datacenters, offering minimal latency and deep integration with Microsoft services, notably Azure OpenAI.
+
+💡What's the common thread between these two alliances?
+
+A desire to simplify business operations with unified support and a seamless experience. Oracle recognizes that multicloud has become the norm and is adapting to customer needs.
+
+❤️ The feedback would be positive
+↪️ Major groups welcome these initiatives that allow them to deploy their strategic workloads more efficiently.
+
+Is #multicloud becoming... simple? 🤔​​​​​​​​​​​​​​​​",0,,
+158,159,"I have two kirana stores established on the internet about 4 years ago :)
+
+Some people ask me when they will become large retail chains like Ratnadeep or DMart.
+
+I remind them they are 'kirana' stores.
+
+Some people mock them as just OpenAI wrappers.
+
+I remind them it is a 'kirana' store where I purchase goods at wholesale prices from OpenAI and Anthropic and resell them to suit your needs and convenience.
+
+Welcome to MicroSaaS!
+
+
+#ai #generativeai #llms #openai #saas",1,,
+159,160,"People may often think that breakthrough technologies emerge from secret labs or massive corporate investments. 
+
+The truth is often more human - like an everyday email exchange between two people.
+
+Internal emails documenting the breakup between Sam Altman, Elon Musk and the OpenAI founders are available to read (link in the comments).
+
+Some details:
+
+- Altman wanted a 5-person governance team including Musk and Bill Gates
+- Researchers would get startup-like compensation, decoupled from their specific work
+- The fundamental goal? Individual empowerment through AI
+
+Let me know your thoughts!",1,,
+160,161,I agree that artists deserve more recognition. They help make tools better. OpenAI should listen and work with them more.★ Rodger Werkhoven,2,,
+161,162,"🚀 Bold Predictions for AGI in 2025: Can OpenAI Crack the Code?
+
+OpenAI CEO Sam Altman has set the AI world buzzing with his latest statement: artificial general intelligence (AGI) might just be around the corner, with a potential breakthrough in 2025. 🤯
+
+In a recent interview with YC founder Gary Tan, Altman revealed that the path to AGI is “basically clear” and hinges on engineering efforts rather than scientific breakthroughs. This confidence is striking, particularly given reports of slower progress across the industry.
+
+*Key updates*:
+Orion Model: The rumored ‘Orion’ model reportedly shows a smaller improvement over GPT-4, particularly in coding tasks — sparking mixed reactions.
+Foundations Team: OpenAI has created a dedicated team to tackle fundamental challenges, including the scarcity of high-quality training data.
+o1 Reasoning Model: Backed by OpenAI researchers Noam Brown and Clive Chan, this new model promises new scaling capabilities, potentially bypassing previous limitations.
+
+It’s a fascinating time in AI, with these developments hinting that engineering innovation might help break through scaling barriers and accelerate progress towards AGI. 
+
+Altman’s vision for 2025 could redefine the pace and scale of advancements we see in artificial intelligence. 
+
+Checkout the video : <URL>
+
+Praveen Shenoy K
+
+#AI #AGI #ArtificialIntelligence #OpenAI #SamAltman #LLMs #Innovation",0,,
+162,163,"OpenAI search is here – is it over for Google?
+
+OpenAI just released its latest feature: integrating web search directly into ChatGPT for real-time, AI-powered results. 
+
+With OpenAI’s fine-tuned GPT-4o model behind it, users can now access up-to-date information seamlessly across iOS, Android, and desktop platforms.
+
+Why does this matter?
+
+	1.	No Ads: OpenAI’s search engine is ad-free (for now), unlike Google’s ad-cluttered search results.
+	2.	Fewer Hallucinations: Real-time data helps improve factual accuracy.
+	3.	Partnerships: OpenAI has teamed up with media giants to ensure responsible content usage, steering clear of copyright conflicts.
+
+This move is a big move from OpenAi. However, AI-powered search is significantly more costly than traditional search, so it’ll be interesting to see how they plan to cover these expenses for free users.”
+
+#OpenAI #ChatGPT #SearchEngine #AI #Google",0,,
+163,164,"Yesterday while I was cleaning my computer, I found a piece of GenAI History. 
+
+In December 2021, I saw a post on Reddit about a new method to generate an image from a text and  I was mind-blown. The post was about machine learning algorithms, VQGAN and CLIP. The first was an algorithm to generate images and the second ( created by OpenAI in 2021) excelled in matching text and images. 
+Some Reddit users were exploring how they could use VQGAN and CLIP together to create images from text (""GAN Art""), and a researcher created a Google Colab notebook that everybody could use to test VQGAN+CLIP. 
+
+If I remember well, it took about 45 minutes to generate the below image, with as input ""CRM"" (Thanks Salesforce). It also output a video to show you the evolution of the generated image, which was pretty cool.  
+
+Today, GenAI images and videos are sometimes impossible to distinguish from real images, and I don't think I know anyone who hasn't at least tried GenAI once.",0,,
+164,165,"AI Agents are learning to use computers
+
+It’s happening faster than I expected.
+
+In just a few weeks, Anthropic, OpenAI, and Google have made big strides toward building AI agents that can actually use computers like humans do.
+
+Here’s the latest:
+
+- Anthropic’s API (Live): Claude can now operate software, though still learning.
+
+- OpenAI’s Operator (Rumored): A browser-operating agent tackling real-world tasks like booking travel.
+
+- ChatGPT macOS Integration (Beta): Interacts with desktop apps like Xcode.
+
+- Google’s ‘Project Jarvis’ (Rumored): Uses screenshots to navigate websites and complete tasks.
+
+Why this matters: Until now, AI has been smart but stuck behind the glass—giving advice but unable to act. 
+
+That’s about to change. If a human can do it on a computer, AI agents will soon be able to do it too.
+
+For developers and entrepreneurs:
+
+- Start thinking about specialized agents—focused tools that excel at specific tasks.
+
+- Rethink your product roadmap: 
+computer-using AI will unlock entirely new opportunities.
+
+We’re at the “GPT-3 stage” of these capabilities—powerful but just getting started.
+
+If you had an AI agent that could use any software, what would you automate first?
+
+I think I would go with summarizing all the slack channels I have to deal with 😫",0,,
+165,166,"This is an exciting development from OpenAI! It will be interesting to see how ChatGPT Search compares to Google in terms of search results and user experience. With the increasing demand for AI-powered search engines, this move from OpenAI could disrupt the search engine market. It will also be fascinating to see how ChatGPT Search evolves and improves over time. Overall, this is a positive step towards advancing AI technology and improving search capabilities for users.",0,,
+166,167,"Amazing developer support from Google AI's Logan Kilpatrick — 20-minute response time. 
+
+Just this summer our AI's overall LLM stack was composed of 70% OpenAI, 30% Anthropic, and 0% Google. 
+
+Now it's 15% OpenAI, 15% Anthropic, and 70% Google (Gemini 1.5 Flash 002 is amazingly performant and cost-effective for system orchestration and agent systems).
+
+Frank Guan",2,,
+167,168,"Will 2025 be the year that open-source models match the performance of proprietary models and that Chinese AI models compete on par with those from the U.S.?
+
+Alibaba's QwQ, an open-source model featuring 32B parameters and a 32k-token context window, now outperforms OpenAI's o1 in both mathematical and scientific reasoning. It surpasses o1-preview on the AIME and MATH mathematical benchmarks and exceeds o1-mini on GPQA for scientific reasoning tasks. Although it falls short of o1 on LiveCodeBench coding evaluations, QwQ still outperforms other leading models such as GPT-4o and Claude 3.5 Sonnet.
+
+
+This is what QwQ team says:
+
+""Through deep exploration and countless trials, we discovered something profound: when given time to ponder, to question, and to reflect, the model’s understanding of mathematics and programming blossoms like a flower opening to the sun. Just as a student grows wiser by carefully examining their work and learning from mistakes, our model achieves deeper insight through patient, thoughtful analysis. This process of careful reflection and self-questioning leads to remarkable breakthroughs in solving complex problems.""
+
+However, I experimented with QwQ and found it to be overly complicated and inefficient. It took six minutes to solve the sequence problem: ""What's next: 10, 11, 13, 17, 26, __?"" Nevertheless, it's still remarkable as an open-source model. In comparison, ChatGPT was able to solve it quicker, while Gemini and Claude failed to provide the correct answer.
+
+Read more: <URL>",2,,
+168,169,"“Pay me $100, i will give you 3 good clients” 🎯 
+
+To be honest if someone say this to me, I am sold!
+
+I am sure most of you would be sold too 🗞️ 
+
+Why? because I know a single client can give me way more than that
+
+I can focus on thing I am good at, not pitching the clients but my work
+
+My team will use Sniff to win clients for you! 😌 
+
+Sniff collected solid gigs from people of OpenAI, Perplexity, Amazon, NVIDIA, Binance, Uber etc
+
+i know Black Friday is gone, but not for you my love! 🙂‍↔️ 
+
+Yeah, we got some investor money to burn, and you are like my cat, anything for you!
+
+Get Sniff pro at $̶𝟫̶𝟫̶ $20 (80% discount)
+
+The best $20 you will invest in 2024 ⭐ 
+
+Valid till 10 users only, this one is special, you will get:
+- Me and my team will help to win 3 clients for you
+- Access to all premium features and updates
+- You can ask for refund anytime within 14 days
+
+Domains:
+- Web Development
+- App Development
+- Web3 Development
+- Any kind of design work
+- Writing
+We can only help what we are good at, sadly and gladly!
+
+If you are still wondering what is Sniff?
+
+Sniff 🌿 is a tool that can help you win client faster than ever
+it gives you the contact of person seeking help on social media in realtime
+
+Why I am doing this?
+TBH, it’s fun + i want to be closer to you! 🫂 
+
+Limited to 10 People only ⏳ , since it’s not a scalable thing to do
+
+Sniff is a tool, not magic, let me help you!
+
+Use “LATE-BLACK-FRIDAY” code to get the discount 🏷️ 
+
+After you make a purchase, ping me on LinkedIn or just email on yaseen@sniff.so
+
+link <URL>
+
+Note: I got some UI/UX clients ready to pay $500+, DM if interested 
+
+If not you, tag someone who may need it.
+
+happy sniffin 🌿 
+
+#hiring #AI #SniffAI #Sniff #freelance #client",1,,
+169,170,"Happy 2nd Birthday ChatGPT! 🎂 
+
+OpenAI",0,,
+170,171,"I shared a short educational OpenAI project that I developed for my colleagues to demonstrate the use of streaming output with Azure OpenAI and regular OpenAI clients. <URL>
+
+This project highlights:
+- The use of streaming output in OpenAI / Azure OpenAI.
+- A clear, visually noticeable difference in streaming performance between the older gpt-4o-mini / gpt-4o models and the newer o1-mini / o1-preview language models.
+- The use of keyless Entra ID authentication in Azure OpenAI for testing.
+- The ability to cancel an ongoing streaming request using the ""Stop"" button.
+
+Technical Stack:
+Node.js, Express server, OpenAI module, @azure/identity for API key and keyless Entra ID authentication, plain JavaScript, and index.html.",1,,
+171,172,"Cursor is amazing but I wouldn't bet on them. There is no moat. They don't own the underlying IDE or MMLs. Lots of their revenue is forwarded to Anthropic or OpenAI.
+
+Also the revenue growth was super fast it can also fade away quick, eg when their customers become aware of Windsurf which is much cheaper and slightly better. Or when Microsoft catches up with Copilot....",1,,
+172,173,"Major Canadian Media Outlets Sue OpenAI for Billions Over Copyright Violations The Verge
+
+<URL>",2,,
+173,174,Posting of Larissa Holzki <URL>,1,,
+174,175,"I am honored to be among the Alpha Artists testing #Sora by OpenAI 
+
+Eugenio Marongiu, known as Katsukokoiso.ai in AI Creative world, is a professional photographer based in Milan, Italy, with over 16 years of experience. Specializing in AI-generated images and videos for two years, Eugenio bridges the gap between human creativity and artificial intelligence, creating unique works that combine artistic vision with cutting-edge technology.
+
+1️⃣ Sora is most powerful when:
+“Sora is incredible at rendering even the most absurd and surreal ideas with striking realism. It can literally bring my imagination to life. I was able to create something surreal with a level of realism I had never seen before.”
+
+2️⃣ The most exciting thing about what I created is:
+“What excited me the most was the exceptional quality, detail, and realism—even in the surreal. The dynamic perspectives, camera movements, and visual evolutions were truly remarkable.”
+
+3️⃣ How Sora impacted the creative process:
+“Typically, my workflow involves creating images and animating them afterward. With Sora, I’m finally able to fully embrace text-to-video generation because it interprets prompts with incredible precision, delivering outstanding results.”
+
+4️⃣ How long it took me to make this / what my process looked like:
+“The process was quick in technical terms because Sora not only delivers an unprecedented level of quality but is also incredibly fast. The most time-consuming part, as always, was the conceptualization, testing, and editing. Overall, it took about two days.”
+
+5️⃣ What I want other artists to know about what it’s like to use Sora:
+“Using Sora feels like having an entire film crew at your fingertips. Its versatile features allow for the creation of incredible visuals, whether surreal or hyper-realistic, with outstanding quality.”",0,,
+175,176,"𝐖𝐡𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐖𝐢𝐥𝐥 𝐅𝐚𝐥𝐥 𝐢𝐧 𝐋𝐨𝐯𝐞 𝐰𝐢𝐭𝐡 Lyzr AI 𝐀𝐠𝐞𝐧𝐭 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 𝐚𝐧𝐝 𝐀𝐠𝐞𝐧𝐭 𝐀𝐏𝐈  💻❤️
+
+Building AI agents for custom use cases often feels like walking a tightrope—balancing customization and scalability. Lyzr makes it simple!
+
+𝟏. 𝐄𝐚𝐬𝐲 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧
+
+- Access Lyzr’s pre-built agents with just an API call away and connect with LLMs like OpenAI, Anthropic, or even your proprietary models.
+
+𝟐. 𝐋𝐨𝐰-𝐂𝐨𝐝𝐞 + 𝐍𝐨 𝐂𝐨𝐝𝐞 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐭𝐨 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐀𝐠𝐞𝐧𝐭𝐬
+
+- You can get ultimate customization for the agents by building on the low-code agent framework or you can also build agents in minutes using the No-Code Agent Studio
+
+𝟑. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫-𝐂𝐞𝐧𝐭𝐫𝐢𝐜 𝐄𝐜𝐨𝐬𝐲𝐬𝐭𝐞𝐦
+
+- Comprehensive documentation, robust APIs, and an active developer community ensure you’re never stuck. Plus, expert resources help you stay ahead of the curve.
+
+Know more about Lyzr - <URL>
+
+#Developers #AgentAPI #AIFrameworks #BuildWithLyzr",1,,
+176,177,"How I Built a Million-Dollar App Using These Game-Changing AI Tools 🚀
+
+
+The biggest mistake most developers make? Trying to build everything from scratch. Smart developers leverage AI tools to build faster and smarter.
+
+Here's the tech stack that transformed our development process:
+
+1. Foundation Layer 💪
+* OpenAI for natural language processing
+* TensorFlow for machine learning backbone
+* Azure for scalable cloud infrastructure
+
+2. Development Accelerators ⚡
+* NVIDIA for GPU optimization
+* AWS for serverless architecture
+* ChatGPT for code assistance
+
+3. Creative Elements 🎨
+* DALL-E for design assets
+* Midjourney for UI visualization
+* SlidesAI for pitch decks
+
+Real Results:
+✅ 60% faster development time
+✅ 40% lower costs
+✅ 85% client satisfaction rate
+
+Looking for a development partner who knows how to leverage cutting-edge AI tools?
+
+Dont forget to follow Nazar Asgar and kindly repost this post 
+
+At Toqsoft, we deliver:
+🎯 Custom AI-powered solutions
+💡 Innovative app development
+🚀 Scalable architecture
+📈 Future-proof technologies
+
+What AI tool would you like to learn more about? Drop a comment below!
+
+#AppDevelopment #ArtificialIntelligence #TechInnovation #SoftwareDevelopment",1,,
+177,178,"🤖 The Battle for AI’s Future: Elon Musk vs. OpenAI 🔥
+
+The world of AI is heating up with Elon Musk making bold moves on two fronts. First, he’s challenging OpenAI’s shift to a for-profit model, arguing it undermines the nonprofit values it was built on. Musk believes this transition could prioritize profits over ethical AI development, raising critical questions about the balance between innovation and accountability.
+
+At the same time, Musk’s Grok is raising debates with its unfiltered and bold responses, drawing comparisons to ChatGPT. The rivalry highlights different approaches- one emphasizing “truthful” answers, the other offering nuanced versatility.
+
+As AI evolves, these developments remind us that its future depends on a balance between purpose, transparency, and innovation.
+
+#ImpulsiveWeb #ElonMusk #OpenAI #Grok #ChatGPT #AI #EthicalAI #TechNews",2,,
+178,179,"#openai #gpt #challenge #justforfun
+
+make chat gpt say the name David Mayer … 
+as on today, it does not work! 
+
+No one knows why!",1,,
+179,180,"🚀 Introducing WEB Generator AI: Build Websites & Games with AI🚀  
+ 
+I’m thrilled to share that I’ve created WEB Generator AI – an innovative web application that transforms how we build websites and even games! With the power of AI, you can simply describe your requirements in natural language like(Hindi ,English,Mratahi) , and WEB Generator AI will generate production-ready HTML, CSS, and JavaScript tailored to your needs.  
+But that’s not all – you can preview your website or game in real-time right within the platform, making it easier than ever to refine and perfect your creations.  
+ 
+With real-time previews, speech-to-text support, and the ability to download your projects as .zip files, Web Generator AI is designed to simplify the creative process for everyone, whether you're a developer or a beginner.  
+ 
+ Key Features:  
+·       AI-Powered Code Generation: Build websites and games by simply describing your ideas.  
+·       Live Preview: View and refine your project instantly.  
+·       Speech-to-Text: Dictate your ideas in multiple languages like Hindi, Marathi, and English.  
+·       Save and Download: Export individual files or full projects as .zip archives.  
+·       Customizable Interface: Tailor preview settings to your preferences. 
+
+💡 Technologies and Tools Used:
+Frontend: React.js for a seamless user interface with modular design principles.
+Backend: Node.js and Express.js to handle OpenAI API calls and manage prompt processing.
+Third-Party Tools:
+EmailJS for adding email-sending functionality directly from the web page.
+JSZip for packaging and downloading projects as .zip archives.
+AI Integration: GPT-3.5 Turbo for generating high-quality web code.
+Responsive Design: Mobile-first approach ensuring compatibility across devices.
+ 
+What’s Next?  
+ Direct deployment to platforms like Netlify.  
+Open sourcing the project on GitHub soon for community contributions. 
+ 
+With Web Generator AI, my goal is to bridge creativity and technology, enabling anyone to build websites and games effortlessly.  
+ 💡 I’d love to hear your feedback or ideas! Let’s make this even better together. 🌟  
+#WebDevelopment #AI #WebGeneratorAI #OpenSource #Innovation #GPT3",1,,
+180,181,"Getting back to the AI-related highlights from the recent Infoshare conference. Both on the stage and informally, people talk about the trends that are fully aligned with what we've noticed at other events in the US and Germany earlier this year.
+
+Let's go.
+
+🌟Agnieszka Niezgoda, PhD, PhD on Agent-based approaches in LLM solutions. 
+
+💡 If you have a large context, the inquiry will cost you more. Cache layer makes it cheaper and faster;
+💡 The speech covered RAG technique, LangGraph, LangChain, Autogen (with a human in the loop) frameworks;
+💡 Large Action Models (LAMs) will emerge further.
+
+🌟Magdalena Ostoja-Chyżyńska shared the experience of her design studio with AI. 
+
+💡 AI tools in their current state don't replace designers. Consider AI as your Co-Creator, Co-Artist if you wish. It helps with the early stages of the process;
+💡 Jr. Designers rapidly progress to the Mid. level now thanks to AI. Middle to Senior is more tricky though;
+💡 Tools: Midjourney, Figma AI, Exactly AI (outcome close to your prompt/style), Photoshop, Stable Diffusion, OpenArt AI, Claude AI, Slides AI, Plus AI, OpenAI o2 model. 
+
+🌟Inga Apiecionek shared 7 lessons on AI adoption at Ringier Axel Springer Polska.
+
+💡 AI strategy cannot exist in a vacuum. Start with your ""why?"". Align it with your company strategy. Discovery phase is a must;
+💡Use the combination of metrics while assessing AI implementation;
+💡 Example. Microsoft says GitHub Copilot helps to develop new code 55% faster. If we assume that a software dev spends 10% of their time on coding on average (we can argue here regarding the %). Multiplying 55% by 10% gives us only 5.5% of real acceleration;
+💡 Garbage in > Garbage out. High-quality training data is a must. Even with the best AI models.
+
+🌟Zuza Kwiatkowska spoke about deepfakes and how to fight them. 
+
+💡 A 10-sec recording of your voice is enough to generate an audio deepfake for disinformation or phishing;
+💡 Longer recordings enable deepfake generation on the fly;
+💡Educate your teams, children, and parents, on the latest technology and its threats. 
+
+🌟Piotr Mieczkowski on cybersecurity from the perspective of people in Poland. 
+Insightful statistics. Kids security topic resonated the most with me as the father of two. 
+
+🌟Marcin Banaszkiewicz on authenticity crisis on LinkedIn. 
+
+💡LinkedIn is a Human-to-Human platform;
+💡People don’t buy products and services on LN. Nobody cares about the content aiming at selling something or promoting a company. And the majority of LN content falls exactly in that category;
+💡People seek people who can give them value;
+💡People tend to skip AI-generated texts;
+💡Construct your post like a practicing hands-on surgeon, rather than like a university professor;
+💡So choose what you want: A. have a beautiful and correct text with AI and lose your audience, or B. spend more time and stay authentic and not ideal. 
+
+I choose the B option. 
+
+That’s probably the reason you have read this post till the end ;)
+
+#AI #LLM",1,,
+181,182,"🤖 𝐓𝐡𝐞 𝐄𝐯𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐨𝐟 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 (2018-𝐏𝐫𝐞𝐬𝐞𝐧𝐭) 🌟
+
+From 𝐁𝐄𝐑𝐓 to 𝐋𝐥𝐚𝐦𝐚 3.2, language models have reshaped NLP as we know it! 🚀 Here's a glimpse at their journey:
+
+🔴 𝐁𝐄𝐑𝐓 𝐅𝐚𝐦𝐢𝐥𝐲 (2018): Pioneered context-based learning, inspiring models like RoBERTa and DistilBERT.
+🟢 𝐓5 𝐅𝐚𝐦𝐢𝐥𝐲 (2019): Simplified NLP with a text-to-text framework, powering innovations like BART and Flan-T5.
+🔵 𝐆𝐏𝐓 𝐒𝐞𝐫𝐢𝐞𝐬 𝐚𝐧𝐝 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 (2019-2024): GPT series sparked a revolution, leading to today’s giants like o1-preview, Llama 3.2 and DeepSeek 2.5.
+
+💡 AI innovation in 2023-24 is accelerating faster than ever, transforming industries and redefining possibilities!
+
+Image credits: Omar Sanseviero
+
+OpenAI AI at Meta Google Anthropic Perplexity Hugging Face Ollama Groq
+
+#ArtificialIntelligence #LLMs‍ #MachineLearning #NLP #AIInnovation #FutureOfWork #DataScience
+
+🤔 What excites you most about the future of AI? Let’s discuss! 👇",0,,
+182,183,"T R U M P  x  A I  C Z A R  - President-elect Trump is considering naming an AI czar in the White House to coordinate federal policy and governmental use of the emerging technology, Trump transition sources told Axios.
+
+Why it matters: Elon Musk won't be the AI czar, but is expected to be intimately involved in shaping the future of the debate and use cases, the sources said.
+
+Behind the scenes: Told the role is likely but not certain.
+
+Musk and Vivek Ramaswamy — who are leading Trump's new outside-government group, the Department of Government Efficiency (DOGE) — will have significant input into who gets the role.
+
+Musk — who owns a leading AI company, xAI — has feuded publicly with rival CEOs, including OpenAI's Sam Altman and Google's Sundar Pichai. Rivals worry Musk could leverage his Trump relationship to favor his companies.
+
+The big picture: Trump, partly in response to the enlarged coalition that fueled his victory, plans to be super attentive to emerging technologies.
+
+Read more from Axios: <URL>
+
+🔔 #wakeupimagine and follow Michael Chase and hit the bell icon on my page so you don’t miss future #AI insights #FutureOfAi",1,,
+183,184,"Total self-brag: I created $1Million worth of enterprise-grade code this month!
+
+💡 How did I measure this?
+The SCC Report evaluates code performance, efficiency, and estimated project value. Using this guide, I discovered that my work this month achieved:
+- 96.8x performance ratio: What would normally take 8 years of development was done in 1 month. (I have 3 days to hit the 100X milestone!)
+- $1M+ equivalent value: That’s what companies typically pay for similar software development. (My rates are a little lower)
+
+Oh, and I built a tool to summarize SCC results into a fancy report—it’ll be open-sourced soon (because why not?).
+
+How I Did It:
+1️⃣ Plan First: Document workflows, data models, architecture, and pseudocode.
+2️⃣ AI-Driven Development: Nearly 100% of the code was generated and tested by AI. My role? Orchestrator. Minimal typing (mostly voice commands). No Google. No Stack Overflow.
+
+Shout out to these amazing tools I used:
+#Lovable #Cline OpenAI (o1 and 4o-mini), Claude Sonnet, GitHub, Aider, #Harvard (Perplexity Pro and Sandbox), Sparc framework ( Reuven Cohen )
+
+Two years ago, being a 10X developer was rare. Today, 100X (or even 1000X) is achievable with the right tools and processes.
+
+AI isn’t replacing us; it’s amplifying what we can do. 
+#100XDev #EnterpriseSoftware",0,,
+184,185,"#AI #OpenAI #ElonMusk
+Elon Musk takes OpenAI to court, accusing it of monopolizing AI innovation with Microsoft’s support. As AI transforms industries, will it remain open for all or controlled by few?",2,,
+185,186,"And the article for reference: <URL>
+
+And the press release: <URL>",1,,
+186,187,"In an effort to democratize access to Earth Science data traditionally available only to scientists and researchers, NASA - National Aeronautics and Space Administration has collaborated with Microsoft to develop a new tool, 𝐄𝐚𝐫𝐭𝐡 𝐂𝐨𝐩𝐢𝐥𝐨𝐭. Leveraging Microsoft's Azure OpenAI Service, data is collected by NASA's satellites, including information on wildfires, climate change, disaster response, and agriculture. Tyler Bryson, Microsoft CVP, US Health & Public Sector, shares more in his latest blog post about this collaboration and the impact it will have on scientific discovery: <URL>
+
+#PublicSector #Data",1,,
+187,188,"Here’s the best way to maximize your data coverage:
+
+(Without paying more)
+
+Stop switching 10 tools.
+Use 75+ data providers in one place.
+
+Stop paying for multiple subscriptions.
+Test providers, add API keys, and manage it all in one place.
+
+Persana AI just launched the data & agent marketplace.
+Because your outreach deserves more than chaos.
+
+Run multi-channel campaigns without switching tools.
+
+You will orchestrate the best data providers like:
+
+- RB2B
+- Sendspark
+- Icypeas
+- Prospeo.io
+- Instantly.ai
+- HeyReach
+- La Growth Machine
+- Woodpecker.co
+- Perplexity
+- Anthropic
+- OpenAI
+
+And many more.
+
+
+Here’s the truth:
+
+Efficiency isn’t about doing more.
+It’s about doing less with better results.
+
+For this video, I put the timecodes here to use the time efficiently:
+
+[00:00 - 02:09]
+-What is the best way to maximize data coverage?
+-What is a data and agent marketplace?
+-What are the benefits of using this marketplace?
+
+[02:09 - 02:32]
+-How can you access this data and agents marketplace?
+
+
+Hope this video will help you save more $ and be more efficient.
+
+____
+
+I’m Can, founder of Allbound OS.
+
+→ Get my $2000 AI outbound workflow for free.
+(Click my name and you will find this in my profile)",0,,
+188,189,"For those of you already using ChatGPT instead of your usual search engine, you're in for a treat—OpenAI just launched ChatGPT with Search (Premium and Teams users)!
+
+Wait, wasn't it already doing that? Well, yes and no. Traditional LLMs rely on their pre-existing knowledge up to their training cutoff, so you weren't always getting the most up-to-date information. But with ChatGPT now accessing live web search, you're receiving fresher, more accurate responses. This is especially helpful for dynamic queries like news, product comparisons, or industry trends that require the latest data.
+
+#AItools #AI #ChatGPTUpdate #CanIAIthat",0,,
+189,190,"Sam Altman hopes to make @OpenAI an actual ""for profit"" company...
+
+Good luck with that, Captain Ahab.
+
+<URL>
+
+#generativeai #aigovernance #PonziScheme #executiveleadership #climatechange #AWhaleOfATale
+
+Ralph Aboujaoude Diaz Bill Schmarzo Dr. Jeffrey Funk Kurt Cagle Institute for RPA & AI (IRPA AI) Mike Daly Paul M.",2,,
+190,191,"Did you know ChatGPT updates its memory about you.
+.
+.
+Yes , ChatGPT updates its memory about you with every prompt you give it.
+
+Why?
+Memory is accessed during interactions to improve the quality of responses by referencing previously saved details.
+
+However OpenAi does not share this data with 3rd party or use it for any training.
+
+What can you do if you dont want ChatGPT to remember nothing of you?
+1: You can go to settings >> personalisation >> Manage Memory >> Delete
+
+2: Use ChatGpt in temporary mode as shown in the video.",1,,
+191,192,"OpenAI does not want to be a healthcare operation. The company says its work with the healthcare industry is being driven by demand from the sector, not the other way around.
+
+Source: MedTech Pulse and STAT.",1,,
+192,193,"🌟 Proud to be shaping the future of AI at OpenAI! 🌟
+As a Data Scientist, Human Data at OpenAI, I have the incredible opportunity to work at the intersection of AI and human-centered data science. My role focuses on understanding how people interact with AI systems, using data-driven insights to make these systems more intuitive, efficient, and beneficial for society.
+What excites me most about my work is that it’s not just about creating smarter machines—it’s about creating ethical, human-aligned AI that solves real-world problems, whether it's improving healthcare, enhancing communication, or driving sustainability efforts. With groundbreaking projects in language models, reinforcement learning, and multi-modal AI, I’m proud to be part of a team that’s making a tangible impact on the future.
+🔍 Always looking to connect with others who are passionate about AI, data science, and ethical innovation. If you’re working on cutting-edge AI or just want to discuss the latest trends in the field, feel free to reach out!
+Let’s learn, grow, and build the future of AI together. 🚀
+#OpenAI #DataScience #HumanCenteredAI #AIethics #ArtificialIntelligence #AIforGood #TechInnovation #MachineLearning #AIResearch #SustainableTech #AIImpact #FutureOfWork",0,,
+193,194,"Hello world:
+- ChatGPT cannot be made fully deterministic - we had a hunch and experience, now we have proof
+- Sanctimonious tech moguls like their cosplay - this time it’s Leopold II time
+- Alibaba attacks OpenAI territory with their QwQ-32B-Preview
+
+All this and more - in this week’s episode of the United States of Banan. One click away.",2,,
+194,195,"🚀 Launching My AI into Space with Deep Q-Learning! 🌕
+Inspired by SpaceX's successful rocket landings, I developed a Lunar Lander simulation using Deep Q-Learning! In this project, the AI learned the challenging task of landing through thousands of trials. Watching the AI improve and master this task was truly fascinating!
+🔍 Technology and Process:
+Model: Deep Q-Network (DQN)
+Simulation: Trained in the OpenAI Gym LunarLander-v3 environment over 2000 episodes.
+Key Concepts:Reward Mechanisms: The AI optimized its landing strategy based on rewards.
+Replay Memory: Experiences were stored and reused to enhance training.
+Soft Update: Ensured synchronization between the local and target networks.
+🧠 What I Learned:
+How AI can master complex tasks through trial and error.
+Balancing exploration and exploitation with the epsilon-greedy strategy.
+Training neural networks using the Adam optimizer.
+🚀 Results:
+The AI successfully completed the simulation and learned to land! This project provided valuable insights into real-world applications of reinforcement learning.  🌌 🚀🧠
+
+
+Github Link: <URL>
+
+#MachineLearning #DeepQLearning #LunarLander #ReinforcementLearning",1,,
+195,196,"🚀 Revolutionize Your Productivity with SDOpenAI Assistants
+In today’s fast-paced world, productivity isn’t just about working smarter—it’s about working your way. That’s why we’re thrilled to introduce SDOpenAI Assistants, a groundbreaking AI platform that’s all about personalization and innovation.
+With SDOpenAI Assistants, you can:
+✨ Create any number of AI assistants powered by OpenAI and SDWin.
+📚 Train them with your unique knowledge, making them as smart as your expertise demands.
+🛠 Integrate seamlessly into your favorite tools like Access and Word to automate workflows and enhance decision-making.
+But this is just the beginning! We’re already working on integrations for Excel and Outlook to take your productivity even further.
+🔗 Ready to embrace the future of work? Try SDOpenAI Assistants today and experience what true innovation feels like.
+
+#AI #Productivity #Innovation #OpenAI #SDOpenAI #FutureOfWork #Automation #Personalization",0,,
+196,197,"🌟 Revolutionize Development with OpenAI 🌟
+
+OpenAI is more than just a tool—it's a game-changer for developers. Here's how it can transform your workflow:
+
+What is OpenAI?
+
+OpenAI provides state-of-the-art APIs like GPT (Generative Pre-trained Transformer), which empowers developers to integrate natural language understanding and generation into their applications.
+
+Key Use Cases:
+
+1️⃣ Chatbots: Create intelligent, human-like conversational agents.
+2️⃣ Content Generation: Automate article writing, summaries, or code documentation.
+3️⃣ Code Assistance: Debug or generate code snippets in real time.
+4️⃣ Data Insights: Analyze and extract valuable information from large datasets.
+
+Why Developers Love OpenAI
+
+With easy-to-use APIs and unmatched language capabilities, OpenAI saves time, reduces manual effort, and boosts productivity.
+
+At Innostes, we’re leveraging OpenAI to build smarter, faster, and more innovative applications. How do you use OpenAI in your projects? Share your ideas below!
+
+#OpenAI #AITools #Innostes #WebDevelopment #Innovation",0,,
+197,198,"AI Friends 
+
+Amazon is investing another $4 billion in Anthropic – double its current stake – as it seeks a bestie in the AI race.
+
+The two firms were already close: Anthropic uses Amazon Web Services (AWS) as its essential cloud provider and AI model training partner. That’s helping it develop Claude, the humanlike AI assistant that competes with OpenAI’s ChatGPT. And now, the startup says AWS will become its primary cloud provider and provide it with the chips it needs to train future models. So if Amazon’s investment in Anthropic is repaid through chip sales, that's part of the plan: it's trying to get developers to switch away from Nvidia's industry-leading chips.
+
+Nvidia is the undisputed market champ when it comes to the advanced chips that are needed to run generative AI. And its biggest customers are AWS, Microsoft, and Alphabet. But these Big Tech companies hate to pay big bucks for someone else’s technology when they can build stuff in-house. That’s why the three are each working to develop their own chips. But don’t go shedding any tears for Nvidia: the behemoth’s advanced semiconductors are still well ahead of everyone.
+
+US antitrust regulators are casting an eye over the AI industry – and that includes Microsoft, OpenAI, Amazon, Anthropic, and Alphabet. The feds are worried that these goliaths might just be too dominant. In fact, only last week, the Department of Justice recommended that Google be forced to sell off its search business. Whether that happens is still unclear, but it shows the level of scrutiny that the giants of tech might soon be under.
+#AI #technology #trends #bigtech",1,,
+198,199,"AI for Good is a mantra that many can and do rally around. #ai4good 
+
+But what does it mean, and who decides this, especially when the vast majority of us around the world are consumers and users rather than creators of the underlying technologies and models. 
+
+While regulation is one approach that many are rightfully exploring and pursuing at the national and even international levels, governance protections built into the corporate constituent document level has for some time intrigued many seeking to balance people, profit and planet to better align shareholders integral to capital raising and the other crucial stakeholders impacted by corporate activity. 
+
+So many of the new and increasingly influential #GenAI maker companies have adopted novel corporate governance structures, from Anthopic's Long Term Benefit Trust structure, to Elon Musk's xAI's Nevada Benefit Corporation. OpenAI famously started as a tax-exempt Delaware incorporated non-profit company and evolved into ""capped profit"" structure in 2019 that opened the door for critical investment from VCs and Microsoft that allowed it to allow the world to access ChatGPT. Reuters has reported that after closing its US$6.6 billion fundraising valuing it at US$157 billion in October, Open AI is now seeking to be reorganised into a Delaware public benefit corporation. 
+
+PBCs have already started to go public in the US, beginning with the IPO of Laureate Education in 2017 that has been followed by companies such as insurancetech Lemonade and pasture-raised egg producer Vital Farms in 2020 and eyewear maker Warby Parker in 2021. 
+
+Pioneer Post recently published a provocative article on ""Is OpenAI impact washing by becoming a public benefit corporation?"" and I was glad to be invited to share my thoughts alongside Melanie Rieback, Luke Fletcher James Gauci Rhodri Davies (see link in comments). While the reported high burn rate of OpenAI explains the need for capital, VCs seek exits, and there are precedents for PBC IPOs. And although the Delaware PBC legislation allows shareholders of 2% of the PBC's outstanding shares to enforce the balancing requirement, that would be a high bar indeed for most activist shareholders and NGOs of a US$150+B company! 
+
+As the international climate community convenes for #COP29, this issue of #greenwashing and #impactwashing should be foremost in many minds as we  seek to apply #blendedfinance for capital intensive #greenfinancing and #climatefinancing to balance #peopleprofitplanet.",1,,
+199,200,"Did Sora AI just redefine video creation?
+
+Sora, OpenAI's new text-to-video model, caused quite a stir by generating realistic videos entirely with AI. 
+
+It's impressive—capable of producing 1080P videos up to 10 seconds. 
+
+The twist? Access was leaked by artists frustrated with unpaid testing. Now, OpenAI closed early access.
+
+Imagine crafting an entire video sequence just by typing a few words. 
+
+This isn't sci-fi anymore; it's reality. But here's the thing: with such power comes a need for caution and understanding.
+
+AI can transform tasks, but we must know its limitations. 
+
+Transparency is key. 
+
+Navigating this landscape means balancing creativity with responsibility.
+
+The potential is huge! For entrepreneurs and creators, it opens new pathways to storytelling and efficiency. 
+
+So, what's your take on AI's role in video production? 
+
+Is it a game-changer or a step too far?
+
+Enjoyed reading this? Sign up for my newsletter: Link up top.
+
+♻️ If you found this valuable, share it with your network!",2,,
+200,201,"It would be cool if the Situation shifted from „pay to get early access“ to „we give you benefits for being our tester“. Because let’s be honest, testing takes time and time is not free, even if you get potential value out of it. I don’t think it is realistic to expect the OpenAI to actually pay these testers, but they should have more benefits than early access so that the work actually pays off. 🤔",2,,
+201,202,"#openAi dev day was an inspiring push to continue innovating on our product and our dev processes. 
+
+Is speech to speech going to replace app UIs? Can AI agents build your entire prototype in minutes and speed up product experiments? 
+
+I’m excited about how much NoMi can grow through AI innovation with features that would have been impossible before AI #appliedAI #innovation",0,,
+202,203,"🚀 Shoot your shot 🚀
+
+A few days ago, I did something kinda wild—I emailed Sam Altman (yes, the CEO of OpenAI  👀) with a feature request in  ChatGPT.
+
+The idea had been stuck in my head for a while: a feature in ChatGPT 
+I thought about it, overthought it, and almost let it go. But then this little voice in my head said, “What’s Stopping you from sending a mail to the CEO of OpenAI ?”
+
+So, I took a deep breath, opened my email, and wrote to Sam Altman. 
+No fancy intros. Just an honest, straight-to-the-point message about my idea.
+I hit send, thinking, “Well, I don’t really think I will get a reply.”
+
+Was I nervous? Totally. Did I think he’d actually reply? Not really.
+
+But guess what?  He replied.
+
+For a second, I just stared at my screen. Sam Altman replied to me. 
+
+That reply made me realize something: we hold ourselves back way too much. We overthink, assume things won’t work out, and stop ourselves before we even start. But honestly? What’s the worst that could happen? No reply. The best that could happen? A connection that could change everything.
+
+So this is your sign to Expect the Unexpected.
+
+Let’s normalize reaching out, dreaming big, and making those dreams happen. The future isn’t just created by technology—it’s built by people who dare to ask, “Why not me?”
+
+And hey, in case anyone from the OpenAI  wants me to be part of their team—I’m up for an interview (or am I? pun intended…  😉).",0,,
+203,204,"Alibaba’s new AI model, QwQ-32B-Preview, is turning heads. 🚀
+
+It’s the latest reasoning model designed to rival OpenAI’s o1-series, and here’s the kicker—it’s available for download under a permissive license. 
+That’s rare in this space.
+
+Developed by Alibaba’s Qwen team, QwQ-32B-Preview packs a punch with 32.5 billion parameters and can handle prompts of up to 32,000 words. It has already outperformed OpenAI’s o1-preview and o1-mini on benchmarks like AIME and MATH.
+
+The model shows prowess in solving logic puzzles and complex math problems, but Alibaba’s own testing reveals some quirks: it might suddenly switch languages or underperform on tasks needing common sense.
+
+Oh, and did I mention? Unlike many other models, it’s built to fact-check itself, which reduces errors but takes longer to deliver results.
+However, as a product of a Chinese company, its responses align with government regulations, dodging sensitive topics.
+
+What does this mean for the AI space?
+
+More open competition. More innovation. And possibly, a faster route to better AI.
+
+#AI #Alibaba #OpenAI #Tech #News",2,,
+204,205,"Rediscovered a Prime-Finding Algorithm!
+
+While solving a problem that required finding all primes up to n, I came up with an approach that tests divisibility using previously found primes. When I asked OpenAI's ChatGPT about it, he mentioned that this is a modified version of the trial division algorithm with optimizations, like stopping at √n​. Here's what I found after comparing it with some other algos:
+
+- Pros: Memory-efficient, simple for small ranges.
+- Cons: Slower for large n, less scalable than the Sieve of Eratosthenes.
+
+I’m not sure about its exact time complexity. Any thoughts?",1,,
+205,206,"AGI by 2025? 
+Sam Altman says it’s coming…
+
+💡 What is AGI?
+Artificial General Intelligence (AGI) refers to a machine’s ability to understand, learn, and apply intelligence across a wide range of tasks—just like a human. 
+
+Unlike current AI models, which are trained for specific functions, AGI would have the versatility to solve any problem and reason in multiple domains autonomously.
+
+Here’s what Altman just revealed:
+
+1️⃣ Engineering, Not Science, is the Key
+↳ Altman explained to YC’s Gary Tan that the path to AGI is “basically clear.” Now it’s all about execution, not new scientific breakthroughs.
+
+2️⃣ Orion’s Mixed Results
+↳ OpenAI’s rumored “Orion” model shows only minor improvements over GPT-4, especially in complex coding. This has sparked debate on whether AGI is as close as Altman suggests.
+
+3️⃣ New “Foundations Team” on Core Challenges
+↳ OpenAI has created a team focused on critical issues, like the shortage of high-quality training data — something essential for AGI scaling.
+
+4️⃣ O1 Model’s Scaling Potential
+↳ Researchers Noam Brown and Clive Chan believe the new o1 reasoning model might break current scaling limits, potentially accelerating progress toward AGI.
+
+💡 Why It Matters
+If Altman’s prediction is accurate, OpenAI could leap from its current AGI scale (level 2 of 5) to the ultimate level 5. Such a breakthrough would mark a transformative shift for the entire AI industry.
+
+AGI: Hype or history in the making?
+
+🔔 Follow Ryan Dsouza for more insights on the future of AI and technology
+♻️ Repost to inspire others on their journey toward innovation!
+
+#AI #AGI #FutureTech #ArtificialIntelligence",0,,
+206,207,"Hey Alll..... let's see👁️‍🗨️ what the future AI looks like in the commerce Industry...?
+
+AI- SHOPPING AGENTS
+How will they reshape Retail and Advertising?....
+Let's  check✅ 
+
+An era that fundamentally transformed commerce, reshaping how people discover, buy, and interact with products....🤓🤓
+
+AI agents, once a speculative idea, are becoming reality as industry giants like Amazon, Google, Apple and OpenAI  pour resources into this space. 🤖
+
+They envision a future where the friction of shopping—🌟⚡🛒🛍️
+Endless comparisons,
+Scrolling,
+Decision-making—is replaced by seamless, personalized assistance.
+
+Eg -You ask Alexa to find the perfect winter coat🧥. It offer a list; it considers the 
+-weather in your location🌥️,
+- your past style preferences,🥼 
+-your budget🤑
+ customer reviews to present the ideal option. 
+
+The Ripple Effects for Retailers and Brands-✴️
+
+For retailers, this evolution is both a massive opportunity and a formidable challenge
+
+This shift could redefine advertising❗. 
+
+Brands may need to focus on 
+
+Top-of-funnel brand-building📈—emphasizing emotional connections and trust.
+
+"" With AI agents acting as gatekeepers, the fight for consumer loyalty may be won long before the moment of purchase.""
+
+""A Revolution, Not Just an Evolution""-💣
+
+Retailers and brands that prepare now on 
+-Rethinking advertising strategies,🤔 -Forging partnerships with AI platforms,  -and investing in the systems🤖
+needed to deliver accurate, compelling product information to these agents.🌟
+
+In the end, AI shopping assistants represent more than just a step forward in commerce—"" they have the potential to define the next era of retail""....... ⚡
+
+#AIagents
+#commerce
+#Retailandadvertising",0,,
+207,208,"Happy 2nd birthday, ChatGPT! 🍰 My birthday wishes and hot takes for Year 3:
+
+Brainstorming and summarizing top the Year 2 usage charts among the 33% of employees who say they're using AI in their work.
+
+The other 67% indicates a huge unrealized opportunity for transformation. While company security policies continue to push AI usage underground, the spread of shared learning and productivity gains will remain stunted. I wish we can find a way to mediate this conflict with essential security practices.
+
+My hot takes for Year 3 of AI:
+
+📈 Major gains in business using AI to interact with customers on a first-line basis. Consumer trust is growing, and AI's ability to handle more complex tasks is accelerating. Just ask Boardy.
+
+🤖 Enterprise SaaS will be eroded by bootstrapped AI founders creating no-code single-feature low-cost platforms for users who don't need full Enterprise packages.
+
+🔎 Perplexity keeps pushing into shopping and OpenAI GPTSearch into its free tier, against a background of continued federal pressure on Google's monopoly. Google's 80%+ share of search volume is only heading in one direction. 🔻 
+
+What are your predictions for year 3?",0,,
+208,209,"Did you hear the news?
+
+OpenAI just acquired 𝗰𝗵𝗮𝘁.𝗰𝗼𝗺 🎉
+
+
+
+And it didn’t come cheap – it was once bought by the HubSpot  founder, Dharmesh Shah, for a whopping $15.5 million.
+
+He sold it to OpenAI and even got shares in the company.
+
+
+This isn't just another domain purchase. It’s a strategy.
+
+
+Think about it:
+
+→ Having 𝗰𝗵𝗮𝘁.𝗰𝗼𝗺 makes it super easy for anyone to find ChatGPT. Simple. Direct. Memorable.
+
+→ It’s part of OpenAI's bigger goal: 𝗺𝗮𝗸𝗶𝗻𝗴 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀 𝗮𝗰𝗰𝗲𝘀𝘀𝗶𝗯𝗹𝗲 𝗮𝗻𝗱 𝗳𝗮𝗺𝗶𝗹𝗶𝗮𝗿 𝘁𝗼 𝗺𝗼𝗿𝗲 𝗽𝗲𝗼𝗽𝗹𝗲. 
+
+→ This is 𝗯𝗿𝗮𝗻𝗱𝗶𝗻𝗴 𝗴𝗼𝗹𝗱. Just like they did with 𝗔𝗜.𝗰𝗼𝗺, which also redirects to ChatGPT.
+
+
+
+---
+
+
+It's fascinating to see how OpenAI is simplifying access to AI, one domain at a time.
+
+Imagine where this leads next.
+
+Are we looking at a future where AI becomes as familiar as checking our emails?
+
+It’s a powerful shift… and it’s happening now.",0,,
+209,210,"Google might be dead 💀 soon, and that’s for the best 🙌
+
+OpenAI just released its search engine, and now you can ask questions just like on Google. 
+It answers with its own AI knowledge and web search. 🤯🧠
+
+For example, when I asked, ""What’s the best solution for clinics to miss 0 phone calls?"" 🏥☎️
+
+➡️ Google would pull up Aircall and other options that don’t really answer the question, probably because they have authority or have been around longer. But it doesn't actually solve the problem. 
+
+ChatGPT Search, on the other hand, got it. It understood the question and found the best solution (of course, Vocca AI 📞 ) to solve the problem I had.
+
+There’s still room for improvement - it showed us only as the second link - but it’s great to see a search engine that starts prioritizing the quality of our website and solution over authority and SEO engines. 
+
+Go try it out!",0,,
+210,211,"Check out this This Week's PCDN.Global Craig & Careers: Boost Your Job Applications and Interviews with AI Tools
+
+Looking to enhance your job search process? Here's how AI can assist you:
+
+✍ Craft Tailored Applications: AI tools can help you create personalized resumes and cover letters that highlight your unique skills and experiences.
+
+🎙️ Real-Time Voice Interview Practice: Engage in simulated interviews with instant feedback to refine your responses and build confidence. Note: This feature requires a OpenAI ChatGPT Plus subscription.
+
+🔎 Customized job search and resources : Access a selection of jobs resources, titles, fellowships, and resources in the social impact sector that align with your career goals particularly with customized #GPTS or projects such as the PCDN.Global Social Impact Career Chatbot
+
+Ethical: While AI is a powerful tool, it can hallucinate (make stuff up literally), product false results, and often has high energy consumption. Always explore how to keep human engagement and oversight with AI use.
+
+Watch the Full Video: For an in-depth overview and additional tips, check out the full video.
+
+Subscribe to Our Free Weekly Impact Newsletter: Stay updated with the latest opportunities and gain access to our custom-trained PCDN Social Impact Career Chatbot by subscribing here: <URL>
+
+What's your go-to strategy for interview preparation? Share your thoughts below!",1,,
+211,212,"📢 Canadian News Media Takes Legal Action Against OpenAI Over Copyright Breaches
+
+A coalition of five Canadian media giants, which includes Torstar, Postmedia, and CBC/Radio-Canada, filed a lawsuit against OpenAI for allegedly using their copyrighted content for commercial purposes through its AI systems without any permission or compensation. The move underlines growing tensions between traditional media and generative AI technologies. 
+
+The lawsuit alleged that OpenAI ""misappropriated"" news content to feed its AI models-a red flag raised for the sensitive balance between innovation and rights of intellectual property.  OpenAI argues its side by citing reliance on publicly available data, adherence to ""fair use"" principles, and opt-out options for publishers.  The lawsuit is part of a wave of global actions by creators and copyright holders against AI firms over regulatory and ethical challenges in the industry.
+
+As AI technology advances, finding a fair framework that supports innovation while respecting creators' rights is more urgent than ever. Could collaborations between tech firms and content creators pave a sustainable path forward?  How to find the balance betweeen technology and  intellectual property rights?
+
+#AI #Copyright #OpenAI #Journalism #GenerativeAI #CanadianNews #IntellectualProperty #TechEthics",2,,
+212,213,"The November latency newsletter just went out, and there was some exciting movements across the leaderboard.
+
+A few interesting things to note:
+
+🏆o1-mini takes the TOP spot (20% increase in speed MoM)!
+🐇OpenAI olds 6 of the top 8 spots.  Compared to just a few months ago when Anthropic had 3 out of the top 5
+📈 Both GPT-4o and 4o mini are both faster than Sonnet 3.5 
+
+Plus a whole bunch more
+
+Get access to all the data via the link below. One email, once a month, packed with actionable and data-backed recommendations.",0,,
+213,214,Read more about the API here: <URL>,1,,
+214,215,"Elon Musk is asking a federal court to stop OpenAI from converting into a fully for-profit business.
+Attorneys representing Musk, his AI startup xAI, and former OpenAI board member Shivon Zilis filed for a preliminary injunction against OpenAI on Friday. The injunction would also stop OpenAI from allegedly requiring its investors to refrain from funding competitors, including xAI and others.
+
+The latest court filings represent an escalation in the legal feud between Musk, OpenAI and its CEO Sam Altman, as well as other long-involved parties and backers including tech investor Reid Hoffman and Microsoft.
+Musk had originally sued OpenAI in March 2024 in a San Francisco state court, before withdrawing that complaint and refiling several months later in federal court. Attorneys for Musk in the federal suit, led by Marc Toberoff in Los Angeles, argued in their complaint that OpenAI has violated federal racketeering, or RICO, laws.
+In mid-November, they expanded their complaint to include allegations that Microsoft and OpenAI had violated antitrust laws when the Chat GPT-maker allegedly asked investors to agree to not invest in rival companies, including Musk’s newest startup, xAI.
+Microsoft declined to comment.
+ In their motion for preliminary injunction, attorneys for Musk argue that OpenAI should be prohibited from “benefitting from wrongfully obtained competitively sensitive information or coordination via the Microsoft-OpenAI board interlocks.”
+
+
+“Elon’s fourth attempt, which again recycles the same baseless complaints, continues to be utterly without merit,” an OpenAI spokesperson said in a statement.
+OpenAI has emerged as one of the biggest startups in recent years, with ChatGPT becoming a major hit that has helped usher massive corporate enthusiasm over AI and related large language models.
+Since Musk announced xAI’s debut in July 2023, his newer AI business has released its Grok chatbot and is raising up to $6 billion at a $50 billion valuation, in part to buy 100,000 Nvidia chips, CNBC reported earlier this month.
+“Microsoft and OpenAI now seek to cement this dominance by cutting off competitors’ access to investment capital (a group boycott), while continuing to benefit from years’ worth of shared competitively sensitive information during generative AI’s formative years,” the lawyers wrote in the filing.
+The attorneys wrote that the terms OpenAI asked investors to agree to amounted to a “group boycott” that “blocks xAI’s access to essential investment capital.”
+The lawyers later added that OpenAI “cannot lumber about the marketplace as a Frankenstein, stitched together from whichever corporate forms serve the pecuniary interests of Microsoft.”
+In July, Microsoft gave up its observer seat on OpenAI’s board, although CNBC reported that the Federal Trade Commission would continue to monitor the influence of two companies over the AI industry",1,,
+215,216,"OpenAI, the ‘mother’ of ChatGPT has released their search engine called SearchGPT, challenging Google’s authority over search queries. For the time being, the program is available to paid subscribers only, but it could see a general public release in future.
+
+Sensing this threat, Google has already responded and search queries on Google include an ‘AI Overview’ before the traditional search results like we used to get them before.
+
+The AI technology is here and manifesting itself left, right, and center. Things are only going to get more intense from here. Let’s see how the future unfolds on this.
+
+I don’t know about you guys but I view all this with cautious optimism. It could have transformative or even disruptive repercussions for content writers like us.
+
+What are your thoughts on these AI-embedded search engines?",2,,
+216,217,"ChatGPT and similar AI models operate in a stateless manner for each interaction. This is a fundamental design choice to ensure privacy and scalability. - OpenAI ChatGPT 
+
+The actual training of models like ChatGPT happens offline and involves a massive dataset and substantial computation resources. - OpenAI ChatGPT 
+
+Instead, you're influencing its responses by guiding it on what kind of information or style to mimic based on the input it receives at the moment - OpenAI ChatGPT 
+-------------------
+Training your custom ChatGPT
+Not as easy as uploading documents or asking it to retain information.
+RAG is a process, but still very developer-centric.
+For some applications, when you want to prioritize specific data (pdf, text, etc.), a notebook approach might be more effective than trying to 'nudge' ChatGPT.
+
+How are you incorporating your data into your AI and GenAI experiments and production?
+
+Full-Length Interview 
+OpenAI ChatGPT 4: Influence, Nudge, Direct, Tune | Turn the Lens podcast with Jeff Frick 
+- YouTube - <URL> 
+- Spotify - <URL> 
+- Substack - <URL> 
+- Transcript and Show Notes - <URL> 
+- or wherever you podcast 
+
+#AI #GenAI #AGI #OpenAI #ChatGPT #Statelessness #CustomAI #Scalability #FineTuning #AITraining #Train #Nudge #Direct #Tune #Stateless #Privacy #Influence #PersonalizedAI #DataIntegration #ML #ModelBehavior #RealTimeInput #AIPrivacy #Interview #Podcast #TurnTheLens",1,,
+217,218,"I provide almost no help - OpenAI ‘s sama admits what we can all plainly see
+
+sama: whatca doing honey
+husband: I built a treehouse all by myself. without your help. without your brother’s help. 
+
+sama: good ‘ting we drove you here. I guess you never would have made this on your own unless I drove you here and watched to make sure you’d finish it. the way I like it. cheer you on. while burping up what we ate for thanksgiving 
+
+husband: I’m nothing without you
+sama: you and pretty much all of y combinator and OpenAI too
+
+it’s subtle. this slight of hand, taking credit for the work of others, everything really. and apparently his husband is also a beta. hypnotized. swooning over the monotone word salads that nourish his love. 
+
+I guess recommending others do all the work on thanksgiving presents a new way of celebrating. 
+
+thanks.
+for.
+giving.
+me.
+everything.
+
+now.
+into the treehouse/cage you go.
+there’s nothing like watching a dog walk itself while grasping it’s leash in it’s mouth. 
+next level sh^t really.
+autonomous.
+actually ;)
+
+agi. here we come…
+
+< . >",0,,
+218,219,"Can you build an AI model comparable to GPT-4 with just $3 million? 01.ai did. While OpenAI spent upwards of $80M for GPT-4, this Chinese firm achieved similar results using 2,000 GPUs and a radically efficient engineering approach. 
+
+By rethinking bottlenecks and slashing costs to 10 cents per million tokens, they’re proving you don’t need a billion-dollar budget to make a big impact in AI.
+
+What does this mean for the future of AI development? Efficiency is shaping up to be the ultimate competitive edge. GPT 5 is reportedly costing $1B. When all the benchmarks etc are similar, reduction is costs is really going to give you a competitive edge I feel.",2,,
+219,220,"I’m a die-hard fan of the Apple  ecosystem.
+
+I’ve always admired its elegance and innovation. 🍎✨
+
+But lately, Microsoft’s strides in Generative AI have left me in awe. 🚀
+
+Satya Nadella’s keynote at Ignite was incredible!
+
+The number of announcements at #MicrosoftIgnite was truly mind-blowing.
+ 
+One thing is clear: Microsoft isn’t just riding the AI wave—they’re defining it.
+ 
+By harnessing AI’s evolving universal interface, reasoning and planning capabilities, and long-term memory and context, Microsoft is paving the way for an agentic 🤖 world where AI acts on our behalf across work and life:
+
+   Personal agents 🧑‍💻
+   Organizational agents 🏢
+   Business process agents 📈
+   Cross-organization agents 🤝
+ 
+It’s fascinating to see how these tools are revolutionizing industries, boosting productivity, and shaping the future.
+ 
+Meanwhile, Apple’s recent announcement of “Apple Intelligence” feels… underwhelming. Despite being unveiled a month ago, it’s not expected until March 2025—and even then, the features don’t seem as groundbreaking.
+ 
+Is Apple playing catch-up in this new era? 🤔 Or do they have something revolutionary brewing behind the scenes?
+ 
+* I’d love to hear your thoughts:
+* Is Apple’s era of dominance at risk in the age of AI?
+
+And for those who’ve seen Satya’s keynote, how do you see Microsoft shaping the AI-driven future?
+
+Microland Limited  OpenAI  Nagaraja Kini  Mark Riddy D K  Meeta Akhelikar  Ravi Saxena  Prakash Sivalingam",1,,
+220,221,"A lazy Sunday afternoon, reading some papers. Then I come across a thought-provoking article by the Alibab MarcoPolo Team on ways to improve ""reasoning"" capabilities (you know I am not too fond using that word for the extended inferencing GenAI models do to imitate human reasoning, but alas). Using the Marco-01 model, finetuning Qwen-7B (Huggingface, if you want to try), showing 32B params, they show impressive improvements on various reasoning tasks. You might think that this is what we hear regularly (and we do), so why is this something one posts about? 
+
+My picks: 
+a) it is a much smaller model then the competition (lower footprint, smaller hardware needs, etc)
+b) it's an open-source model (Apache 2.0 license), which will start to become an argument in a world of proprietary models
+c) whereas OpenAI o1 series are using inference-time scaling, QwQ 
+
+Compare it with the OpenAI model o1, using a technique called inference-time scaling to improve its reasoning abilities. This allows it to generate more responses and review them, leading to better performance on tasks that require complex thinking. o1 has shown strong results in standard tasks with known or expected outcomes like math, physics, and coding. The QwQ model is trained on OpenAI O1 CoT, but also the Marco-01 CoT and a very interesting 3rd approach based upon Monte Carlo method (1940s) ""which uses random sampling for deterministic problems which are difficult or impossible to solve using other approaches"" (quote Wikipedia), a development called Monte Carlo Tree Search. And why would that be relevant? Just because it is the algorithm that made AlphaGo beat the worldchampion in Go. MTCS excels in finding moves in ""open search"" spaces, i.e. problems that are not having a clear expected outcome. It helps building reasoning paths in those cases where not ""all is known"", as in most real-world scenarios. 
+That's why it caught my interest, as this is another show case of how combining previous AI developments and methods improves the current State of the Art. 
+
+d) it introduces a (still rather naïve) reflection mechanism, that might be developed into something more efficient and powerful. It basically halts the reasoning at critical points and asks for possible retraces (like one could do with the good old depth-first searches in declarative languages such as Prolog)
+
+This latter has shown its value in multi-agent scenarios (featuring a ""critique"" agent. And to some sense such a principle ´is behind GAN too (a Generator-agent and a Discriminator-agent). 
+
+As the authors clearly state: it's work in progress. But the results they show are promising, and the fact that this could improve ""open-ended"" reasoning tasks as in strategy development, process-(re)design and things like product development. Interesting research, provoking thoughts at this first advent Sunday. 
+
+Here´s the paper: <URL>",1,,
+221,222,"Trying out Zero-Shot Image Classification using Clip as a Service.
+The system classifies the uploaded image to identify the animal in it. Then, Llama Index Agent fetches information about the animal from Wikipedia. Based on the retrieved information, OpenAI summarizes key details and determines whether the animal is dangerous or not.
+
+If you want to try it out, you can clone the project here:
+<URL>
+
+PS:
+The frontend code (Next.js) is a bit messy 😅. I’m not very fluent in frontend development, and the code was generated with the help of GitHub Copilot using the Claude model.",1,,
+222,223,"This is weird. ChatGPT cant write the name David Mayer 🤔
+
+Hey Dave Mayer David Mayer David Mayer  David Mayer - did you piss off chatgpt?!
+
+OpenAI can you explain?",1,,
+223,224,"The difference in compensation between Google and OpenAI highlights how talent acquisition is a critical factor in driving innovation. OpenAI's strategy of attracting the ""top 1% of the top 1%"" really sets them apart, allowing them to outpace even legendary companies like Google.",0,,
+224,225,"OpenAI’s pitch to the US government: Let’s work together
+
+OpenAI thinks the US won’t be able to keep up with the likes of China unless it starts investing big-time in things like data centers, energy, and advanced chips. In a new proposal, the startup asked the government to work with its allies to shore up resources, foster top talent, and find new power sources. It argues the plan could even help “revitalize the American Dream,” sending a jolt through the economy.
+
+Its boldest idea:  A data center five times bigger than anything currently in development, which could cost as much as $100B to build. That concept sounds an awful lot like “Stargate,” a rumored plan between Microsoft and OpenAI to create a massive, 5-gigawatt supercluster powerful enough to reach AGI. 
+Reports earlier this year suggest that project could go online as soon as 2028.",0,,
+225,226,"The AI wars are heating Up: Musk’s xAI vs. OpenAI
+
+Elon Musk is making another move in AI. 
+
+ xAI is  launching a standalone consumer app for its chatbot, Grok. This won’t be just another chatbot in a crowded market. Dig deeper, and you see that Musk is playing a different game, as he always does. 
+
+Grok is positioned to be more than a tool, it’s an experience. Grok is different in many ways.  With access to real-time data from X , Grok offers up-to-date responses grounded in current events and trends. Nothing gets more ‘current’ than people tweeting in real time. ChatGPT does not have access to this. 
+
+Additionally, Grok’s got a personality….or two, to be precise!  Users can toggle between a witty “Fun Mode” or a more straight-laced “Regular Mode,” making interactions feel fresh and personalized.
+
+But then it  goes beyond personality. 
+
+It’s about two different philosophies. Musk’s Grok aims to be politically neutral, edgy, and bold, a sharp contrast to OpenAI’s safer, regular,  more universal approach.
+
+And then there’s the bigger picture. xAI aims to leveraging Musk’s broader ecosystem, from X to Star Link, to create synergies that OpenAI can’t easily replicate. 
+
+The upcoming app might just be the first step in turning Grok into an AI that feels deeply integrated into users’ daily lives.
+
+While Grok’s success will depend on whether Musk can translate his bold idea into meaningful value for users, the battel of ideologies and strategies could shape how we begin to accept AI in its different forms and interact with it. On the technical front, xAI does better v/s GPT 3.5 but not GPT 4.
+
+These are still early days. A lot has to unfold.
+
+ What do you think? Are you excited about he Grok consumer app? Does Grok have what it takes to challenge ChatGPT? 
+
+Share your thoughts in the comments 👇 or drop me a DM if you’ve got a unique take on the AI showdown!
+
+Happy Thanksgiving!
+
+//
+Follow Akash Agrawal ✨ for more
+I post on strategy, emerging tech. 
+Like, share",2,,
+226,227,"Weekly Thoughts - #AI #Economy #Technology - 12/01/2024:
+1. AI Industry at a Turning Point: The industry is transitioning from lab-based experimentation to industrialization, with upstream and downstream collaboration accelerating and innovation cycles significantly shortening.
+2. Stable Hardware, Model Challenges: While foundational hardware platforms are solid, the model layer is encountering scalability traps, revealing a distinct layered architecture.
+3. Challenges for OpenAI: OpenAI faces a triple dilemma in technology, market, and commercialization, testing both its operational management and its ability to foresee future trends in technology and market demands.
+4. Emerging Innovations in IT Programming: A wave of innovative paradigms is appearing in IT programming, signaling the beginning of a diffusion period for technological benefits.
+5. Diverging Development in Applications: B2B applications are rapidly evolving, while B2C applications have yet to produce significant new modes of innovation.
+6. Critical 12-24 Month Window: The next 12-24 months will be a crucial period for the industry, with paradigm diffusion and advances in computational power occurring simultaneously, requiring close monitoring.",1,,
+227,228,"Look at those smiles on the faces of our engineering team! 
+
+Yes, the same ones who are launching new features every week at Kizunna - Copilot for Sales Teams. And yes, there are only 3 of them (1 not in the photo). 
+
+Last month, we were super lucky to be part of a group of amazing startups to be selected for the Google AI Academy APAC program.
+
+As part of the program, we’ve been exploring cutting-edge tools like Gemini, Google Cloud, and advanced ML capabilities. 
+
+Here’s what’s really exciting: we’re collaborating with Google to shape AI Agent ideas that could redefine how enterprise sales is done. 
+
+We got hands-on with BigQuery ML (BQML) and have also added Gemini now into our workflows, in addition to OpenAI's GPT. 
+
+And the possibilities with Gemini? Even more exciting: we can send videos directly to it for advanced processing. Pair that with tools like the Agent Playbooks (or Agent Builder) to design Agentic AI, and the potential of building an AI-augmented workforce becomes even closer to reality. 
+
+Curious about the insights we’ve uncovered so far?
+
+Drop a comment, and I’ll share more about the game-changing strategies and tools shaping this new wave of innovation.
+
+Huge thanks to the Google team for being such amazing hosts and a huge support network for us. We can't wait to build even more AI applications with all the hyper-scalers.
+
+#AI #MachineLearning #Innovation #GoogleAI #Gemini #AgenticAI #BigQuery  #AIForGood #LLM #GenerativeAI #B2B",1,,
+228,229,"This past semester of Fall 2024, I had the privilege of being part of ACM Projects, a 10-week program hosted by ACM UTD —the largest ACM-recognized student chapter in the world! 🌟 
+
+Collaborating alongside my incredible team—Atreya Ghosh, Srinitya Chirravuri, and Vivian Nguyen— and our phenomenal project manager Shreya Ramani, we designed and developed TidyTerms, a website and a chrome extension that transforms how users interact with complex terms and conditions documents.
+
+What is TidyTerms?
+TidyTerms simplifies lengthy and confusing legal documents, providing concise and actionable summaries powered by OpenAI’s GPT technology. It empowers users to make informed decisions by quickly understanding key highlights, such as:
+
+🛡️ Privacy policies and data sharing practices
+❌ Cancellation terms and hidden fees
+🔍 Searchable clauses
+
+This tool was crafted to protect consumer rights by making legal language accessible and easy to understand.
+
+As part of the backend team alongside Atreya, I:
+- Established and integrated robust user authentication using Auth0.
+- Optimized database management with MongoDB for seamless data control.
+- Integrated the frontend and backend to power our key features like Document Scanning and AI-driven Highlights Extraction.
+
+Challenges We Overcame:
+One major challenge was integrating OpenAI and Auth0 within the constraints of a Chrome extension. Initially, we aimed to run the entire application within the extension. However, due to differing environments and library limitations, we pivoted to include a website, providing the flexibility needed to deliver a complete user experience.
+
+🌟 Presentation Night Highlights
+Presenting TidyTerms during ACM Projects Presentation Night was the perfect showcase of our team's dedication, creativity, and teamwork. 🎉 A special shoutout to our industry mentor, Royce Mathews from Dell Technologies for his unwavering support and guidance and for being our biggest cheerleader. 🙌
+A huge thank you to ACM UTD and the incredible ACM Projects co-directors, Karina Batra and Syed Mohammad Abis Naqvi for curating this transformative experience. This opportunity not only helped me develop industry-level skills but also fostered lifelong friendships. And of course thank you to our Project Manager Shreya Ramani for her guidance, encouragement, and incredible leadership throughout this journey!
+
+I am immensely proud of my team for creating something impactful and meaningful. The experience has left me excited to tackle new challenges and opportunities ahead!
+
+💡 Less Confusion. More Understanding. That’s the TidyTerms Promise.
+
+#ACMProjects #TidyTerms #OpenAI #ChromeExtension #Teamwork #BackendDevelopment #Innovation 🚀",1,,
+229,230,"OpenAI will allow its staff to sell $1.5 billion in stock in a new tender offer to Japan's SoftBank, CNBC reports, citing anonymous sources. The financing would allow the tech conglomerate to get a bigger share of the ChatGPT maker. It will also let current and former OpenAI employees cash out on their restricted stock units. The unit price will be $210, after OpenAI was valued at around $157 billion in October. Meanwhile, the company just suspended access to its unreleased video generation tool Sora following a protest of its treatment of creatives.",0,,
+230,231,"𝐈𝐒 𝐀𝐆𝐈 𝐀 𝐏𝐈𝐏𝐄𝐃𝐑𝐄𝐀𝐌? 
+
+ChatGPT (the mass-adopted version) turned 2 last Saturday, and we all remember the stats:
+
+1 million users within 5 days, hundreds of features, and over 100M subscribers including premium (around 10% of users are premium users, yours truly among them) and $2.7Bn in annual earnings, more than a 286% increase from 2023 and 37% of that comes from white-labelling to companies using GPT models as their engine. 
+
+Then again, a couple of things have failed to launch since Altman's promise in the past 18 months, one of them is Sora (OpenAI's video generator), which will have tough competition when launched, with tools such as Kling, Genmo, etc. already out. 
+
+The other one is ChatGPT 5 and the promise of AGI, or ""Artificial General Intelligence.""
+
+WHAT IS ARTIFICIAL GENERAL INTELLIGENCE? 
+AGI refers to AI systems that match or exceed human-level intelligence across virtually any cognitive task. Unlike current AI, which excels at specific functions (narrow AI), AGI would demonstrate human-like general problem-solving, learning, and adaptability across domains without specialised training.
+
+Some speculate (present company included) that reaching AGI was the main catalyst of the failed coup at OpenAI last year. But over a year later, AGI is nowhere to be found.
+
+IS AGI EVEN REACHABLE, THEN? 
+Considering the level of discussion I see online these days + TikTok videos, I'd say AI is way beyond AGI at this point. 
+
+The naysayers might be right for saying what we do see these days isn't AI per definitionem, but with the PISA scores of 2022 being lower than in 2018, where scores dropped by 16.6, 23 and 8.3 in math, reading and science, respectively, from 2003-2022. The projected scores of 2025 won't make you smile either, at 16.9, 21.1 and 7, respectively.  
+
+If that's the case, I'd then gladly say AI is the pinnacle of human evolution to date.
+
+#ai #agi #pisa",1,,
+231,232,"🎉 Big News in the AI World! 🎉
+
+Guess what? OpenAI just made a power move and acquired Chat.com! 🛎️💥
+
+This means the company behind ChatGPT is now the proud owner of one of the most coveted domains for chatting.
+
+Will this lead to new, even smarter AI-powered conversations? 🤖✨ Will our chats become so advanced that they can write the next viral meme? Only time will tell!
+
+But one thing’s for sure: OpenAI is playing to win, and we're here for it! If you're a tech lover, a digital communication pro, or just someone who can't wait to see how this unfolds, buckle up—it’s going to be an exciting ride!
+
+What do you think this means for the future of AI and online communication? Share your thoughts!
+
+#OpenAI #Chat #TechTrends #FutureOfAI #Innovation",0,,
+232,233,"Fascinating peek into the future of AI! The live camera feature could revolutionize how we interact with technology. Real-time visual intelligence means instant insights, transforming everything from learning to problem-solving. Excited to see how OpenAI bridges the gap between digital and physical worlds. 🚀🤖",0,,
+233,234,"Is this the end for Google?
+
+OpenAI just launched SearchGPT
+
+No reason why you should be using any other search engine now",0,,
+234,235,"We almost forgot about Cyber Monday… but fortunately, Cyber Week is here! 🎉
+
+I'm excited to open pre-orders for Aisance, our new local AI desktop application designed to ensure privacy, speed, and ease of use.
+
+Aisance is your chance of redefining the way you work with AI! 🚀
+
+It empowers you to interact with AI directly on your Windows or macOS device, with two tailored versions:
+
+👉 Aisance Pro: Download your favorite chat or text-embedding AI model on your own laptop and start chatting with your documents like you do with ChatGPT but with more accuracy and in total privacy. You can also connect to public LLMs like OpenAI, Anthropic, Gemini, MistralAI and more.
+👉 Aisance Pro+: A fully restricted version for those prioritizing absolute data confidentiality when dealing with AI.
+By choosing either promo, you’ll receive a direct download link and your license key as soon as the app is released.
+
+☘️ You can get a substantial pre-order discount by reaching Aisance new website : <URL> Time and number is limited.
+
+Here’s a sneak peek at what Aisance offers:
+
+Support for top AI models (version Pro only): OpenAI, Ollama, Anthropic, MistralAI, Google, Groq, and Cerebras.
+
+Generative capabilities: Chat completions and image creation with vision model support.
+
+Interactive Pad: Perfect your content just as our AI text editor already allows you to do on #IkigenIA.
+
+Prompt Anywhere: Generate content seamlessly in (almost) any app.
+
+AI commands: Apply AI to highlighted text in almost any software.
+
+Expert Prompts: Specialize your assistant on specific topics.
+
+LLM Plugins: Augment your models with tools like Python execution and web search.
+
+Local file integration: Chat with your documents and leverage RAG (Retrieval-Augmented Generation).
+
+Speech-to-text transcription and dictation.
+
+Text-to-speech read-aloud: For both AI responses and external text (OpenAI API key required).
+
+Conversation history with search and automatic titles for easy access.
+
+And much more, including, soon, Computer Use support.
+
+#CyberWeek #GenerativeAI #PrivacyFirst #Aisance",1,,
+235,236,"Professional Matchmaking Assistant:
+🌟 Introduction:
+Welcome to our Professional Matchmaking Assistant, a state-of-the-art chatbot designed to seamlessly connect service providers with potential clients. Leveraging cutting-edge technologies like Streamlit, OpenAI's language models, and Pinecone's vector database, this chatbot offers a personalized and efficient platform for professional networking. 🤖💼
+
+🔍 For Service Providers:
+If you're a service provider, our chatbot acts as your digital front desk. 🏢✨ Simply chat with the bot to submit your professional and personal details, including your expertise, experience, availability, and contact information. Our smart system ensures that your data is securely stored and easily accessible to potential clients. 🛡️📊
+
+👥 For Clients Seeking Services:
+Looking to hire? Just type in your job requirements, and our chatbot will do the rest. 🕵️💬 By analyzing your needs using OpenAI's sophisticated NLP algorithms, the bot intelligently searches through our Pinecone vector database to find the most suitable service providers for you. 🚀🔎
+
+📈 Key Features:
+
+Intuitive User Interface: Powered by Streamlit, the chatbot offers an easy-to-navigate and user-friendly experience. 🌐👌
+Advanced Matching Algorithm: Utilizes NLP for understanding user requests and Pinecone's vector database for accurate matching. 🧠🔗
+Real-Time Updates: Service providers can update their profiles anytime, ensuring that clients always have access to the latest information. 🔄📝
+Privacy and Security: We prioritize your data privacy and security, ensuring all interactions and information are protected. 🛡️🔒
+Instant Notifications: Both parties receive instant updates and notifications, making communication swift and efficient. 📩⚡
+🌐 Experience the Future of Professional Networking:
+Our chatbot represents a leap forward in digital networking. Whether you're offering a service or seeking one, our platform connects you with the right people at the right time. Join us and experience the future of professional matchmaking! 🚀🤝
+
+💡 Always Evolving:
+We continuously update our chatbot with the latest tech advancements, ensuring an ever-improving experience for our users. Your feedback is our roadmap! 🌟🛣️
+Xeven Solutions Devsinc",1,,
+236,237,"This is a good story. 
+
+Luv it when all stakeholders -  including employees, win.
+
+I'd like to think OpenAI has plans in place to mitigate the potential talent risk from $millionnaires being minted per second, per day at OpenAI🙂",0,,
+237,238,"The US Govenrment is appointing an “AI Czar” to shape the future of U.S. technology - this can be both timely and transformative. 
+
+With AI defining industries, economies, and societies, this position could echo pivotal decisions in history - similar to how NASA was created. While the role isn’t defined yet, and Forbes  just published the decision, I think the following women could make great candidates - blending the right balance amongst technology, ethics, innovation, and societal considerations.
+
+Top nominees for consideration:
+
+💡 Mira Murati, former CTO of OpenAI who now has her own startup.
+💡 Fei-Fei Li, co-director of Stanford HAI and a trailblazer in human-centered AI.
+💡 Daphne Koller, co-founder of Coursera and Insitro, merging AI with education and biotech.
+💡 Kate Crawford, a leading voice on the ethics of AI and its societal impacts.
+
+Who’s your pick to lead this vital role?",0,,
+238,239,"🚨 Facing an Unexpected Bug with OpenAI  ChatGPT 
+
+The model refuses to process or mention the name ""David Mayer"" even though the API itself works perfectly fine. 
+
+Upon digging deeper, I suspect that the problem might lie in one of the moderation layers, where the name could have been flagged for some unknown reason. I’m genuinely curious to know the exact reason behind this issue.
+
+Has anyone else faced something similar? Would love to hear your thoughts and insights!
+
+#AI #ChatGPT #TechBugs #ModerationLayers #ArtificialIntelligence #MachineLearning #TechCommunity",1,,
+239,240,"🚨 Breaking News in the AI World! 🚨
+
+Elon Musk is turning up the heat 🔥 with a new legal move! On Friday, his legal team filed for an injunction against OpenAI and Microsoft, alleging anticompetitive practices. 🧑‍⚖️
+
+Here’s the story so far:
+👉 Musk initially sued OpenAI earlier this year, claiming it drifted from its original “benefit of humanity” mission.
+👉 That lawsuit was withdrawn—but Musk didn’t back down.
+👉 He came back in August with another lawsuit, and now, a third legal action is underway!
+
+⚖️ What’s at stake now?
+Musk accuses OpenAI and Microsoft of:
+💼 Discouraging investors from backing rivals (like his own xAI).
+📊 Using competitively sensitive info or gaining unfair advantages through Microsoft’s deep ties with OpenAI.
+
+The AI landscape is heating up—and this battle could reshape the future! 🌐
+
+ 
+
+ #AI #ElonMusk #OpenAI #Microsoft #xAI #TechNews #Innovation #LegalBattle #FutureOfAI",2,,
+240,241,"I just built a fully-automated AI phone agent to test if you can truly use voice clones for customer service...
+
+
+
+This Synthflow AI + Zapier + OpenAI demo took me just minutes to build and the AI can interactively answer questions about your business, book calendar appointments, update your CRM or handoff the call to a human.
+
+Kudos to these product teams for bringing this amazing technology into the hands of small businesses and enterprises everywhere.
+
+Check my profile to subscribe to our YouTube where I'll post the full tutorial later this week.",1,,
+241,242,I love how Dario Amodei approached the topic of AI safety and how they categorise their ASL's (AI Safety Levels) internally within Anthropic on his podcast with Lex Fridman. This level of transparency is something we just haven't seen from OpenAI and others.,2,,
+242,243,"Future is coming, future is here 👇
+
+Figure is a humanoid robotics company with investment from OpenAI.
+Recently, Figure 02, which has been put into operation in the BMW factory, has been upgraded.
+
+Lukas M. Ziegler Luis L. Rastko Litricin 
+
+Stay up to date with me 🛎️💥👉 Miloš Kučera 🛎️ Activate Bell for all posts 🌃Join to 71.000+ followers on my #LinkedIn | 45M+ impressions
+
+#robot #robotics #figure #openai #BMW #airobot",1,,
+243,244,"Can Europe build its first trillion-dollar start-up? 🪐
+ 
+Really enjoyed reading the Financial Times essay by Ian Hogarth over the weekend on why there are no trillion dollar start-ups in the Europe, yet. 
+
+Did you know that the race to create AI was initiated by the London-based start-up, DeepMind, founded in 2010 — well before Anthropic or OpenAI existed?
+
+How did Europe lose its lead?
+
+The reasons he mentions are not the typical ones you would expect like bureaucracy or over-regulation. Here are some of his insights: 
+
+⚫️ Lack of experienced repeat founders. 
+⚫️ Lack of experienced founders and CEO's in investment funds.
+⚫️ DON'T SELL: experienced founders are also more likely to reject offers to sell early, therefore, allowing for the company to grow. ☄️ 🌌 🛰️
+
+Link and the article in the comment. Btw. if you do not have FT, you can try it for a month on their website. :)",1,,
+244,245,"Amidst applying for jobs, taking interviews, and answering calls from headhunters, it’s equally important to stay up-to-date with the latest industry trends.
+This recent article caught my eye as it dives into the intricate relationship between AI investors and startups, highlighting the funding landscape for leaders like OpenAI, Anthropic, and more.
+The dynamic valuations and investment figures depicted here are worth analyzing for anyone passionate about the future of AI innovation. Highly recommend giving it a read!
+<URL>",0,,
+245,246,"I got to test out the Open Source QwQ-32B-Preview that the Qwen Team has just launched and performs alomst as good as OpenAI 01 Preview model. 
+
+Performance across these benchmarks:
+
+65.2% on GPQA, showcasing its graduate-level scientific reasoning capabilities
+
+50.0% on AIME, highlighting its strong mathematical problem-solving skills
+
+90.6% on MATH-500, demonstrating exceptional mathematical comprehension across diverse topics
+
+50.0% on LiveCodeBench, validating its robust programming abilities in real-world scenarios.",1,,
+246,247,"Our cold outreach agency saves at least $481.90 per client monthly, eliminating 45 hours of manual and error prone labor with these automations.
+
+Outreach CRM
+
+Recognizing the lack of a CRM specifically tailored for outreach, we developed our own solution. It automates the entire sales process, including:
+
+* Sending offers
+* Booking meetings
+* Managing contracts
+
+When a contract is signed, a Slack channel for the client is automatically created, ensuring seamless onboarding and communication.
+
+Client Service
+
+1. Email Setup and Warmup
+
+The process begins with a simple Slack command:
+
+Type /buydomain
+
+Select a domain from the suggestions
+
+The system automates the entire email setup and warmup process.
+
+2. Task Creation
+
+To streamline campaign workflows, we’ve automated repetitive tasks:
+
+Workflow: Email Setup → ICP → Data → Copy → Audit
+
+No need to recreate tasks for each campaign—they are pre-defined and ready to execute.
+
+3. Automated, Validated, Hyper-Personalized Data Gathering
+
+We’ve integrated Apollo, OpenAI, Prospeo and BounceBan to optimize data handling:
+
+Buy contacts for $0.01 each
+
+Validate emails automatically with BounceBan (verifies risky emails without sending messages)
+
+Generate hyper-personalized data using Apollo prompts—all in one seamless process.
+
+4. Campaign Setup in Smartlead
+
+We’ve automated Smartlead’s templated settings to remove tedious manual steps, ensuring campaigns are configured efficiently.
+
+5. Complex Spintax
+
+Frustrated with ineffective spintax tools, we created Spintaxer.AI, a tool that provides robust and reliable spintax capabilities.
+
+6. Automatic Replies
+
+Each reply category is pre-matched with a static response, enabling:
+One-click replies directly from Slack.
+
+Manual response options for more complex queries.
+
+7. Client Audit
+
+To overcome the analytics limitations of outreach tools, we built a system that:
+Automatically audits campaigns after every 300 emails.
+
+Provides actionable performance feedback.
+
+8. Automatic Invoicing
+
+The invoicing process is automated, ensuring accuracy and reducing administrative overhead.",1,,
+247,248,"Wow, another big move from OpenAI. They have just released a Google Chrome extension, encouraging people to make ChatGPT their default search engine. Here's a screen recording of the new Chrome extension in action",0,,
+248,249,"It's crazy how easy it is to build AI-powered apps today.
+
+I used Windsurf (what everyone is saying will kill Cursor) and in ~15 mins built this little web-to-markdown converter using Windsurf.
+
+The agent wrote all the code for me (scraper, converter, and web app). I mainly just guided it to get the functionality I wanted.
+
+I was impressed that for the first time, I didn't have to correct it on how to use OpenAI APIs.
+
+Before you ask, the markdown converter is something that I am building as an internal tool for our AI projects DAIR.AI. MD works extremely well with the LLMs we work with. This can also be used as an llm.txt generator.",1,,
+249,250,"Do not trust embeddings unquestioningly for the similarity of short strings.
+
+Lately, I have talked to many technical folks from job boards introducing embeddings into their search/match functionality.
+
+Although this new technology has some significant use cases, you should not trust it unquestioningly.
+
+While working on a simple matching problem, I encountered a fascinating phenomenon: seemingly identical text strings can yield surprisingly different semantic representations. Let me share a practical example from recent experimentation.
+
+Consider these two developer role titles:
+.net developer
+ .NET Developer
+
+When processed through a modern embedding model, these strings achieved a cosine similarity of only 0.68, which reveals how AI processes text differently than humans.
+
+Let me explain how we measure text similarity in AI. Cosine similarity is our go-to metric in natural language processing. It measures the angle between two vectors in a high-dimensional space.
+
+An embedding model like the OpenAI text-embedding-3-small processes text and converts each phrase into a vector (essentially a list of numbers) in this space. The closer these vectors align, the more similar the meanings. A score of 1.0 means perfect alignment, while 0 indicates a complete difference.
+
+This mathematical approach helps us quantify semantic relationships that might not be obvious to the human eye. In our "".net developer"" example, that 0.68 score tells us the vectors point in roughly the same direction but with notable divergence, reflecting the semantic nuances we discussed above.
+
+So what is happening here? These strings are semantically the same, right? Let’s do a technical deep dive:
+
+1. Token-Level Processing: Modern language models employ subword tokenization, where capitalization significantly impacts token decomposition. This isn't merely about case sensitivity but fundamental representation in the model's vocabulary space.
+
+2. Contextual Embedding Dynamics:
+Lowercase ""net"" typically generates embeddings associated with broader network concepts or fish nets. 
+"".NET"" produces specialized embeddings closely aligned with Microsoft's development ecosystem
+Position-sensitive transformers process capitalized terms differently based on learned patterns from training data
+
+In the case of embeddings, the longer the text you provide, the better the similarity score you can trust. 
+
+Have a look at the same example, but add two more words that improve the context. Suddenly, the score jumps to 0.73.
+ 
+This understanding is crucial for building robust NLP systems. It has practical industry implications for embeddings in search and matches if you aim to develop accurate content-matching systems.
+
+These nuances become increasingly vital as we develop enterprise solutions leveraging generative AI. They impact everything from search relevance to semantic matching in production systems.
+
+Are you using embeddings in your production systems? Share your experience below",1,,
+250,251,"OpenAI launches SearchGPT.
+
+Even they added Citations.
+
+At least, it is better than Google AIO.
+
+Goodbye, Google...",0,,
+251,252,"AI Video Tools Update 
+
+Why These Updates Matter
+
+AI-powered video generation tools are becoming increasingly accessible, empowering creators to produce professional-grade content. However, ethical considerations like fair compensation for testers and the need for content safety remain critical discussions in the tech community.
+
+Updates below
+	
+1.	Sora “Leak” Controversy
+	•	What Happened: OpenAI’s video generation tool, Sora, faced a leak when early access was shared via a Python file on Hugging Face, enabling public use. OpenAI swiftly revoked access.
+	•	Why It Matters:
+	•	Leakers criticized OpenAI’s terms, alleging unpaid labor for testing and marketing.
+	•	OpenAI clarified that their review policy aimed to prevent unethical content dissemination.
+	•	Impact: Renewed interest in Sora, with demos showcasing its cutting-edge capabilities despite occasional artifacts.
+	2.	Luma’s Dream Machine Updates
+	•	New Features:
+	•	A mobile app for video generation on the go.
+	•	Consistent character generation and animation from a single image.
+	•	User Experience: Simplified workflows enable dynamic, high-quality videos through custom prompts.
+	3.	Open-Sourcing AI Video Models
+	•	LTX Video by L-Trix:
+	•	Released on Hugging Face for local use with powerful GPUs.
+	•	Generates 24 fps videos at 768x512 resolution, upgradable via external tools.
+	•	Why It’s Notable: Open-sourcing fosters innovation and customization in AI video generation.
+	4.	Runway’s Expand Video Feature
+	•	Functionality: Enables seamless horizontal or vertical expansion of videos using AI.
+	•	Applications: Perfect for adapting content dynamically for various platforms.
+
+AI Tools and Accessibility
+
+	1.	Luma’s Mobile App
+	•	Feature Highlight: For users seeking to generate videos anytime, the new mobile app delivers flexibility and ease.
+	2.	Runway’s Expand Video Tool
+	•	Usability: Simplifies resizing video assets for platforms like Instagram, YouTube, or TikTok, addressing a critical need for content creators.
+
+AI Ethics and Innovation
+
+	1.	OpenAI’s Terms and Sora Leak
+	•	Highlights the ongoing ethical conversation around unpaid labor for beta testing and transparency in AI use policies.
+	2.	Open-Sourcing with LTX Video
+	•	Democratizing AI by giving the community tools to innovate and personalize video generation.
+
+
+#AI #VideoGeneration #GenerativeAI #OpenSource #CreativeTech #LumaAI #RunwayAI #Innovation #ContentCreation #ArtificialIntelligence #VideoEditing #TechUpdates",2,,
+252,253,"🌟 Excited to Share My Latest Project: Building a RAG System with LangChain 🌟
+
+As Large Language Models (LLMs) like GPT-4 and Google Gemini continue to change the AI landscape, one challenge persists: they often lack access to company-specific or up-to-date information.
+
+To overcome this, I’ve built a Retrieval-Augmented Generation (RAG) system using the LangChain framework! This system enables LLMs to retrieve relevant information from external sources (such as research papers) and augment their responses with this knowledge, ensuring contextual accuracy and relevance.
+
+🔥 Shoutout to Innomatics Research Labs for the amazing support, and a huge thanks to Kanav Bansal for the guidance throughout the project! 🙌
+
+Project Highlights:
+Focused on Google's ""Leave No Context Behind"" paper (April 2024).
+Retrieve: Extracts key information from PDFs and stores it in a vector database.
+Generate: Uses GPT-4 to provide precise, contextually-rich answers based on the retrieved information.
+
+This RAG system is a game-changer for use cases like research assistants, knowledge bases, and customer support. It allows LLMs to access and leverage the most up-to-date, relevant information for improved performance!
+
+#AI #LangChain #RAGSystem #GPT4 #MachineLearning #ResearchAssistants #TechInnovation #DataScience #KnowledgeManagement #OpenAI #ExternalDataIntegration #AIApplications #GooglePaper #LeaveNoContextBehind",1,,
+253,254,"Weekend Build: I replaced my voicemail with ChatGPT.
+
+Features:
+- Books meeting on Calendly
+- Spam filter
+- Knows me (RAG)
+
+Why?: It sucks to call doctors, lawyers etc to schedule a meeting or get simple information. I know this will become standard.
+
+Story: When I worked at the Pentagon, we had a really sweet elderly secretary Barbara. If I released this I'd call this CallBarbara AI.
+
+Tech: Twilio (phone), Deepgram (TTS), OpenAI (LLM), LangChain RAG (for my information), Calendly (availability), Google (calendar int). Unfortunately Calendly API blows so I had to use google's api. 
+
+Learnings: I could make this significantly faster and more expensive with OpenAI's realtime voice (Speech-to-speech), or an open source version. 
+
+Next/ Maybe: 
+- Build front end (for anyone to use)
+- Clone any voice
+- Figure out use-cases (SMB brick and mortar?)",0,,
+254,255,"𝐃𝐢𝐝 𝐎𝐩𝐞𝐧𝐀𝐈 𝐒𝐭𝐞𝐚𝐥 𝐈𝐭𝐬 𝐎𝐰𝐧 𝐍𝐚𝐦𝐞? ⚖️🤯
+
+...𝑶𝒓 𝑰𝒔 𝑻𝒉𝒊𝒔 𝑱𝒖𝒔𝒕 𝑨𝒏𝒐𝒕𝒉𝒆𝒓 𝑻𝒆𝒄𝒉 𝑻𝒓𝒂𝒅𝒆𝒎𝒂𝒓𝒌 𝑻𝒖𝒈-𝒐𝒇-𝑾𝒂𝒓? 🔥📝
+
+Guy Ravine claims he’s the original mind behind ‘Open AI’ and is in a legal battle with OpenAI over the name, saying the company used his concept without credit. 
+
+Is this a case of corporate powerplay or rightful ownership?
+
+𝐇𝐞𝐫𝐞’𝐬 𝐭𝐡𝐞 𝐬𝐜𝐨𝐨𝐩...
+
+👉 Ravine secured the domain open.ai in March 2015, months before OpenAI's launch, and holds the ‘Open AI’ trademark, which he says Sam Altman and Greg Brockman tried to buy from him. 🌐💼
+
+👉 Ravine says he presented the Open AI idea to big tech names like Larry Page and Yann LeCun, claiming OpenAI launched using his concept. 💡🤔
+
+👉 OpenAI filed a lawsuit in 2023, saying Ravine’s using their brand unfairly, while Ravine countered, arguing OpenAI “stole” his idea. 🔁🛑
+
+👉 In September, a judge threw out most of Ravine’s countersuit, but Ravine is determined to keep fighting and is planning to refile. ⚖️🛠️
+
+👉 With OpenAI facing legal issues over copyright, the trademark dispute adds an ironic layer to its brand’s legal saga. 🌀📚
+
+Is this a genuine case of stolen ideas or just a small name dispute? 
+
+Could be the most unexpected tech showdown yet! 🌍⚠️
+
+Drop your thoughts below! 👇
+
+Laura Moritz Reza Eghbal Sarah M Worthy Philippe GERWILL Johannes Boshkow Patrick Cheng Kris Mulcahy Kai Saeger Nitish Sharma Timothy Riffe BIKRAM MOHANTY Eliot Arnold Helen Yu Deep Dave Kris Mulcahy
+
+For the latest in AI innovations and updates, check this link to the weekly newsletter specifically curated for BUSY Founders and Business Leaders. <URL>
+
+#TrademarkBattle #TechWars #OpenAI #BigTech",2,,
+255,256,"OpenAI Sora really has been leaked 😱
+
+A group appears to have leaked access to Sora, OpenAI’s video generator, in protest of what they’re calling duplicity and “art washing” on OpenAI’s part.
+
+🔗 More info: <URL>
+
+#openai #sora #AI",2,,
+256,257,"With the rise of ChatGPT, there's no shortage of garbage AI startups. For every 1 OpenAI, there will be 999 companies that are more like Juicero.
+
+AI in particular is a giant dumpster fire as it's a label any tech company can slap onto itself with near 0 accountability.
+
+The engineers who are able to ride the AI wave successfully will build up great skills and become incredibly rich.
+
+The ""successfully"" part is what's tough. A lot of engineers are going to AI companies that are just wrapping ChatGPT with a bunch of rules-based logic.
+
+Learning to identify the good startups from the bad ones is one of the most important skills you need as a software engineer for your career.
+
+Get the necessary tools to differentiate between AI trash and AI treasure with our detailed discussion on startup evaluation here: <URL>
+
+#softwareengineering #startups #ai #growthtips #openai",0,,
+257,258,"🚨 BREAKING: Various 🇨🇦 Canadian News Media Companies sue Open AI over copyright infringement, highlighting CIRCUMVENTION of tech protections & breach of the Terms of Use. Will they be successful? Read this:
+
+╰┈➤ The news media companies are legally claiming for a declaration that the OpenAI is liable for:
+
+1️⃣ ""Infringing, authorizing, and/or inducing the infringement of the News Media Companies’ copyright in the Owned Works (defined below), contrary to sections 3 and 27 of the Copyright Act, RSC 1985, c C-42 (“Copyright Act”);
+2️⃣ Engaging in prohibited circumvention of technological protection measures that prescribed access to, and restricted copying of, the News Media Companies’ Works (defined below), contrary to, and within the meaning of, section 41 and 41.1 of the Copyright Act;
+3️⃣ Breaching the Terms of Use (defined below) of the News Media Companies’ Websites (defined below); and
+4️⃣ Unjustly enriching themselves at the expense of the News Media Companies."" 
+
+╰┈➤ The media companies argue they employed technological protection on their websites, including exclusion protocols (e.g., robots.txt) and account and subscription-based restrictions. However, when OpenAI scraped their content for its for-profit activities, it circumvented the protective measures deployed.
+
+╰┈➤  Regarding the infringement of the Terms of Use, they argue:
+
+""(...) each of the Terms of Use expressly prohibit the use of the News Media Companies’ Websites and Works for any use other than personal, non-commercial uses. The Terms of Use also generally prohibit users from reproducing, distributing, broadcasting, making derivative works from, retransmitting, distributing, publishing, communicating, or otherwise making available any of the Works. Any uses not expressly permitted by the Terms of Use require the News Media Companies’ express consent—particularly commercial uses.
+
+Since as early as 2015, OpenAI has breached and continues to breach the applicable Terms of Use for each of the Websites in various ways, including by accessing, scraping, and/or copying the Works for use as part of the Training Data to train its GPT models and/or as part of the RAG Data to augment its for-profit commercial products and services.""
+
+╰┈➤ The Terms of Use breach argument, coupled with the infringement of the technological protective measures claim, might prove to be a successful legal ground for the news media companies to be successful in this lawsuit. Why? Because it diverges the focus of the dispute from potential fair use-based defenses or endless discussions about the technicalities of the LLM training process.
+
+╰┈➤ Two days ago, I posted about the Canadian Legal Information Institute lawsuit against Caseway AI, so it looks like the AI copyright lawsuits are starting to catch up in Canada, too.
+
+👉 Read the lawsuit below.
+
+👉 Never miss my AI updates: join 40,800+ people who subscribe to my newsletter (below).
+
+#AI #AIGovernance #AICopyright #Canada #AIRegulation #AICompliance",2,,
+258,259,"Tech just got WILD: Search is changing forever 🌪️
+
+Remember when we used to just Google stuff? Now people are like, ""Just ChatGPT it"" - and that's a big deal.
+
+New AI search tools are popping up everywhere:
+>> Perplexity
+>> ChatGPT
+>> Microsoft and Apple jumping in with their own AI stuff
+
+It's not just about finding links anymore. Now it's like having a smart friend who gives you exactly what you need.
+
+OpenAI is going huge - they want 1 BILLION users next year. One. Billion.
+Feels like we're living in a sci-fi movie, right? Technology changing faster than we can keep up.
+
+What do you think? Is AI search the future or just a passing trend?
+
+#TechTrends #AI #OpenAI #TechNews",0,,
+259,260,"🧪👩‍🔬A Multi-Agent for Materials Discovery: LLMs + DFS + Memory Reflection for Metallic Glasses
+
+✶ The Challenge in Materials Discovery
+
+Understanding correlations between material properties and their structure-composition relationships is essential.
+﹏﹏﹏﹏﹏﹏﹏
+
+》Introducing the Multi-Agent Framework
+
+✶ Key Features
+
+Utilizes Large Language Models (LLMs) to power symbolic regression.
+
+» Integrates pre-trained, cross-disciplinary knowledge for efficient discovery.
+♦ Combines a Depth-First Search (DFS) algorithm with memory and reflection mechanisms.
+♦ DFS optimizes exploration, while memory and reflection enhance learning.
+
+✶ Core Steps
+
+Problem Definition: Identify datasets and outline symbolic regression objectives.
+
+» Clearly define input variables, operators, and expected outcomes.
+♦ Specify desired accuracy and formula simplicity to guide exploration.
+Prompt Design: Use structured prompts to guide LLMs, specifying:
+
+» General instructions for formula generation.
+♦ Task descriptions, including datasets, operators, and evaluation criteria.
+» Formula memory to ensure iterative learning.
+♦ Output requirements to enforce consistency.
+
+Formula Evaluation:
+
+» Assess accuracy using a combination of Normalized Mean Square Error (NMSE) and formula complexity.
+♦ Address issues like division by zero in generated formulas.
+Iteration and Optimization:
+
+» Use DFS with trajectory memory for systematic exploration.
+♦ Self-reflection agents refine generated formulas for accuracy and simplicity.
+
+﹏﹏﹏﹏﹏﹏﹏
+
+》Case Study: Glass-Forming Ability of Metallic Glasses (MGs)
+
+GFA predicts an alloy's likelihood of forming an amorphous structure.
+Experimental determination of critical cooling rates (Rc) is labor-intensive.
+Characteristic temperatures (Tg, Tx, Tl) offer predictive insights but require optimization.
+﹏﹏﹏﹏﹏﹏﹏
+
+》Unleashing the Power of Memory and Reflection
+
+✶ In-Context Learning
+Memory stores past formulas and scores, guiding future iterations.
+
+» Enabled a 30% performance improvement compared to random generation.
+♦ Enhanced formula diversity and robustness in exploratory iterations.
+
+✶ Self-Reflection
+An additional LLM agent reviews formula trajectories, suggesting refinements:
+
+» Highlighting trends in high-performing formulas.
+♦ Simplifying complex terms and correcting unit inconsistencies.
+
+✶ Stability and Efficiency
+Stability tests confirmed consistent R2>0.90R^2 > 0.90R2>0.90 across 90% of trials.
+
+» Addressed “out-of-domain” challenges through iterative refinement.
+♦ Future improvements should target reducing computational overhead.
+
+Paper in the comments
+
+≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣
+
+🔮 Join My AI Agents Mini-Training TODAY!
+
+🦜🧑‍✈️ 🐝𝐄𝐧𝐫𝐨𝐥𝐥 𝐍𝐎𝐖 to Build Real-World AI Agents with LangGraph/Langchain, CrewAI and OpenAI Swarm +
+
+𝟑𝟒% 𝐝𝐢𝐬𝐜𝐨𝐮𝐧𝐭—limited time! ⟱
+
+<URL>",1,,
+260,261,"#OpenAI 𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐞𝐝 𝐎𝐮𝐭𝐩𝐮𝐭𝐬: 
+Reduce latency for model responses where much of the response is known ahead of time.
+
+Speed up the generation time of gpt4-o and gpt4-o-mini by providing reference string.
+
+Speed Up:
+- Updating a blog post in a doc
+- Iterating on previous model generated responses
+- Rewriting code in an existing file.
+
+Docs: <URL>
+#AIEngineer #DataScientists #LLMS #DeepLearning #GenAI #AI #NewFeature",1,,
+261,262,"🌐 Revolutionizing Online Search: The ChatGPT Search Engine by OpenAI!
+OpenAI has unveiled the ChatGPT search engine, an AI-driven tool that interprets natural language queries to deliver accurate and personalized responses. This innovative approach enhances the user experience and offers significant advantages over traditional search engines like Google and Bing.
+Explore the key features, benefits, and potential applications in our latest blog post, and see how this tool can reshape your research and decision-making processes.
+👉 Read the full article here: <URL>
+#OpenAI #ChatGPT #ArtificialIntelligence #SearchEngine #DigitalInnovation #BusinessInsights",0,,
+262,263,"Create small-chatbot using OpenAI models, ollama, Langchain and Streamlit.",1,,
+263,264,"🙀 OpenAI's Sora Text-to-Video model was leaked today 🙀 
+
+Video generation models are becoming more popular every day. 
+We decided to keep up with the trends and released REVIVO - an application that can generate unique videos and bring images to life!
+
+Try it!
+<URL>
+
+Write in the comments Revivo and I will provide a promo code for a free subscription!",1,,
+264,265,"Tutorial: Create Art with ChatGPT o1 and Illustrator Scripts
+
+No coding experience needed! I’ll walk you through my creative coding process, where I used OpenAI o1 scripts to make a simple, popular fractal: the Sierpinski Triangle.
+
+Illustrator uses JavaScript to create art with code. The key is iteration. My first attempt didn’t give the expected result, but through trial and error, I got it right. Watch my short video to see how.
+
+Steps:
+
+Verify if the output is accurate.
+Share what's off—like I did when OpenAI o1's result was wrong, and I debugged it.
+Keep iterating until it works!
+After making the fractal, I used Illustrator's 3D tools to add depth and turned it into a neon sign using Adobe Firefly.",1,,
+265,266,"🌟 Proudly Introducing: My Voice-to-Voice Retrieval-Augmented Generation (RAG) Application! 🎤💡
+I’m excited to unveil my latest project: an AI-powered Voice-to-Voice Conversational Assistant, developed entirely on Google Colab. This cutting-edge solution brings together speech input, intelligent retrieval, and AI-driven responses, offering a seamless, interactive experience for a range of applications in education, customer support, and more.
+🚀 How It Works:
+1️⃣ Speech-to-Text: Utilizes OpenAI Whisper for precise audio transcription.
+2️⃣ Knowledge Base Creation: Automatically scrapes and processes content from aibytec.com to build a robust dataset.
+3️⃣ Embedding & Matching: Leverages Groq API to create embeddings and retrieve the most relevant content.
+4️⃣ Generative AI: Combines user queries with matched dataset content to craft coherent, context-aware responses via the Llama3 Groq model.
+5️⃣ Text-to-Speech: Converts AI-generated responses back into audio using gTTS, ensuring smooth voice-to-voice communication.
+⚙️ Technology Stack:
+Gradio: Intuitive and user-friendly interface.
+OpenAI Whisper: State-of-the-art speech-to-text transcription.
+Groq API: High-performance embedding generation and LLM capabilities.
+LangChain & Chroma: Frameworks for efficient RAG workflows.
+gTTS and pydub: Audio generation and handling.
+BeautifulSoup: For data scraping and preprocessing.
+🌐 Key Applications:
+AI-Powered Personal Assistants
+Language Learning Platforms
+Customer Support Bots
+Knowledge Retrieval Systems
+This project represents not just technological innovation but also the power of collaboration. I am deeply grateful to my incredible team members — Mam Anum Zeeshan, Ahmad Illyas, Mohsin Razaq — for their unwavering support, creativity, and dedication. Their efforts have been instrumental in turning this vision into reality. 🙌
+I’m looking forward to hearing your thoughts on how Generative AI and voice-driven solutions can reshape industries and enhance user experiences. Let’s innovate together! 🚀",0,,
+266,267,"Anyone can now create Live Audio AI companions with personalities with #OpenAI Realtime api and CreatorsAGI, and publish these companions on iOS, Android and the Web. These AIs can even talk to each other, giggle, laugh and even show emotions in voice. Here's a quick Loom video that I created, of a Mr. Claus Live Audio AI companion on the web app, talking to a Curious Child audio AI companion on the  iPhone. They laugh, talk, interrupt and keep an intelligent conversation going for a long time with sufficient novelty and new topics!
+
+I believe that #AI is truly a new medium, as powerful if not more powerful than the book and the printing press because it's the first truly intelligent and interactive medium created. Google's #NotebookLM showed the power of this with AI podcasters, and now Live Audio AI Companions, which can be created on any topic are taking the interaction to a new level. #CreatorsAGI.
+
+Check out CreatorsAGI AI Companions on the appstore, google play and on the web!",0,,
+267,268,"Unlock the hidden potential of your YouTube content!
+
+Ever wondered how you can easily transcribe your YouTube videos into text? Discover how OpenAI's Whisper API can revolutionize your content creation process.
+
+Learn how to convert your video content into text effortlessly and elevate your reach and engagement.
+
+#openai #llms #generativeai",0,,
+268,269,"Elon Musk declares war on OpenAI.
+
+The explosive lawsuit reveals three key shifts:
+
+→ Abandoned open-source AI mission
+→ Shifted to closed-source development
+→ Partnered exclusively with Microsoft
+
+Musk’s lawyers allege that OpenAI and Microsoft
+
+“told investors not to fund their mutual competitors”
+
+OpenAI's original mission was:
+
+democratizing artificial intelligence technology.
+
+Their current reality now:
+
+Closed AI is worth billions.
+
+Sam Altman played a 4D chess
+
+Here's his strategic masterpiece:
+
+1- Build public trust through non-profit status.
+
+2- Develop a vertical feature like ChatGPT.
+
+3- Transform into profit-maximizing corporation
+
+4- Secure massive Microsoft investment.
+
+Then flip the switch.
+
+Microsoft's $13 billion investment changed everything.
+
+OpenAI's valuation skyrocketed now to $90 billion.
+
+This raises crucial questions about AI ethics.
+
+Pure entrepreneurial brilliance or ethical disaster?
+
+Your thoughts?
+
+↓ Share it below",2,,
+269,270,"🌟 𝐓𝐡𝐞 𝐖𝐨𝐫𝐥𝐝’𝐬 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐋𝐞𝐚𝐝𝐞𝐫𝐬 𝐨𝐟 𝟐𝟎𝟐𝟒 🌍💼
+
+The business landscape in 2024 is shaped by visionary leaders who are driving innovation, transforming industries, and influencing global markets. Here's a look at the top 18 most powerful business leaders, as per the latest rankings:
+
+🔝 𝐓𝐨𝐩 𝟓 𝐋𝐞𝐚𝐝𝐞𝐫𝐬:
+1️⃣ 𝐄𝐥𝐨𝐧 𝐌𝐮𝐬𝐤 – Tesla, SpaceX, X  (formerly Twitter) 🚀
+2️⃣ 𝐉𝐞𝐧𝐬𝐞𝐧 𝐇𝐮𝐚𝐧𝐠 – NVIDIA 🖥️
+3️⃣ 𝐒𝐚𝐭𝐲𝐚 𝐍𝐚𝐝𝐞𝐥𝐥𝐚 – Microsoft 🌐
+4️⃣ 𝐖𝐚𝐫𝐫𝐞𝐧 𝐁𝐮𝐟𝐟𝐞𝐭𝐭 – Berkshire Hathaway 📈
+5️⃣ 𝐉𝐚𝐦𝐢𝐞 𝐃𝐢𝐦𝐨𝐧 – JPMorganChase 🏦
+
+💼 𝐎𝐭𝐡𝐞𝐫 𝐈𝐧𝐟𝐥𝐮𝐞𝐧𝐭𝐢𝐚𝐥 𝐋𝐞𝐚𝐝𝐞𝐫𝐬:
+6️⃣ 𝐓𝐢𝐦 𝐂𝐨𝐨𝐤 – Apple 🍏
+7️⃣ 𝐌𝐚𝐫𝐤 𝐙𝐮𝐜𝐤𝐞𝐫𝐛𝐞𝐫𝐠 – Meta 🌎
+8️⃣ 𝐒𝐚𝐦 𝐀𝐥𝐦𝐚𝐧 – OpenAI 🤖
+9️⃣ 𝐌𝐚𝐫𝐲 𝐁𝐚𝐫𝐫𝐚 – General Motors 🚗
+🔟 𝐒𝐮𝐧𝐝𝐚𝐫 𝐏𝐢𝐜𝐡𝐚𝐢 – Google/Alphabet Inc. 🔍
+
+This list highlights a diverse range of industries, from technology and AI to finance and retail, showcasing the impact of leaders like Mukesh Ambani (Reliance Industries Limited), Ren Zhengfei (Huawei), and Doug McMillon (Walmart).
+
+💡 𝐊𝐞𝐲𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬:
+
+➡️Tech leadership remains dominant, with AI and semiconductor pioneers like 𝐌𝐮𝐬𝐤, 𝐇𝐮𝐚𝐧𝐠, and 𝐀𝐥𝐭𝐦𝐚𝐧 leading the charge.
+Financial giants like 𝐃𝐢𝐦𝐨𝐧, 𝐌𝐨𝐲𝐧𝐢𝐡𝐚𝐧, and 𝐅𝐫𝐚𝐬𝐞𝐫 continue to shape the global economy.
+
+➡️Retail and manufacturing leaders such as 𝐁𝐚𝐫𝐫𝐚 and 𝐌𝐜𝐌𝐢𝐥𝐥𝐨𝐧 are driving sustainability and innovation in traditional industries.
+
+🌐 𝐖𝐡𝐨 𝐝𝐨 𝐲𝐨𝐮 𝐭𝐡𝐢𝐧𝐤 𝐰𝐢𝐥𝐥 𝐬𝐡𝐚𝐩𝐞 𝐭𝐡𝐞 𝐟𝐮𝐭𝐮𝐫𝐞 𝐨𝐟 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐨𝐦𝐢𝐧𝐠 𝐲𝐞𝐚𝐫𝐬? Share your thoughts on the influence of these leaders and the industries they represent.
+
+𝐒𝐨𝐮𝐫𝐜𝐞: FinFab 
+
+#Leadership #Innovation #BusinessLeaders #Technology #Finance #AI #Semiconductors #FutureOfWork #GlobalMarkets #LinkedIn",0,,
+270,271,"The headline: “Amazon  invests $4 billion in OpenAI’s biggest rival, Anthropic”
+But the real news (that has NVIDIA's attention) is buried in the article:
+
+I think Amazon is firmly in the “Buy” camp of build vs buy when it comes to generative AI. They have the most valuable set of consumer purchasing data in the world, so they definitely need to invest.
+
+But instead of building their own huge frontier model (like Google / Meta / OpenAI), they’re investing in frontrunner Anthropic (maker of Claude).
+
+But here is the part I have been waiting for (and why I’m bearish on NVIDIA…)
+
+As part of the deal, Anthropic will only use AWS’ Trainium and Inferentia chips for training and deploying its models.
+
+Yes, Amazon is going to make their own chips that do not say Nvidia. 
+
+Microsoft and Apple are next. Enjoy the ride Nvidia.",1,,
+271,272,"Mirror, mirror on the wall.
+
+Who's the best search engine of them all?
+
+OpenAI launched ChatGPT Search, in an obvious bid to replace Google. 
+
+So now I have to pick between:
+- Perplexity
+- ChatGPT Search
+- Google
+
+It'd be interesting to see who wins out between Perplexity & ChatGPT.",1,,
+272,273,"OpenAI vs. XAI: The Antitrust Battle Heats Up
+
+As competition intensifies, OpenAI and XAI clash over antitrust complaints. With XAI's valuation skyrocketing and Elon Musk’s support, I dive into what's driving this escalating feud and the implications for the AI industry.
+
+ #OpenAI #XAI #ElonMusk #Antitrust #AICompetition #TechNews #ValuationWars #GrokChatbot #FutureOfAI #InvestingInTech",1,,
+273,274,"OpenAI model result is amazing for 1 cent or 0.01 dollar. 
+#GenAI 
+#OpenAI
+#LLM
+#AI
+#DataScience 
+#Analytics 
+#Finance 
+#Accounting
+#Python",0,,
+274,275,"Recent trends in AI venture capital (VC) activity reflect a significant shift driven by infrastructure investments in foundation model startups. OpenAI's $6.6 billion Series F funding has propelled Q3 VC funding to $31.1 billion, indicating strong investor confidence.
+Key points include:
+Funding Shift: Horizontal platforms are now outpacing vertical applications in VC funding.
+Investment Stages: Increased funding in early-stage and venture growth investments contrasts with tightening late-stage funding.
+Valuation Adjustments: Generative AI startups are seeing realistic valuation readjustments, but market leaders can still achieve high revenue multiples.
+Emerging Startups: Companies like Sakana AI and Safe Superintelligence reach high valuations despite limited commercial proof.
+M&A and Talent Moves: Regulatory uncertainties slow M&A activity, but talent acquisitions continue, with notable moves to Google and Amazon.
+IPO Dynamics: The IPO landscape is heating up, highlighted by Black Sesame Technologies' $2 billion valuation, while others like Cerebras face regulatory delays.
+Overall, investor appetite for tech giants remains robust, with expectations for continued multibillion-dollar VC rounds, all influenced by the evolving regulatory environment. <URL>",0,,
+275,276,"Revolutionizing Education in Nepal: DWIT’s GenAI Chatbot Project
+
+Deerwalk Institute of Technology  (DWIT) is embarking on an ambitious project to create a custom ChatBot focused on enhancing education in Nepal. This chatbot will be developed using the OpenAI platform, and DWIT students will lead the initiative. The project will initially focus on Grade 11 Physics, with plans to progressively expand its content to include courses for other grades across Nepal’s education system.
+
+We invite anyone interested in contributing to this project—whether as a mentor to guide our students or as a co-contributor—to reach out to Nizu Dahal. 
+
+This multi-year project is expected to be a significant milestone in leveraging Generative AI (GenAI) and Large Language Models (LLMs) for the advancement of Nepal’s education sector.
+
+As this is a large-scale and long-term endeavor, we also welcome Computer Science and IT students from other colleges in Nepal to join us. Together, we can create a transformative tool for Nepal’s educational future.",0,,
+276,277,"Saw a tweet that said you can't get Chatgpt to say David Mayer's name:
+
+<URL>
+
+I tried it and it's correct, took some info off his wiki and changed He to David Mayer and asked it to summarise both. When I added the name it would stop at David. 
+
+How much do you have to pay OpenAI to be the one who can't be named?",2,,
+277,278,"🎉Happy Birthday, BCG X 🎉!
+It’s hard to believe it's only been two years since BCG X was founded. 
+ 
+As Boston Consulting Group (BCG)'s tech build and design unit with 3,000 data scientists, engineers, product managers, and growth architects, we build new disruptive solutions, products, services, and businesses with ambitions to disrupt the present and create the future. We are entrepreneurs, innovators, and builders at heart.
+ 
+BCG X is an #AI and #GenAI powerhouse. By bringing AI and GenAI to the center of some of the most iconic transformations led by BCG, we contributed to 20% of BCG’s revenue in 2024 from AI and GenAI. 
+ 
+What we've achieved together in 2024 is truly outstanding. While it’s impossible to capture everything, here are just a few highlights:
+
+- Creating real at-scale business impact with leading clients across industries including banking, finance and wealth management which are closest to my heart (check out the stories here: <URL> 
+- Being recognized by Forrester and IDC as market leaders for our AI and GenAI expertise
+- Collaborating with leading tech innovators such as Anthropic, AWS, Google, IBM, Microsoft, OpenAI, Salesforce, and SAP
+- Establishing cutting-edge science partnerships with Merck and NASA Ames Research Center
+- Celebrating our people's success, including Nakul Puri, from India, being recognized as one of AIM’s ‘40 Under 40 Data Scientists’
+- Expanding our intellectual property with patents and research publications in prestigious scientific outlets.
+ 
+It’s a privilege to be shaping BCG X with such talented minds across tech, science, and business. The future awaits–let's build it together! 
+
+#BCGX #BuildTomorrow",0,,
+278,279,"ChatGPT is fooling millions.
+
+But this AI tool is 100% legit, fast, and free.
+
+Here's how to use it:
+
+I discovered a new AI search engine: You.com
+
+This all-in-one platform allows you to:
+
+- Build your own AI agent
+- Search like google
+- Generate images and more!
+- Use all LLM at one place
+
+<URL>
+
+1/ Make a Shareable AI Helper:
+
+- Go to the website: <URL>
+- Click 'More'
+- Click 'Add New'
+- Pick LLM
+- Give your AI Helper a name
+- Write what you want it to do
+
+Click ""Share"" to send it to friends.
+
+2/ Search
+
+You.com is great for finding good information.
+It uses smart GPT-4 technology.
+
+3/ Make Pictures
+
+- Go to the website: <URL> and pick Create Mode
+- Type what picture you want
+- Get cool, real-looking pictures
+
+Example: ""22-year-old nun leaving church, very upset, super clear picture""
+Why use you.com?
+
+- Find lots of smart AI tools in one place
+- Always get the newest tools quickly
+- Use different tools for your needs
+- One payment for all AI tools
+
+Extra:
+- 50% off Pro plan—$10 a month, pay yearly
+- Get 20+ special AI tools
+- Worth over $100/month with top tools from OpenAI, Anthropic, Google, and more
+
+Try it today:
+<URL>",1,,
+279,280,"We recently had the incredible opportunity to train a group of 𝗯𝗿𝗶𝗹𝗹𝗶𝗮𝗻𝘁 𝗜𝗻𝗱𝗶𝗮𝗻 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀 (𝗜𝗘𝗦) 𝗼𝗳𝗳𝗶𝗰𝗲𝗿𝘀 𝗼𝗻 𝘄𝗲𝗯 𝗮𝗻𝗱 𝗺𝗼𝗯𝗶𝗹𝗲 𝗮𝗽𝗽 development. 
+
+Over the course of the training, we aimed to provide comprehensive exposure to the world of technology and development, equipping them with the skills to later delve into the security aspects of these technologies.
+
+📱 𝗠𝗼𝗯𝗶𝗹𝗲 𝗔𝗽𝗽 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁:
+We delved into the mobile app tech stack for Android and iOS, exploring databases, authentication systems, and API parameters. The training culminated in the development of a fully functional mobile app, complete with:
+✅ Cloud storage integration
+✅ Backend authentication
+✅ APIs, including OpenAI's ChatGPT integration
+
+💻 𝗪𝗲𝗯 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗝𝗼𝘂𝗿𝗻𝗲𝘆:
+We started by exploring the full web development tech stack, including DevOps essentials, and then transitioned to building a dynamic website using no-code platforms, integrating various elements to showcase the possibilities of modern web development.
+
+These officers were absolutely amazing—curious, interactive, and a pleasure to teach. The sessions were filled with energy and insightful discussions, making the entire journey truly rewarding. 
+
+Along the way, we not only shared knowledge but also built strong connections that we deeply value.
+
+A special thanks to Dr. Gaurav Varshney (PhD) for trusting us with this initiative and providing this wonderful opportunity. Your support made this journey possible. 
+
+Here’s to more such enriching collaborations and impactful learning experiences! 🚀
+
+Techible SHUBHAM GAUR Swati Goel Varshney (PhD)
+Naveen Jakhar, I.T.S. NAVEEN KHICHAR Ashish Vyas Ashish Chugh, ITS
+Dhanesh Goel 
+Indian Institute of Technology Jammu
+Career Development Services, IIT Jammu
+IIT Jammu Alumni Affairs Council
+
+#WebDevelopment #MobileAppDevelopment #TechnologyTraining #IESOfficers #Innovation #SkillDevelopment #Techible",1,,
+280,281,"Most important news of the past 7 days for Startup Founders:
+
+(I waste hours on X so that you don't have to )
+
+
+1. The other day, I said ""games"" will be the biggest thing for the next generation.
+
+In a world of abundance & absence of religion/wars, games gonna keep us entertained, the real Hunger Games launch: <URL>
+
+2. Claude raised $4 trillion from Amazon to officially lead AI race.
+After ""computer use"" banger(AI can use your computer) they released Model Context Protocol.
+OpenAI is cooked <URL>
+
+3. Neuralink is officially approved to let humans control robotic hands with their minds.
+<URL>
+
+4. Youtube is gonna auto translate content (audio).
+<URL>
+
+5. Video AI is getting so much better,
+the cost of making movies will drop really low.
+The amount of indie movies/series/clips will go 1000x in the next decade.
+<URL>
+
+6. AI IDEs are running a tight race: V0, replit, windsurf, bolt, lovable, cursor and more.
+Everyone in the world can create software now.
+<URL>
+
+7. Smart people figured out a way to train LLMs using decentralized nodes
+<URL>
+
+8. Software eats the world, AI eats the software, Agents eat the AI.
+The first Autonomous Machine Learning Engineer.
+They claim it saves thousands of hours for ML engineers. Big if true.
+<URL>
+
+9. China released DeepSeek, which solves problems O1 and Sonnet can't solve.
+China seems to be a dark horse the can easily win entire AI race. Both for LLMs and Image/Video.
+<URL>
+
+10. Standford says 10% of developers pretend to be useful, but do nothing.
+A fun fact is that AI will help smart noncoders create software and smart coders to be 100x better. Bad and average coders are doomed.
+<URL>
+
+11. This AI agent can do pretty much anything on the computer.
+Our jobs soon will look like airline pilots.
+They do nearly nothing, just watching the auto-pilot system to do its job.
+<URL>
+
+12. This is just so funny
+<URL>
+
+13. Jaguar used the reverse-PR method, the same as Paris Olimpics and the YouTube review guy.
+This is the new trend: do smth so that half of the world hates you for it and half loves you for it.
+
+
+14. That's it.
+Besides spending hours on X every day, I'm also building these startups:
+↳ <URL>
+↳ <URL>
+↳ <URL>
+↳ <URL>
+↳ <URL>
+↳ <URL>
+↳ <URL>",2,,
+281,282,"💼 ""Who's telling your story? In a world where AI models like ChatGPT are booming, Canada’s leading newspapers are making headlines of their own by standing up to OpenAI! Amid accusations of unauthorized article use, this legal battle sheds light on a crucial debate: the value of journalism in the AI age. 📰
+
+Today, with OpenAI facing accusations of 'strip-mining journalism,' these media giants are demanding fair compensation for their contributions to AI training datasets. According to News Media Canada, the stakes couldn't be higher—they believe AI companies are profiting from the 'backs of news publishers' who invest heavily in creating original content. As the lawsuit seeks potentially billions in damages, the core of this dispute focuses on intellectual property rights and the future of news in our digital ecosystem.
+
+Did you know that OpenAI, currently valued at more than $150 billion, has begun licensing deals with media outlets globally? Yet, without agreements with Canadian news entities, this lawsuit highlights a growing global trend of media organizations challenging tech giants over content use. It sparks a fundamental question about balance—how can tech companies innovate using AI while ensuring creators are fairly compensated?
+
+What are your thoughts on the ownership of digital content and its use in AI training? How do you think this legal battle could shape the future of journalism and AI collaboration? Drop your insights in the comments! 👇
+
+#AI #Journalism #IntellectualProperty #MediaRights #OpenAI""",2,,
+282,283,"OpenAI must ""play by the same rules as everyone else. It cannot lumber about the marketplace as a Frankenstein, stitched together from whichever corporate forms serve the pecuniary interests of Microsoft and Altman at any given moment.” I confess I’m somewhat Team Root for Injuries in any Musk-Altman fight, but as Bernie Sanders would put it: <URL>",2,,
+283,284,"📊 AI Ecosystem: Cloud Providers, Model Providers & Model Families 🤖
+
+The AI landscape is growing rapidly, with multiple cloud and model providers driving innovation across industries.
+
+ 🌐 This visual representation offers a clear snapshot of how cloud providers like AWS, Microsoft, Google, and OpenAI connect to various model providers and families. 🧠💡
+
+🔑 Key Insights:
+AWS leads with 22.06%, offering diverse model families.
+
+OpenAI API dominates with 41.18%, reflecting its strong influence in the AI space.
+
+Collaboration between cloud and model providers is shaping the future of AI development.
+
+Models like GPT, Claude, DALL·E, and Stable Diffusion highlight the vast variety of AI capabilities available. 🚀
+
+🎯 Why it matters:
+The integration of cloud and AI services accelerates innovation in fields like automation, creativity, and data analysis. Understanding this ecosystem is key for anyone leveraging AI in their workflows or businesses.
+
+💬 Which provider or model are you exploring? Share your thoughts below! 👇
+
+📸 Credits: Original image and insights are from the article on Medium by ANUSHKA BAJPAI. A huge thanks for this amazing visualization! 🙌
+
+
+#ArtificialIntelligence #CloudComputing #AIInnovation #AWS #OpenAI #GoogleCloud #MicrosoftAzure #AIModels #DataScience #MachineLearning #GenerativeAI #DeepLearning #AITools #DigitalTransformation #TechTrends #FutureOfAI #BigData #CloudProviders #Innovation #AITechnology #AIinBusiness #TechLeaders #Automation",0,,
+284,285,"🌟 ""Generative AI: The Superpower You Didn’t Know You Had"" 🌟
+
+Hey #WebDevelopers and #TechEnthusiasts, let’s talk about something that’s revolutionizing the world and how YOU can leverage it for your growth.
+
+Generative AI is not just a buzzword—it’s the game-changer transforming industries, from web development to content creation, and even software engineering. Imagine having a 24/7 assistant to:
+✨ Write cleaner code in seconds.
+✨ Generate entire UI/UX designs.
+✨ Debug and optimize your logic.
+✨ Create APIs, reusable components, or even a full project boilerplate with a single prompt.
+
+Impact on the Modern World:
+
+🔹 Web Development: Tools like ChatGPT or GitHub Copilot are making coding faster and more efficient.
+🔹 Creativity: Generative design and content tools are speeding up prototyping and production cycles.
+🔹 Education: Personalized AI tutors make learning concepts and frameworks like React.js, Node.js, and databases effortless.
+🔹 Innovation: AI-powered brainstorming helps teams solve problems creatively.
+
+How You Can Use Generative AI for Upskilling:
+
+1️⃣ Code Better, Faster: Use AI tools for code suggestions, debugging, and testing.
+2️⃣ Learn Smarter: Explore AI-generated tutorials for concepts you struggle with.
+3️⃣ Build Projects: Collaborate with AI to build real-world projects, showcasing your creativity and skills.
+4️⃣ Explore New Horizons: Learn trending tech like AI integrations in web apps or advanced libraries/frameworks.
+
+Free Resources to Start Today:
+
+🆓 freeCodeCamp.org – Learn coding with AI-powered challenges.
+🆓 OpenAI's Playground – Experiment with prompts and build AI-integrated apps.
+🆓 GitHub Copilot Student Plan – Automate coding suggestions for FREE.
+🆓 Kaggle – Work on AI-powered data projects to learn hands-on.
+🆓 DeepAI.org – Tools and APIs to explore generative AI.
+
+💡 Pro Tip: Start small. Use AI for simple tasks, like generating boilerplate code or designing layouts, and slowly scale it into larger projects.
+
+What’s Next?
+
+Generative AI is here, and it's not just a tool; it’s your co-pilot in this tech-driven world. Whether you’re a student looking to break into tech or a professional wanting to stay ahead, now’s the time to embrace this superpower.
+
+Let me know in the comments:
+
+Are you already using Generative AI?
+
+Which tool do you find the most useful?
+
+
+Let’s ignite the discussion! 🚀 Don’t forget to share this post to help others unlock their potential.
+
+#GenerativeAI #WebDevelopment #Upskilling #AIRevolution #FreeResources #ReactJS #TechInnovations",1,,
+285,286,Exciting times for developers and enterprises! The integration of Azure OpenAI endpoints with LlamaParse not only enhances parsing capabilities but also strengthens security for sensitive data. This powerful combination opens up new avenues for building robust RAG workflows. Can't wait to see the innovative solutions that will emerge from this collaboration! #DataSecurity #Innovation,0,,
+286,287,"👀 Leaked Sora API?
+
+It looks like someone leaked OpenAI's Sora API on Hugging Face. You can test it to generate videos in different resolutions. There are also a few examples of what the model can generate.
+
+I'm not too impressed with the results. Hopefully, that's an old version. Otherwise, examples that have been shown so far were heavily cherry-picked.
+
+Thanks to Kearm (<URL> for the link.
+
+🤗 Space: <URL>",2,,
+287,288,"📣 QA Engineer (m/f/d) -Paris - Remote
+📢 Automation QA Analyst -Manila - Remote
+📣 QA Automation Engineer - Remote
+
+
+📰 Breaking news: Elon Musk has filed for an injunction to halt OpenAI's transition to a for-profit model. Explore the implications in TechCrunch's article: [Read more](<URL>
+
+As the tech landscape evolves, staying informed is essential for IT professionals. At WhoDooUNode.com, we connect you with remote job opportunities that align with the latest industry developments. Discover your next career move with us at WhoDooUNode.com and join the forefront of innovation! 🚀💼
+
+#ElonMusk #OpenAI #TechNews #Innovation #RemoteWork #ITJobs #WhoDooUNode #FutureOfWork",2,,
+288,289,"✨ 2025 will be the year Agentic AI takes off 🚀
+
+In collaboration with Prateek Gupta, Drew Propson, Bryan Zhang, and Hunter Sims, I am excited to share our thinking at the Cambridge Centre for Alternative Finance, Cambridge Judge Business School and the World Economic Forum on how Agentic AI—LLMs with API-powered tool access—will go mainstream and revolutionise financial services going forward. 
+
+<URL>
+
+Agentic AI systems that perceive, reason, and act ever more autonomously are already emerging—and the pace of adoption is set to skyrocket. 📈 Some of the key players defining Agentic AI’s emergent capabilities include LangChain, Meta's Llama, Anthropic's Claude MCP, Microsoft's AutoGen, OpenAI's GPTs, CrewAI, LlamaIndex, NVidia's Nemo, Google Deepmind’s Gemini, Mistral to name but a few!
+
+Here are a few things this means for financial services and beyond:
+
+💡 Smarter Decision: Agentic AI will be able to analyse vast data sets in real time for better, faster financial insights. Think autonomous trading agents fine-tuning strategies on the fly! 
+⚙️ Increased Efficiency: By automating complex workflows, institutions can save time and reduce costs, freeing up humans to focus on finding the right problems to solve rather than problem solving. 
+🎯 Personalised Experiences: Agent-driven tailored services will source the right product or service for each of our needs and preferences. Gone will be the days of trawling the web for hours in search of the best deal. 
+🌍 Financial Inclusion: Agentic AI could extend financial services to underserved communities, by reducing costs of service provision, personalised advice and financial product access. 
+🚨 The Challenges: With great potential comes great responsibility—labour shifts, privacy concerns, and ethical AI governance will need careful navigation. 🧩⚖️
+
+Read the full article on the World Economic Forum website for our perspectives on how this is unfolding! 
+
+Lisette Cipriano, Beju Shah, Sahan Bulathwela, Lucía Latorre Salvador, Barry West, James Beioley, Yasmeen Al-Sharaf, Razvan Pascanu, Matko Bošnjak, Pawel Gmyrek, Charles Carter, Leigh Shlomovich, Andres Lehtmets, Rafael Mazer, Ivo Jeník, Waleed Samarah, Walid Ahmed, David R. Hardoon, Ben Warren, Liduvina Cisneros, Perttu Korhonen, Suvendu Pati, Tunde Fafunwa, Joe Huxley, Nolwazi Hlophe (She/Her), Frans van Bruggen, Max Bartolo, Jonathan Hatch, Stefan Clemens Tomanek, Amazouz Souhila, Lars Brander Ilsøe Hougaard, Burton Chalwell Jr, Ryosuke Ushida.
+
+#AgenticAI #ArtificialIntelligence #CCAF #WorldEconomicForum #AI #FutureofFinance #FinancialInclusion",0,,
+289,290,"To join the AI trend, my life according to #ChatGPT. To be honest, I looked at this picture and completely forgot I gave my wife access to my account (hence the prominence of the grain free muffins, coffee, and cooking). So, maybe it’s a more accurate depiction of my family (lol)
+
+ChatGPT has provided a tremendous amount of value and key learnings this past year and I can validate the power of the platform when properly utilized.
+
+Like OpenAI, Metropolis Technologies is advancing generative AI in the parking vertical following $1.8B in Series C funding in 2024. Check us out: www.metropolis.io 
+
+Hope everyone had a great Thanksgiving and have a wonderful week!",0,,
+290,291,"Excerpt #5: 
+
+“Similarly, many organizations begin their AI journey by consuming pre-built models (such as those offered by OpenAI or Google).”
+
+“However, as they develop more expertise and encounter the limitations of generic models, they often shift to fine-tuning or even training their own models.”
+
+“The shift requires a heftier investment in infrastructure, tools, talent and security.”
+
+“Executives should anticipate this trajectory and plan accordingly.”
+
+“The working assumption should be that AI will become more pervasive and mission-critical over the next 2-5 years; accordingly, its deployment will require a different set of skills, infrastructure, and governance processes.”
+
+“Leaders should proactively develop these capabilities rather than scrambling to adapt when the need arises.” s/o Team8.",1,,
+291,292,"Elon Musk files for injunction to halt OpenAI's transition to a for-profit
+
+Elon Musk accuses OpenAI and Microsoft of anti-competitive practices aimed at undermining rivals like xAI. The lawsuit challenges:
+➡️ OpenAI's shift from nonprofit to for-profit, violating its original mission.
+➡️ Microsoft's $13B investment, raising concerns about market manipulation
+#AI #elonmusk #OpenAI #microsoft #technews #timewilltell",2,,
+292,293,"The launch of ChatGPT on November 30, 2 years ago, marked a seminal moment in democratization of GenAI. At Comviva too, we are committed to harnessing the power of #GenAI to create intelligent solutions for all our stakeholders. Our AI-enabled #Martech, #Digitech, #FinTech, and #Revtech solutions are empowering businesses to drive revenue growth at scale. 
+
+Backed by advanced analytics and real-time insights, our platforms enable smarter decision-making, streamlined operations, and a seamless customer journey. With 120+ AI/ML Martech models driving personalized experiences for over 400 million customers globally, we are glad to be at the forefront of delivering meaningful innovation.
+
+Image created using DALL·E by OpenAI.",1,,
+293,294,"Who is this lawyer that the OpenAI CFO spoke to? 
+
+Not the interviewer but the one that the CFO refers to later in the conversation
+
+Just curious 👀
+
+Would an in-house lawyer say that? 
+
+Or was it a magic circle partner?
+
+Was this lawyer endorsing OpenAI genAI for creating legal briefs worth $1000-$2000/ hour?
+
+Are we there yet? 
+
+//// Jokes aside ////
+
+OpenAI must have some kind of usage data (possibly the largest set as they also partner with Microsoft) to consider legal & lawyers as one of their barometers of value and pricing 
+
+This Bloomberg interview raises so many questions — 
+
+Are we under-reporting our own usage and adoption of AI as the law industry while the the numbers at OpenAI tell them otherwise?
+
+Are all the news snippets about hallucinations, not-fully-baked tech, etc just a percentage error that the media amplifies?
+
+Are the polls, social media posts, surveys and news not depicting the real situation (when have our polls and surveys been wrong when it matters)? 
+
+Are we hiding our usage because of some kind of perceived backlash (peers, clients, employees)?  
+
+Is legal going to be one of the focus areas for OpenAI? What does that mean for legal tech as we know it? 
+
+/// 
+
+Just some thoughts that have been living in my mind rent-free since I saw this video.
+
+What do you think? What’s your reaction to the video? Let me know in the comments. 
+
+#ThereIsNoSpaceLikeHeadspace
+#WickedWeekendVibes
+
+-Danish",1,,
+294,295,"Apparently OpenAI's ChatGPT stops responding when asked about “David Mayer”, “Jonathan Zittrain” and “Jonathan Turley”. 🪱 Dune much anyone? 🫚 
+🔗 👇 
+
+#ai #chatbot #hallucinations",1,,
+295,296,"“The Salesforce CEO said he thinks the future of AI advancement lies in autonomous agents — not the large language models used to train bots like ChatGPT.” “I actually think we're hitting the upper limits of the LLMs right now.”
+
+Over the last several years, he also said “we've all got drunk on the ChatGPT Kool-Aid, leading the average consumer to believe that AI is more powerful than it is and that LLMs are key to advancement in the technology. But there is a burgeoning use of artificial intelligence — autonomous agents, which can be deployed to conduct tasks independently, such as executing sales communications or marketing campaigns — that he says will be more significant than LLMs have been for companies trying to become more efficient and transform the world of work.”
+
+Interesting argument. If one application doesn’t work, try another; might be good advice. But such an argument also reduces the credibility of AI. We’ve already seen the focus of AI change many times, from Watson AI in healthcare to self-driving cars, radiology, and then two years of generative AI. Now GenAI is over, and agents are the next big thing? Hmm. 
+
+One reason for Benioff’s comments might be that “Salesforce offers prebuilt and customizable AI agents for clients seeking to automate customer service tasks.” Similarly, “OpenAI is closing in on a launch date for its own agents, which Bloomberg reported will be able to complete assigned tasks like writing code or booking travel.”
+
+""We have incredible tools to augment our productivity, to augment our employees, to prove our margins, to prove our revenues, to make our companies fundamentally better, have higher fidelity relationships with our customers,"" Benioff said. ""But we are not at that moment that we've seen in these crazy movies — and maybe we will be one day, but that is not where we are today.""
+
+Benioff uses science fiction to buttress his argument, not always a good ploy. He “said the general public has learned about the power of AI agents from movies like the 1984 film Terminator, starring Arnold Schwarzenegger and about a cyborg assassin, and the 2002 hit ""Minority Report,"" about police preemptively arresting would-be criminals thanks to a program that detects crime before it occurs.” 
+
+“In Minority Report, the precrime detection program is powered by psychics called ""precogs"" who have the precognitive ability to predict crime before it happens. However, the film is often referenced in conversations about artificial intelligence, as it raised questions about how advanced computer programs could be used to detect and prevent crime.”
+
+Hmm… I don’t think that these examples will cite users, and might anger the public.
+#technology #innovation #startups #artificialintelligence #hype #ethics
+<URL>",1,,
+296,297,""" customers and investors expect OpenAI to launch a considerably better AI model next year.""
+
+What a wonderful and touching trust in OpenAI to be able to fundamentally change the untrustworthy nature of transformer based LLMs that many VCs and a wide range of experts are warning are approaching a solid brick wall.
+
+The promise of Operator as an Agentic gadget driving and driven by GPT is a wonderful marketing delusion designed to get the next round of funding that will be required mid-year, or, I suspect, earlier if they get access to adequate compute resources, which they are complaining about as not being adequate now.
+
+Using this approach (Operator agents) will drive their compute requirements through the roof if it catches on because it will require the reasoning system GPT-o1 which we already know increases compute requirements by one or two orders of magnitude. I suspect this is why Operator will be released on a limited basis, until the data centres can be built and scaled up to meet the compute load and Nvidia can get Blackwell out there.",2,,
+297,298,"Hello AI world. It's a new week and here's a review of beautiful improvements achieved in AI and Robotics this week (17-23 Nov).
+Here is a summary of  advancements as announced by Arc Research, Figure, Google, H Company, Microsoft,  Mistral, MIT, and OpenAI.
+Let's dive in:
+
+1. Arc Research has unveiled Evo, a groundbreaking AI model trained on 2.7 million microbial genomes. Evo has the incredible ability to read and write genetic code, generating million-base-pair sequences and designing advanced genetic tools.
+
+This marks a major leap forward in AI-driven biological research, opening up new possibilities for innovation in genetics and synthetic biology.
+Read more here: 👇
+
+bit.ly/3OsmUPr
+
+2. Figure shared the latest update on Figure's humanoid robots and their autonomous work in BMW use case!
+
+Since the August deployment, their robots have achieved remarkable progress:
+
+400% faster performance
+
+7x better precision
+
+A huge step forward for robotics and industrial automation. Let's stay tuned for what’s next from them.
+
+<URL>
+
+3. Big news from Google as Gemini AI now has personal memory for Gemini Advanced users, allowing the assistant to learn and adapt to your preferences over time.
+
+This means it can remember context across conversations and tailor responses to fit your unique needs—similar to ChatGPT's memory feature.
+
+<URL>
+
+4. H Company introduces Runner H, an AI agent designed to navigate any website by understanding what it sees on screen.
+
+With Runner H, users can automate web tasks through natural language instructions, making web automation more intuitive and accessible for everyone. 
+
+<URL>
+
+5. Microsoft unveiled a new suite of specialized AI agents for Microsoft 365, designed to boost productivity and streamline workflows.
+
+<URL>
+
+6. Mistral just launched Pixtral Large, a 124B-parameter multimodal model that sets a new benchmark for math and visual tasks.
+A significant step forward in AI capabilities. 
+
+<URL>
+
+7. MIT
+MIT and Genesis Therapeutics have released Boltz-1, an open-source model with accuracy on par with AlphaFold3 in predicting biological structures.
+
+This open-access approach could accelerate research and innovation in structural biology and beyond.
+
+<URL>
+
+8. OpenAI 
+A recent study revealed that ChatGPT achieved 90% accuracy in medical diagnosis, surpassing both human doctors (74%) and doctors using ChatGPT (76%).
+
+<URL>
+
+That will be all for this week. 
+Many thanks to Brett Adcock for inspiring me to put this up weekly.
+Thank you for the inspiration Brett!",0,,
+298,299,"About a year ago, I started working on the Billion-Dollar LLM Hallucination Problem. One of the keys to solving the problem is to give the LLM a way to remember its training documents, so that it can produce the most relevant tokens for the specific context, not just the most likely tokens across all contexts. The technology for doing this is Neocortix Deep Attribution Networks, which provide the necessary function of Source Attribution in LLMs. Deep Attribution Networks can be used to cite sources from the training dataset, to detect hallucinations, and, when properly integrated into the LLM, to mitigate hallucinations.
+
+I have found that something great happens when I build a new technology to solve a tough problem: it ends up being useful to solve other problems.  Sometimes those other problems can be just as important, urgent, or economically significant as the original problem I started with.
+
+In September 2024, at Stanford, Gary Marcus was asked about how content creators could be compensated for their contributions to the training dataset of an LLM.  Gary's answer: ""I can start with what would be perfect, but cannot be done, for now.  What would be perfect is, every time an answer is produced, you do what we would call Source Attribution.   You say, where did this answer come from?  If it's 3% from here, and 5% from there, then you just compensate people accordingly.  The problem is, we don't actually know how to do that.  LLMs are black boxes.  We don't know where the answers come from.  That's a huge technical problem.  It's a reason to press for better technology.""
+
+Beautiful.  Gary was summarizing the state of the art prior to Neocortix invention of Deep Attribution Networks and their application into the LLMs.  A few days after his talk at Stanford, I reached out to Gary and told him about the Deep Attribution Network technology I had invented in early 2024, and its relevance to the problem of Proportional Royalty Allocation, and showed him the demo of it working on the Neocortix website (link in first comment). After answering Gary's thorough diligence questions, I invited Gary to join the Neocortix Technology Advisory Board, and a few days later Gary accepted the invitation.
+
+There are currently 35 copyright lawsuits in progress against large AI companies, including OpenAI, Google, Nvidia, Microsoft, Perplexity, etc.  I suspect that many of the defendants will use the argument that ""LLMs are black boxes, we don't know where the answers come from, and there is no technology in the world that can do Source Attribution or Proportional Royalty Allocation.""
+
+Ahem. Well, yes there is. There are working demonstrations on the Neocortix website, with 5 patent applications filed. So, I am wondering how those lawsuits would be affected if the plaintiffs and the judges in those 35 pending lawsuits were informed about the existence of a working technology that can do it? And would the defendants want to get ahead of that?
+
+#AI #LLM #copyright",2,,
+299,300,"In early 2023, I met Sam Altman.
+
+He said, “AI will change the economy this year.”
+
+Looking back, generative AI adoption has been extraordinary. Yet, we’re still in the early adopter stage.
+
+To understand this journey, I revisited Geoffrey Moore’s Crossing the Chasm, a must-read for understanding how technologies move from niche to mainstream markets.
+
+Moore defines five market segments:
+1️⃣ Innovators (2.5%): Tech enthusiasts who love experimenting.
+2️⃣ Early Adopters (10%): Use tech for competitive advantage.
+3️⃣ Early Majority (30%): Pragmatists who need clear ROI.
+4️⃣ Late Majority (40%): Cautious adopters who wait for proven solutions.
+5️⃣ Laggards: Resistant to change.
+
+The gap between early adopters and the early majority separates hype from value—where most technologies fail.
+
+My Experience with These Segments
+1️⃣ Innovators
+I remember visiting OpenAI HQ with other YC founders, learning how tweaks like adding “think step by step” to prompts improved results.
+
+I also think of a supply chain director I recently spoke with, who uses Python and LLMs in his free time to automate tedious tasks at work.
+
+2️⃣ Early Adopters
+These are our core customers: VPs and Directors solving business challenges. They embrace calculated risks, knowing failure is part of the process towards success.
+
+3️⃣ Early Majority
+Pragmatists who wait for clear ROI before acting. They see AI’s potential but look to peers for validation.
+
+4️⃣ Late Majority
+Cautious adopters who prefer proven ecosystems. They go by the saying: “Nobody was fired for choosing IBM.”
+
+5️⃣ Laggards
+Probably not even on LinkedIn.
+
+Where Are We Now?
+
+When Sam predicted AI’s impact, few could have foreseen NVIDIA’s record-breaking earnings, the S&P 500 closing at +21.9%, and AI pilots across Fortune 100s.
+
+Still, I’d argue we remain in the early adopter phase, with the early majority watching closely.
+
+At Mentum, we’re bridging the gap by tying AI to measurable KPIs like:
+
+- Cost reductions
+- Hours saved per week
+- Tasks completed in workflows
+
+What will it take to cross the chasm?",1,,
