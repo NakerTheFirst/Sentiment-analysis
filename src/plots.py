@@ -112,6 +112,7 @@ map_sentiment_int_to_string = {
 data_eval["label"] = data_eval["label"].map(map_sentiment_int_to_string)
 data_tl["label"] = data_tl["label"].map(map_sentiment_int_to_string)
 
+#! TODO: Convert figures to Polish...
 # Create internal data sentiment histogram
 create_hist(
     df=data_eval,
