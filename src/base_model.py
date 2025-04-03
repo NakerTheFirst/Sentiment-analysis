@@ -67,5 +67,6 @@ labels = [0, 1, 2]
 cm = multilabel_confusion_matrix(data_eval['label'], data_eval['predictor'], labels=labels)
 print(cm)
 
+#! TODO: Uncomment before uploading to APD - this saves results to .csv
 # Save dataset to CSV
 # data_eval.to_csv('data/processed/base_model_predictions.csv', index=False)
