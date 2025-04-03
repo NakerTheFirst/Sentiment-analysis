@@ -25,10 +25,6 @@ def analyze_sentiment(text: str) -> tuple[int, float]:
     
     return prediction, confidence
 
-# Load the data
-# with open(r"data/processed/data_internal.bin", "rb") as data_file:
-    # data_eval = pickle.load(data_file)
-
 data_eval = pd.read_csv('data/processed/data_eval.csv')
 
 model_id = "roberta-base"
