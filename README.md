@@ -1,4 +1,4 @@
-# LinkedIn Opinion Analysis
+# LinkedIn Sentiment Analysis
 ## Project Overview
 This project conducts sentiment analysis on public opinions about OpenAI shared on LinkedIn. Using natural language processing (NLP) techniques, the system analyzes posts and comments to categorize sentiment as positive, neutral, or negative. The project was developed as part of an engineering thesis with a focus on educational purposes.
 
