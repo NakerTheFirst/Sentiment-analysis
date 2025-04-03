@@ -36,11 +36,9 @@ seed_all(SEED)
 #* Read the data
 train_df = pd.read_csv("data/processed/data_tl.csv")
 dev_df = pd.read_csv("data/processed/data_eval.csv")
-test_df = pd.read_csv("data/processed/data_eval.csv")
 
 train_dataset = Dataset.from_pandas(train_df[["text", "label"]])
 dev_dataset = Dataset.from_pandas(dev_df[["text", "label"]])
-test_dataset = Dataset.from_pandas(test_df[["text", "label"]])
 
 # Enable CUDA
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -58,7 +56,6 @@ model.train()
 # * Tokenise the data
 tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
 tokenized_dev_dataset = dev_dataset.map(tokenize_function, batched=True)
-tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
 # * Training
 metric = evaluate.load("accuracy")
