@@ -162,11 +162,10 @@ in_unlabelled["id"] = range(1, len(in_unlabelled) + 1)
 # with open(r"data/interim/in_unlabelled.bin", "wb") as filehandler:
     # pickle.dump(in_unlabelled, filehandler)
 
+#! TODO: DO NOT EVER uncomment this, else all the data labells will be lost
 # Save the preprocessed data to be labelled
 # with open(r"data/interim/in_labelled.bin", "wb") as filehandler:
     # pickle.dump(in_to_label, filehandler)
-
-# TODO: Check if i can run it safely
 
 with open(r"data/interim/in_labelled.bin", "rb") as data_file:
     in_labelled = pickle.load(data_file)
@@ -178,6 +177,7 @@ data_internal = data_internal.rename(columns={'sentiment': 'label'})
 data_internal['label'] = data_internal['label'].map({1: 0, 2: 1, 3: 2})
 data_internal['label'] = data_internal['label'].astype(int)
 
+#! TODO: Uncomment before submitting the final project version to APD - this preprocesses in_labelled.bin data into data_eval.csv
 # Save the processed internal labelled dataset as .csv
 # data_internal.to_csv("data/processed/data_eval.csv", index=False)
 
@@ -219,5 +219,6 @@ tl_df["label"] = tl_df["label"].astype(int)
 
 tl_df = tl_df.sample(frac=1).reset_index(drop=True)
 
+#! TODO: Uncomment before submitting the final project version to APD - this preprocesses data_eval.csv into data_tl.csv
 # Save the processed TL dataset
 # tl_df.to_csv("data/processed/data_tl.csv", index=False)
