@@ -36,13 +36,9 @@ seed_all(SEED)
 model_path = "./models/alfa0/"
 
 #* Read data and convert to Huggingface datasets
-train_df = pd.read_csv("data/processed/train_df.csv")
 dev_df = pd.read_csv("data/processed/dev_df.csv")
-test_df = pd.read_csv("data/processed/test_df.csv")
 
-train_dataset = Dataset.from_pandas(train_df[["text", "label"]])
 dev_dataset = Dataset.from_pandas(dev_df[["text", "label"]])
-test_dataset = Dataset.from_pandas(test_df[["text", "label"]])
 
 metric = evaluate.load("accuracy")
 tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -53,9 +49,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = model.to(device)
 
 #* Tokenize data
-tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
 tokenized_dev_dataset = dev_dataset.map(tokenize_function, batched=True)
-tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
 
 #* Set up training arguments for evaluation
 eval_args = TrainingArguments(
