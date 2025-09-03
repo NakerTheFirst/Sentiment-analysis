@@ -1,60 +1,55 @@
-# Analiza Sentymentu LinkedIn
-## Przegląd Projektu
-Projekt przeprowadza analizę sentymentu opinii publicznych na temat OpenAI udostępnianych na platformie LinkedIn. Wykorzystując techniki przetwarzania języka naturalnego (NLP), system analizuje posty i komentarze, kategoryzując sentyment jako pozytywny, neutralny lub negatywny. Projekt został opracowany jako część pracy inżynierskiej.
+# LinkedIn Sentiment Analysis
+## Project Overview
+This project conducts sentiment analysis on public opinions about OpenAI shared on LinkedIn. Using natural language processing (NLP) techniques, the system analyses posts and comments to categorise sentiment as positive, neutral, or negative. The project was developed as part of an engineering thesis with a focus on educational purposes.
 
-## Funkcje
-- Zbieranie danych z LinkedIn przy użyciu scrapera Apify
-- Zaawansowane przetwarzanie wstępne tekstu obsługujące URL-e, slang, treści wielojęzyczne
-- Funkcjonalność ręcznego etykietowania do tworzenia zbiorów danych treningowych
-- Transfer Learning z modelem RoBERTa do klasyfikacji sentymentu
-- Walidacja krzyżowa do oceny wydajności modelu
-- Wizualizacja danych za pomocą histogramów i chmur słów
+## Features
+- Data collection from LinkedIn using Apify scraper
+- Robust text preprocessing to handle URLs, slang, multilingual content
+- Manual labelling functionality for creating training datasets
+- Transfer Learning with RoBERTa model for sentiment classification
+- Cross-validation to evaluate model performance
+- Data visualisation with histograms and word clouds
 
-## Architektura
-Projekt podąża za kompletnym procesem uczenia maszynowego:
-1. **Zbieranie Danych**: Scrapowanie postów i komentarzy LinkedIn zawierających "openai"
-2. **Przetwarzanie Wstępne**: Czyszczenie tekstu, wykrywanie języka, tokenizacja URL
-3. **Etykietowanie**: Interfejs do ręcznego oznaczania sentymentu
-4. **Trenowanie Modelu**: Dostrajanie modelu RoBERTa z wykorzystaniem Transfer Learning
-5. **Ewaluacja**: Wykorzystanie walidacji krzyżowej i metryk dokładności
-6. **Wizualizacja**: Wyświetlanie rozkładów sentymentu i częstotliwości słów
+## Technical Architecture
+The project follows a complete machine learning pipeline:
+1. **Data Collection**: Scraping LinkedIn posts and comments containing "openai"
+2. **Preprocessing**: Text cleaning, language detection, URL tokenisation
+3. **Labelling**: Manual sentiment annotation interface
+4. **Model Training**: Fine-tuning RoBERTa with Transfer Learning
+5. **Evaluation**: Using cross-validation and accuracy metrics
+6. **Visualisation**: Displaying sentiment distributions and word frequencies
 
-## Przetwarzanie Danych
-- Wykrywanie języka angielskiego za pomocą biblioteki Lingua
-- Standaryzacja URL i usuwanie duplikatów
-- Kategoryzacja sentymentu (Pozytywny, Neutralny, Negatywny)
+## Data Processing
+- English language detection using Lingua
+- URL standardisation and removal of duplicates
+- Sentiment categorisation (Positive, Neutral, Negative)
 
-## Modele
-Analiza sentymentu wykorzystuje:
-- Model bazowy: RoBERTa
-- Transfer Learning: Dostrajanie na danych specyficznych dla domeny
-- Zamrażanie warstw: 10 dolnych warstw zamrożonych dla zachowania ogólnego zrozumienia języka
+## Models
+The sentiment analysis uses:
+- Base model: RoBERTa
+- Transfer Learning: Fine-tuning on domain-specific data
+- Layer freezing: 10 bottom layers frozen to preserve general language understanding
 
-## Eksplorowane Koncepcje
-Projekt eksploruje kilka kluczowych koncepcji nauki o danych i NLP:
-- **Web Scraping**: Etyczne techniki zbierania danych z platform mediów społecznościowych
-- **Przetwarzanie Języka Naturalnego**: Przetwarzanie wstępne tekstu, tokenizacja i analiza sentymentu
-- **Transfer Learning**: Adaptacja wstępnie wytrenowanych modeli językowych do nowych domen
-- **Inżynieria Cech**: Ekstrakcja istotnych cech z danych tekstowych
-- **Ewaluacja Modelu**: Techniki walidacji krzyżowej i metryki wydajności
-- **Nierównowaga Klas**: Obsługa nierównomiernego rozkładu klas sentymentu
-- **Strojenie Hiperparametrów**: Optymalizacja parametrów modelu dla lepszej wydajności
-- **Wizualizacja Danych**: Techniki prezentacji wyników analizy danych tekstowych
+## Concepts Explored
+The project explores several key data science and NLP concepts:
+- **Web Scraping**: Ethical data collection techniques from social media platforms
+- **Natural Language Processing**: Text preprocessing, tokenisation, and sentiment analysis
+- **Transfer Learning**: Adapting pre-trained language models to new domains
+- **Feature Engineering**: Extracting relevant features from text data
+- **Model Evaluation**: Cross-validation techniques and performance metrics
+- **Class Imbalance**: Handling uneven distribution of sentiment classes
+- **Hyperparameter Tuning**: Optimizing model parameters for better performance
+- **Data Visualisation**: Techniques for presenting text data analysis results
 
-## Wymagania
+## Requirements
 - Python 3.10
 - PyTorch
 - Transformers (Hugging Face)
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
-- wordcloud
 - Apify client
 - Lingua
 
-## Instalacja
+## Installation
 ```
 pip install -r requirements.txt
 ```
-Dodatkowo, projekt wymaga pakietu pytorch z wersją Nvidia CUDA kompatybilną z GPU, która może się różnić w zależności od urządzenia. Sprawdź wersję CUDA swojego GPU za pomocą: `nvidia-smi` i zainstaluj [kompatybilny pakiet pytorch](https://pytorch.org/).
+Additionally, the project requires pytorch package with GPU compatible Nvidia CUDA version, which can differ across devices. Check your GPU's CUDA version with: `nvidia-smi` and install [compatible pytorch package](https://pytorch.org/).
